@@ -1,0 +1,44 @@
+clips:
+  2.01.01:
+    # really not sure what that should be
+    year_estimate: Unknown
+    reel: 2.01
+    reel_link: TODO
+    reel_time: 0:00-0:27
+    thumbnail: 01.jpeg
+    video: TODO
+    desc: |-
+      Unknown man stands in front of band members,
+      view of stands
+    keywords:
+      - closeup
+      - old-stadium
+  # TODO skipping rest of reel
+  2.02.01:
+    year_estimate: 1927
+    reel: 2.02
+    reel_link: TODO
+    reel_time: 0:00-1:10
+    thumbnail: 02.jpeg
+    video: TODO
+    desc: |-
+      Drill and card section from NYU game
+    keywords:
+      - drill
+      - card-section
+  # TODO skipping rest of reel
+  2.03.01:
+    year_estimate: 1952
+    reel: 2.03
+    reel_link: TODO
+    reel_time: 0:00-2:14
+    thumbnail: 03.jpeg
+    video: TODO
+    desc: |-
+      Band entering field, homecoming halftime show
+    keywords:
+      - drill
+      - card-section
+      - halftime
+      - homecoming
+      - closeups

@@ -1,0 +1,20 @@
+---
+title: Video | Band History
+---
+
+<h2>Videos</h2>
+
+<p>I am envisaging some type of behavior like this in order to filter clips of reels by subjects, like viewing all the reels dealing with drill, or band day, etc</p>
+<p><a href="https://cdrh.unl.edu/node/2503">Example of Filtering Functionality</a></p>
+
+<div class="videos-container">
+  <% data.videos.clips.each do |id, info| %>
+    <div class="video">
+      <h3><%= info["year_estimate"] %></h3>
+      <a href="https://mediacommons.unl.edu/luna/servlet/s/699s3w">
+        <%= image_tag "images/video_thumbs/#{info["thumbnail"]}", class: "thumbnail" %>
+      </a>
+      <p><%= info["desc"] %></p>
+    </div>
+  <% end %>
+</div>

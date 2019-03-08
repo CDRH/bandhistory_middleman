@@ -7,8 +7,12 @@
 $primary-color: #d20000;
 $secondary-color: #f1f1f1;
 $accent-color: #cacaca;
+$text-color: black;
 
+/* ****************** */
 /* General Appearance */
+/* ****************** */
+
 .navbar {
   background-color: $primary-color;
 }
@@ -32,7 +36,18 @@ $accent-color: #cacaca;
   color: $accent-color;
 }
 
-/* Videos */
+#site_title:hover {
+  color: $text-color;
+}
+
+.logo_container > img {
+  width: 50px;
+}
+
+/* ******* */
+/* Footage */
+/* ******* */
+
 .thumbnail {
   width: 150px;
   height: auto;
@@ -45,10 +60,23 @@ $accent-color: #cacaca;
 
 .video {
   padding: 1em;
-  flex-basis: 10px;
+  flex-basis: 50px;
   flex-grow: 1;
 }
 
-.logo_container > img {
-  width: 50px;
+/* ****** */
+/* Topics */
+/* ****** */
+
+.topics-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topic {
+  border: 1px solid $accent-color;
+  border-radius: 4px;
+  padding: 1em;
+  flex-basis: 200px;
+  flex-grow: 1;
 }

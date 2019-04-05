@@ -1,11 +1,24 @@
 $primary-color: #d20000;
 $secondary-color: #f1f1f1;
 $accent-color: #cacaca;
+
+/* in case you want corn colors */
+/*$primary-color: #878b97;
+$secondary-color: #cacaca;
+$accent-color: #a2b58f;*/
+/* corn yellow */
+/*$accent-color: #e1d06c;*/
 $text-color: black;
 
 /* ****************** */
 /* General Appearance */
 /* ****************** */
+
+/* TODO get header to have same border-radius as footer */
+
+body {
+  background-color: $secondary-color !important;
+}
 
 .navbar {
   background-color: $primary-color;

@@ -1,19 +1,53 @@
 ---
-title: Video | Band History
+title: Footage | Band History
 ---
 
-<h2>Videos</h2>
+<h2>Footage</h2>
+
+<script>
+  function filter(ele) {
+    console.log("HELLO");
+    var allVideos = document.getElementsByClassName("video");
+    for (var i = 0; i < allVideos.length; i++) {
+      var video = allVideos[i].classList
+      if (video.contains(ele.id)) {
+        // in case it was previously hidden from another filter
+        video.remove("video-hidden")
+      } else {
+        video.add("video-hidden")
+      }
+    }
+  }
+</script>
+
+<div class="filters">
+  Filter Projects:
+
+  <button onclick="filter(this);" id="band-day">Band Day</button>
+  <button onclick="filter(this);" id="bowl">Bowl Game</button>
+  <button onclick="filter(this);" id="campus">Campus</button>
+  <button onclick="filter(this);" id="card-section">Card Section</button>
+  <button onclick="filter(this);" id="cheerleaders">Cheerleaders</button>
+  <button onclick="filter(this);" id="closeup">Closeup</button>
+  <button onclick="filter(this);" id="drill">Drill</button>
+  <button onclick="filter(this);" id="football">Football</button>
+  <button onclick="filter(this);" id="guest-band">Guest Band (maybe relabel Other Band?)</button>
+  <button onclick="filter(this);" id="halftime">Halftime</button>
+  <button onclick="filter(this);" id="homecoming">Homecoming</button>
+  <button onclick="filter(this);" id="tunnel-walk">Tunnel Walk</button>
+
+</div>
 
 <p>I am envisaging some type of behavior like this in order to filter clips of reels by subjects, like viewing all the reels dealing with drill, or band day, etc</p>
 <p><a href="https://cdrh.unl.edu/node/2503">Example of Filtering Functionality</a></p>
 
 <div class="videos-container">
-  <% data.videos.clips.each do |id, info| %>
-    <div class="video">
+  <% data.clips.each do |id, info| %>
+    <div class="video <%= info["keywords"] %>">
       <h3><%= info["year_estimate"] %></h3>
-      <a href="https://mediacommons.unl.edu/luna/servlet/s/699s3w">
+      <!-- <a href="https://mediacommons.unl.edu/luna/servlet/s/699s3w"> -->
         <%= image_tag "images/video_thumbs/#{info["thumbnail"]}", class: "thumbnail" %>
-      </a>
+      <!-- </a> -->
       <p><%= info["desc"] %></p>
     </div>
   <% end %>

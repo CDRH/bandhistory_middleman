@@ -31,21 +31,22 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <% path = current_page.url %>
+            <li class="nav-item <%= 'active' if path.include?('/footage/') %>">
               <!-- TODO follow this example for how to make it apparent to screenreader -->
               <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
               <!-- TODO add actual active classes -->
               <%= link_to "Footage", "footage", class: "nav-link" %>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <%= 'active' if path.include?('/stories/') %>">
               <%= link_to "Stories", "stories", class: "nav-link" %>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <%= 'active' if path == '/timeline/' %>">
               <%= link_to "Timeline", "timeline", class: "nav-link" %>
               <!-- TODO how to disable if we need that -->
               <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
             </li>
-            <li class="nav-item">
+            <li class="nav-item <%= 'active' if path == '/about/' %>">
               <%= link_to "About", "about", class: "nav-link" %>
             </li>
           </ul>

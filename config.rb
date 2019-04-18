@@ -44,7 +44,6 @@ helpers do
       if items
         items = items.split(" ")
         items.each do |item|
-          puts item
           if tally.key?(item)
             tally[item] += 1
           else

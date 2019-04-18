@@ -35,7 +35,7 @@ title: Footage | Band History
       <h3><%= info["year_estimate"] %></h3>
       <a href="#" data-toggle="modal" data-target="#<%= id %>Modal">
         <!-- <a href="https://mediacommons.unl.edu/luna/servlet/s/699s3w"> -->
-        <%= image_tag "images/video_thumbs/#{info["thumbnail"]}", class: "thumbnail" %>
+        <%= image_tag "images/video_thumbs/#{id}.png", class: "thumbnail" %>
         <!-- </a> -->
         <p><%= info["desc"] %></p>
         <!-- Button trigger modal -->
@@ -53,8 +53,12 @@ title: Footage | Band History
           </button>
         </div>
         <div class="modal-body">
-          <p>TODO add video here, but should be lazy loading so the page still loads quickly</p>
-          <%= image_tag "images/video_thumbs/#{info["thumbnail"]}", style: "width: 400px" %>
+          <video controls preload="none">
+            <% video_link = url_for "../videos/#{id}.mp4" %>
+            <source src="<%= video_link %>" type="video/mp4">
+            <p>Your browser doesn't support HTML5 video. Here is
+               a <%= link_to "link to the video", video_link %> instead.</p>
+          </video>
           <p><%= info["desc"] %></p>
           <ul>
             <li><strong>Reel:</strong> <%= info["reel"] %></li>

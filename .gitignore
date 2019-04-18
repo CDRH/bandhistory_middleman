@@ -4,4 +4,8 @@
 .sass-cache
 build/
 
+# images and footage
+video_thumbs/
+videos/
+
 deploy.sh

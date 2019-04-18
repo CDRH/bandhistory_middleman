@@ -9,6 +9,16 @@ clips = CSV.read(csv_file, headers: true)
 
 yml = {}
 
+def decade(year_string)
+  year = year_string[/(\d{4})/, 1] if year_string
+  if year
+    decade = year.to_i/10*10
+    "decade-#{decade}"
+  else
+    "decade-unknown"
+  end
+end
+
 def get_keyword_list(keywords)
   if keywords
     keywords
@@ -28,6 +38,7 @@ clips.each do |clip|
     "reel" => reel,
     "reel_time" => clip["Clip Seconds"],
     "year_estimate" => clip["Year Estimate"],
+    "decade" => decade(clip["Year Estimate"]),
     "commons_link" => clip["Media Commons URL"],
     "thumbnail" => "#{reel}.jpeg",  # TODO
     "video" => "TODO",

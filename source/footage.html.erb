@@ -4,51 +4,73 @@ title: Footage | Band History
 
 <h2>Footage</h2>
 
-<script>
-  function filter(ele) {
-    console.log("HELLO");
-    var allVideos = document.getElementsByClassName("video");
-    for (var i = 0; i < allVideos.length; i++) {
-      var video = allVideos[i].classList
-      if (video.contains(ele.id)) {
-        // in case it was previously hidden from another filter
-        video.remove("video-hidden")
-      } else {
-        video.add("video-hidden")
-      }
-    }
-  }
-</script>
+<strong>Filtering is a work in progress, it probably makes sense to start whittling down the keyword field to only reflect those we find particularly interesting or useful</strong>
 
 <div class="filters">
-  Filter Projects:
+  <div class="filters-topic">
+    <p>Filter Projects by Topic:</p>
 
-  <button onclick="filter(this);" id="band-day">Band Day</button>
-  <button onclick="filter(this);" id="bowl">Bowl Game</button>
-  <button onclick="filter(this);" id="campus">Campus</button>
-  <button onclick="filter(this);" id="card-section">Card Section</button>
-  <button onclick="filter(this);" id="cheerleaders">Cheerleaders</button>
-  <button onclick="filter(this);" id="closeup">Closeup</button>
-  <button onclick="filter(this);" id="drill">Drill</button>
-  <button onclick="filter(this);" id="football">Football</button>
-  <button onclick="filter(this);" id="guest-band">Guest Band (maybe relabel Other Band?)</button>
-  <button onclick="filter(this);" id="halftime">Halftime</button>
-  <button onclick="filter(this);" id="homecoming">Homecoming</button>
-  <button onclick="filter(this);" id="tunnel-walk">Tunnel Walk</button>
+    <% tally_filter(data.clips, "keywords").each do |decade_id, num| %>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="<%= decade_id %>"><%= decade_id.titleize %> <span class="badge"><%= num %></span>
+      </button>
+    <% end %>
+  </div>
+
+  <div class="filters-decade">
+    <p>Filter Projects by Decade:</p>
+
+    <% tally_filter(data.clips, "decade").each do |decade_id, num| %>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="<%= decade_id %>"><%= decade_id.titleize %> <span class="badge"><%= num %></span>
+      </button>
+    <% end %>
+  </div>
 
 </div>
 
-<p>I am envisaging some type of behavior like this in order to filter clips of reels by subjects, like viewing all the reels dealing with drill, or band day, etc</p>
-<p><a href="https://cdrh.unl.edu/node/2503">Example of Filtering Functionality</a></p>
-
 <div class="videos-container">
   <% data.clips.each do |id, info| %>
-    <div class="video <%= info["keywords"] %>">
+    <div class="video <%= info["keywords"] %> <%= info["decade"] %>">
       <h3><%= info["year_estimate"] %></h3>
-      <!-- <a href="https://mediacommons.unl.edu/luna/servlet/s/699s3w"> -->
+      <a href="#" data-toggle="modal" data-target="#<%= id %>Modal">
+        <!-- <a href="https://mediacommons.unl.edu/luna/servlet/s/699s3w"> -->
         <%= image_tag "images/video_thumbs/#{info["thumbnail"]}", class: "thumbnail" %>
-      <!-- </a> -->
-      <p><%= info["desc"] %></p>
+        <!-- </a> -->
+        <p><%= info["desc"] %></p>
+        <!-- Button trigger modal -->
+      </a>
     </div>
+  <!-- Video modal -->
+  <div class="modal fade" id="<%= id %>Modal" tabindex="-1" role="dialog"
+    aria-labelledby="<%= id %>ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="<%= id %>ModalLabel"><%= info["year_estimate"] %></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>TODO add video here, but should be lazy loading so the page still loads quickly</p>
+          <%= image_tag "images/video_thumbs/#{info["thumbnail"]}", style: "width: 400px" %>
+          <p><%= info["desc"] %></p>
+          <ul>
+            <li><strong>Reel:</strong> <%= info["reel"] %></li>
+            <li><strong>Date:</strong> <%= info["year_estimate"] %></li>
+            <li><strong>TODO source</strong></li>
+            <li><strong>TODO archives box and info</strong></li>
+            <li><a href="<%= info["commons_link"] %>">Mediacommons Link (external)</a></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <% end %>
+
+
 </div>

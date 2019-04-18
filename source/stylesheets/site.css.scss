@@ -55,6 +55,11 @@ body {
 /* Footage */
 /* ******* */
 
+.badge {
+  background-color: $secondary-color;
+  color: $text-color;
+}
+
 .thumbnail {
   width: 150px;
   height: auto;
@@ -69,25 +74,12 @@ body {
   padding: 1em;
   flex-basis: 50px;
   flex-grow: 1;
+
+  &:hover {
+    background-color: $accent-color;
+  };
 }
 
 .video-hidden {
   display: none;
-}
-
-/* ****** */
-/* Topics */
-/* ****** */
-
-.topics-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.topic {
-  border: 1px solid $accent-color;
-  border-radius: 4px;
-  padding: 1em;
-  flex-basis: 200px;
-  flex-grow: 1;
 }

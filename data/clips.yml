@@ -3,6 +3,7 @@
   reel: '2.01'
   reel_time: 0:00-0:27
   year_estimate: Unknown
+  decade: decade-unknown
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1676~1464449:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=13&trs=19
   thumbnail: 2.01.jpeg
   video: TODO
@@ -12,6 +13,7 @@
   reel: '2.01'
   reel_time: 0:27-2:20
   year_estimate: Unknown
+  decade: decade-unknown
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1676~1464449:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=13&trs=19
   thumbnail: 2.01.jpeg
   video: TODO
@@ -21,6 +23,7 @@
   reel: '2.01'
   reel_time: 2:20-3:58
   year_estimate: Unknown
+  decade: decade-unknown
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1676~1464449:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=13&trs=19
   thumbnail: 2.01.jpeg
   video: TODO
@@ -30,6 +33,7 @@
   reel: '2.02'
   reel_time: 0:00-1:10
   year_estimate: '1927'
+  decade: decade-1920
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1684~1464451:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=12&trs=19
   thumbnail: 2.02.jpeg
   video: TODO
@@ -39,6 +43,7 @@
   reel: '2.02'
   reel_time: 1:10-2:37
   year_estimate: '1928'
+  decade: decade-1920
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1684~1464451:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=12&trs=19
   thumbnail: 2.02.jpeg
   video: TODO
@@ -48,6 +53,7 @@
   reel: '2.02'
   reel_time: 2:38-3:05
   year_estimate: '1930'
+  decade: decade-1930
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1684~1464451:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=12&trs=19
   thumbnail: 2.02.jpeg
   video: TODO
@@ -57,6 +63,7 @@
   reel: '2.03'
   reel_time: 0:00-2:14
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19
   thumbnail: 2.03.jpeg
   video: TODO
@@ -66,6 +73,7 @@
   reel: '2.03'
   reel_time: 2:14-5:37
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19
   thumbnail: 2.03.jpeg
   video: TODO
@@ -76,6 +84,7 @@
   reel: '2.03'
   reel_time: 5:37-8:18
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19
   thumbnail: 2.03.jpeg
   video: TODO
@@ -86,6 +95,7 @@
   reel: '2.04'
   reel_time: 0:00-0:52
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19
   thumbnail: 2.04.jpeg
   video: TODO
@@ -95,6 +105,7 @@
   reel: '2.04'
   reel_time: 0:52-8:29
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19
   thumbnail: 2.04.jpeg
   video: TODO
@@ -104,6 +115,7 @@
   reel: '2.05'
   reel_time: 0:00-3:36
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1674~1464457:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=14&trs=19
   thumbnail: 2.05.jpeg
   video: TODO
@@ -113,6 +125,7 @@
   reel: '2.05'
   reel_time: 3:36-5:23
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1674~1464457:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=14&trs=19
   thumbnail: 2.05.jpeg
   video: TODO
@@ -122,6 +135,7 @@
   reel: '2.06'
   reel_time: 0:00-6:37
   year_estimate: '1977'
+  decade: decade-1970
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1683~1464459:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=5&trs=19
   thumbnail: 2.06.jpeg
   video: TODO
@@ -131,6 +145,7 @@
   reel: '2.07'
   reel_time: 0:00-7:24
   year_estimate: '1930'
+  decade: decade-1930
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1667~1464461:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=6&trs=19
   thumbnail: 2.07.jpeg
   video: TODO
@@ -140,6 +155,7 @@
   reel: '2.08'
   reel_time: 0:00-1:31
   year_estimate: '1941'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19
   thumbnail: 2.08.jpeg
   video: TODO
@@ -149,6 +165,7 @@
   reel: '2.08'
   reel_time: 1:31-3:06
   year_estimate: '1941'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19
   thumbnail: 2.08.jpeg
   video: TODO
@@ -158,6 +175,7 @@
   reel: '2.08'
   reel_time: 3:06-5:13
   year_estimate: '1941'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19
   thumbnail: 2.08.jpeg
   video: TODO
@@ -167,6 +185,7 @@
   reel: '2.08'
   reel_time: 5:13-8:42
   year_estimate: '1938'
+  decade: decade-1930
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19
   thumbnail: 2.08.jpeg
   video: TODO
@@ -176,6 +195,7 @@
   reel: '2.08'
   reel_time: 8:42-10:41
   year_estimate: '1940'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19
   thumbnail: 2.08.jpeg
   video: TODO
@@ -185,6 +205,7 @@
   reel: '2.08'
   reel_time: 10:41-12:23
   year_estimate: '1941'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19
   thumbnail: 2.08.jpeg
   video: TODO
@@ -194,6 +215,7 @@
   reel: '2.09'
   reel_time: 0:00-3:53
   year_estimate: '1955'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19
   thumbnail: 2.09.jpeg
   video: TODO
@@ -203,6 +225,7 @@
   reel: '2.09'
   reel_time: 3:53-5:35
   year_estimate: '1955'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19
   thumbnail: 2.09.jpeg
   video: TODO
@@ -213,6 +236,7 @@
   reel: '2.09'
   reel_time: 5:35-11:12
   year_estimate: '1955'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19
   thumbnail: 2.09.jpeg
   video: TODO
@@ -223,6 +247,7 @@
   reel: '2.10'
   reel_time: 0:00-2:50
   year_estimate: '1959'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
   thumbnail: 2.10.jpeg
   video: TODO
@@ -232,6 +257,7 @@
   reel: '2.10'
   reel_time: 2:50-5:32
   year_estimate: '1959'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
   thumbnail: 2.10.jpeg
   video: TODO
@@ -241,6 +267,7 @@
   reel: '2.10'
   reel_time: 5:32-9:52
   year_estimate: '1959'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
   thumbnail: 2.10.jpeg
   video: TODO
@@ -250,6 +277,7 @@
   reel: '2.10'
   reel_time: 9:52-13:49
   year_estimate: '1959'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
   thumbnail: 2.10.jpeg
   video: TODO
@@ -259,6 +287,7 @@
   reel: '2.10'
   reel_time: 13:49-16:06
   year_estimate: '1959'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
   thumbnail: 2.10.jpeg
   video: TODO
@@ -268,6 +297,7 @@
   reel: '2.11'
   reel_time: 0:00-2:40
   year_estimate: '1960'
+  decade: decade-1960
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19
   thumbnail: 2.11.jpeg
   video: TODO
@@ -277,6 +307,7 @@
   reel: '2.11'
   reel_time: 2:40-5:29
   year_estimate: '1960'
+  decade: decade-1960
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19
   thumbnail: 2.11.jpeg
   video: TODO
@@ -286,6 +317,7 @@
   reel: '2.11'
   reel_time: 5:29-10:40
   year_estimate: '1960'
+  decade: decade-1960
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19
   thumbnail: 2.11.jpeg
   video: TODO
@@ -295,6 +327,7 @@
   reel: '2.11'
   reel_time: 10:40-16:21
   year_estimate: '1960'
+  decade: decade-1960
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19
   thumbnail: 2.11.jpeg
   video: TODO
@@ -304,6 +337,7 @@
   reel: '2.12'
   reel_time: 0:00-2:49
   year_estimate: '1955'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
   video: TODO
@@ -313,6 +347,7 @@
   reel: '2.12'
   reel_time: 2:49-5:39
   year_estimate: 1955?
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
   video: TODO
@@ -322,6 +357,7 @@
   reel: '2.12'
   reel_time: 2:51-8:33
   year_estimate: '1955'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
   video: TODO
@@ -331,6 +367,7 @@
   reel: '2.12'
   reel_time: 8:33-11:22
   year_estimate: '1955'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
   video: TODO
@@ -340,6 +377,7 @@
   reel: '2.12'
   reel_time: 11:22-13:23
   year_estimate: '1953'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
   video: TODO
@@ -349,6 +387,7 @@
   reel: '2.12'
   reel_time: 13:23-15:56
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
   video: TODO
@@ -358,6 +397,7 @@
   reel: '2.12'
   reel_time: 15:56-18:47
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
   video: TODO
@@ -367,6 +407,7 @@
   reel: '2.13'
   reel_time: 0:00-2:41
   year_estimate: '1952'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
   thumbnail: 2.13.jpeg
   video: TODO
@@ -376,6 +417,7 @@
   reel: '2.13'
   reel_time: 2:41-5:02
   year_estimate: '1953'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
   thumbnail: 2.13.jpeg
   video: TODO
@@ -385,6 +427,7 @@
   reel: '2.13'
   reel_time: 5:02-9:58
   year_estimate: '1957'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
   thumbnail: 2.13.jpeg
   video: TODO
@@ -394,6 +437,7 @@
   reel: '2.13'
   reel_time: 9:58-11:30
   year_estimate: '1961'
+  decade: decade-1960
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
   thumbnail: 2.13.jpeg
   video: TODO
@@ -403,6 +447,7 @@
   reel: '2.13'
   reel_time: 11:30-16:35
   year_estimate: '1962'
+  decade: decade-1960
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
   thumbnail: 2.13.jpeg
   video: TODO
@@ -412,6 +457,7 @@
   reel: '2.13'
   reel_time: 16:35-18.22
   year_estimate: '1963'
+  decade: decade-1960
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
   thumbnail: 2.13.jpeg
   video: TODO
@@ -421,6 +467,7 @@
   reel: '2.14'
   reel_time: 0:00-0:32
   year_estimate: '1943'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19
   thumbnail: 2.14.jpeg
   video: TODO
@@ -430,6 +477,7 @@
   reel: '2.14'
   reel_time: 0:32-2:24
   year_estimate: '1943'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19
   thumbnail: 2.14.jpeg
   video: TODO
@@ -439,6 +487,7 @@
   reel: '2.14'
   reel_time: 2:24-2:39
   year_estimate: '1943'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19
   thumbnail: 2.14.jpeg
   video: TODO
@@ -448,6 +497,7 @@
   reel: '3.01'
   reel_time: 0:00-1:43
   year_estimate: '1950'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
   thumbnail: 3.01.jpeg
   video: TODO
@@ -457,6 +507,7 @@
   reel: '3.01'
   reel_time: 1:43-1:55
   year_estimate: '1950'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
   thumbnail: 3.01.jpeg
   video: TODO
@@ -466,6 +517,7 @@
   reel: '3.01'
   reel_time: 1:55-5:00
   year_estimate: '1950'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
   thumbnail: 3.01.jpeg
   video: TODO
@@ -476,6 +528,7 @@
   reel: '3.01'
   reel_time: 5:00-5:32
   year_estimate: 1950?
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
   thumbnail: 3.01.jpeg
   video: TODO
@@ -486,6 +539,7 @@
   reel: '3.01'
   reel_time: 5:32-7:18
   year_estimate: '1950'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
   thumbnail: 3.01.jpeg
   video: TODO
@@ -496,6 +550,7 @@
   reel: '3.01'
   reel_time: 7:18-9:12
   year_estimate: '1949'
+  decade: decade-1940
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
   thumbnail: 3.01.jpeg
   video: TODO
@@ -506,6 +561,7 @@
   reel: 
   reel_time: 
   year_estimate: 
+  decade: decade-unknown
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1685~1464479:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=9&trs=19
   thumbnail: ".jpeg"
   video: TODO
@@ -517,6 +573,7 @@
   reel: '5.01'
   reel_time: 0:00-1:37
   year_estimate: '1954'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
   thumbnail: 5.01.jpeg
   video: TODO
@@ -526,6 +583,7 @@
   reel: '5.01'
   reel_time: 1:37-4:39
   year_estimate: '1954'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
   thumbnail: 5.01.jpeg
   video: TODO
@@ -536,6 +594,7 @@
   reel: '5.01'
   reel_time: 4:39-7:52
   year_estimate: '1954'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
   thumbnail: 5.01.jpeg
   video: TODO
@@ -545,6 +604,7 @@
   reel: '5.01'
   reel_time: 7:52-14:02
   year_estimate: '1954'
+  decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
   thumbnail: 5.01.jpeg
   video: TODO

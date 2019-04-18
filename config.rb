@@ -36,11 +36,26 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def tally_filter(data_hash, filter)
+    tally = {}
+    data_hash.each_value do |v|
+      items = v[filter]
+      if items
+        items = items.split(" ")
+        items.each do |item|
+          puts item
+          if tally.key?(item)
+            tally[item] += 1
+          else
+            tally[item] = 1
+          end
+        end
+      end
+    end
+    tally.sort.to_h
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

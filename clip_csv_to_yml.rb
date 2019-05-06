@@ -2,9 +2,11 @@ require "csv"
 require "yaml"
 
 csv_file = "data/clips.csv"
+reel_file = "data/reels.csv"
 yml_file = "data/clips.yml"
 
 clips = CSV.read(csv_file, headers: true)
+reels = CSV.read(reel_file, headers: true)
 # puts clips.headers
 
 yml = {}
@@ -29,21 +31,34 @@ def get_keyword_list(keywords)
   end
 end
 
+def get_reel(reels, reel_id)
+  reel = reels.select { |r| r["identifier/filename"] == reel_id }
+  reel.first
+end
+
 clips.each do |clip|
   next if clip.header_row?
   id = clip["ID"]
-  reel = id[/^\d\.\d{2}/]
+  reel_id = id[/^\d\.\d{2}/]
+  archives_reel_id = clip["Archives Reel"]
+  reel = get_reel(reels, archives_reel_id)
+
   keywords = get_keyword_list(clip["Keywords"])
+
   yml[id] = {
-    "reel" => reel,
+    "reel" => reel_id,
     "reel_time" => clip["Clip Seconds"],
     "year_estimate" => clip["Year Estimate"],
     "decade" => decade(clip["Year Estimate"]),
     "commons_link" => clip["Media Commons URL"],
-    "thumbnail" => "#{reel}.jpeg",  # TODO
-    "video" => "TODO",
+    "thumbnail" => "#{reel_id}.jpeg",
     "desc" => clip["Short Description"],
-    "keywords" => keywords
+    "keywords" => keywords,
+    "archives_desc" => reel["description"],
+    "archives_subj" => reel["subject"],
+    "format" => reel["medium/format/type"],
+    "record_group" => reel["source/RG#/MS#"],
+    "archives_id" => archives_reel_id
   }
 end
 

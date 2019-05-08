@@ -1,6 +1,19 @@
 ---
 title: Footage | Band History
 ---
+<!-- TODO move this to a script! -->
+<script>
+
+  function call_modal(id) {
+    $(id).modal("show");
+  }
+
+  window.onload = function() {
+    if (window.location.hash) {
+      call_modal(window.location.hash);
+    }
+  }
+</script>
 
 <h2>Footage</h2>
 
@@ -31,49 +44,55 @@ title: Footage | Band History
 
 <div class="videos-container">
   <% data.clips.each do |id, info| %>
+    <% html_id = id.gsub(".", "") %>
     <div class="video <%= info["keywords"] %> <%= info["decade"] %>">
       <h3><%= info["year_estimate"] %></h3>
-      <a href="#" data-toggle="modal" data-target="#<%= id %>Modal">
-        <!-- <a href="https://mediacommons.unl.edu/luna/servlet/s/699s3w"> -->
-        <%= image_tag "images/video_thumbs/#{id}.png", class: "thumbnail" %>
-        <!-- </a> -->
+      <a href="#<%= html_id %>" onclick="$('#<%= html_id %>').modal('show')">
+        <%= image_tag "images/video_thumbs/#{id}.jpg", class: "thumbnail" %>
         <p><%= info["desc"] %></p>
-        <!-- Button trigger modal -->
+        <p>Reel: <%= info["archives_id"] %></p>
       </a>
     </div>
-  <!-- Video modal -->
-  <div class="modal fade" id="<%= id %>Modal" tabindex="-1" role="dialog"
-    aria-labelledby="<%= id %>ModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="<%= id %>ModalLabel"><%= info["year_estimate"] %></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <video controls preload="none">
-            <% video_link = url_for "../videos/#{id}.mp4" %>
-            <source src="<%= video_link %>" type="video/mp4">
-            <p>Your browser doesn't support HTML5 video. Here is
-               a <%= link_to "link to the video", video_link %> instead.</p>
-          </video>
-          <p><%= info["desc"] %></p>
-          <ul>
-            <li><strong>Reel:</strong> <%= info["reel"] %></li>
-            <li><strong>Date:</strong> <%= info["year_estimate"] %></li>
-            <li><strong>TODO source</strong></li>
-            <li><strong>TODO archives box and info</strong></li>
-            <li><a href="<%= info["commons_link"] %>">Mediacommons Link (external)</a></li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+    <!-- Video modal -->
+    <div class="modal fade" id="<%= html_id %>" tabindex="-1" role="dialog"
+      aria-labelledby="<%= html_id %>" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="<%= id %>"><%= info["year_estimate"] %></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <% video_link = url_for "../videos/#{id}.mp4" %>
+              <source src="<%= video_link %>" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <%= link_to "link to the video", video_link %> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> <%= info["year_estimate"] %></li>
+              <li><strong>Reel Seconds:</strong> <%= info["reel_time"] %></li>
+              <li><strong>Description:</strong> <%= info["desc"] %></li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> <%= info["archives_id"] %></li>
+              <li><strong>Format:</strong> <%= info["format"] %></li>
+              <li><strong>Record Group:</strong> <%= info["record_group"] %>, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> <%= info["archives_desc"] %></li>
+              <li><a href="<%= info["commons_link"] %>">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   <% end %>
 
 

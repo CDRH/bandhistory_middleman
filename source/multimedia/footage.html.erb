@@ -1,19 +1,8 @@
 ---
 title: Footage | Band History
 ---
-<!-- TODO move this to a script! -->
-<script>
 
-  function call_modal(id) {
-    $(id).modal("show");
-  }
-
-  window.onload = function() {
-    if (window.location.hash) {
-      call_modal(window.location.hash);
-    }
-  }
-</script>
+<%= javascript_include_tag "multimedia" %>
 
 <h2>Footage</h2>
 
@@ -28,6 +17,9 @@ title: Footage | Band History
         id="<%= decade_id %>"><%= decade_id.titleize %> <span class="badge"><%= num %></span>
       </button>
     <% end %>
+    <button class="btn btn-filter btn-warning" onclick="filterClear();">
+      Clear Filter <span class="badge">X</span>
+    </button>
   </div>
 
   <div class="filters-decade">
@@ -38,6 +30,9 @@ title: Footage | Band History
         id="<%= decade_id %>"><%= decade_id.titleize %> <span class="badge"><%= num %></span>
       </button>
     <% end %>
+    <button class="btn btn-filter btn-warning" onclick="filterClear();">
+      Clear Filter <span class="badge">X</span>
+    </button>
   </div>
 
 </div>
@@ -94,6 +89,5 @@ title: Footage | Band History
       </div>
     </div>
   <% end %>
-
 
 </div>

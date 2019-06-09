@@ -39,6 +39,8 @@ end
 clips.each do |clip|
   next if clip.header_row?
   id = clip["ID"]
+  # TODO skipping reel 04 for now
+  next if id == "04"
   reel_id = id[/^\d\.\d{2}/]
   archives_reel_id = clip["Archives Reel"]
   reel = get_reel(reels, archives_reel_id)
@@ -61,5 +63,12 @@ clips.each do |clip|
     "archives_id" => archives_reel_id
   }
 end
+
+# sort by year and make sure "unknown" is at front
+yml = Hash[
+  yml.sort_by do |k,v|
+    v["year_estimate"] == "Unknown" ? "0" : v["year_estimate"]
+  end
+]
 
 File.open(yml_file, "w") {|f| f.write(yml.to_yaml) }

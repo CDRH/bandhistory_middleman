@@ -136,6 +136,13 @@ $text-color: black;
   text-align: center;
 }
 
+/* TODO Karin I changed the container on this page so that
+   the timeline can stretch the full width, but I don't know
+   if there is a more elegant way to do this? */
+.container {
+  max-width: 100%;
+}
+
 /*===== // Vertical Timeline =====*/
 
 /*===== Resonsive Vertical Timeline =====*/
@@ -188,3 +195,9 @@ $text-color: black;
   
 }
 /*===== // Resonsive Vertical Timeline =====*/
+
+
+/* TEMP STUFF */
+.todo-cite {
+  background-color: slategrey !important;
+}

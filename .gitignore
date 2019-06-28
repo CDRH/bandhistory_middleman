@@ -7,5 +7,6 @@ build/
 # images and footage
 video_thumbs/
 videos/
+audio/
 
 deploy.sh

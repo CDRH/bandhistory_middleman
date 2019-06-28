@@ -1,0 +1,14 @@
+<div class="content-<%= direction %>-container">
+  <div class="content-<%= direction %>">
+    <h3><%= title %></h3>
+    <a data-toggle="collapse" href="#<%= id %>" role="button"
+       aria-expanded="false" aria-controls="<%= id %>">
+        Learn More
+    </a>
+    <div class="collapse" id="<%= id %>">
+      <div class="card card-body">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+</div>

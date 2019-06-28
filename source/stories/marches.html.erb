@@ -2,191 +2,140 @@
 title: Marches and Songs of the Cornhuskers | Band History
 ---
 
-<!-- TODO get Karin's styling expertise in on how to display all this audio in various places
-    for now just visual indication of commentary vs music -->
 <style>
-  div .commentary {
-    float: right;
-    max-width: 40%;
+  audio {
+    max-width: 100%;
+  }
+  .audio-container {
+    font-size: 80%;
   }
 </style>
 
 <h2>Marches and Songs of the Cornhuskers</h2>
 <p>Tony Falcone</p>
 
-<div class="introduction card card-body bg-light">This script and audio clips are from a UNL Symphony Band concert on April 23, 2005 celebrating the 125th anniversary concert of the university band. They have been provided here by Tony Falcone.</div>
+<div class="introduction card card-body bg-light">This script and audio clips are from a UNL Symphony Band concert on April 23, 2005 celebrating the 125th anniversary concert of the university band, "Like the Thunder in the Sky."</div>
 
-<div class="commentary card card-body bg-light">
-  Commentary by Professor Tony Falcone
-  <audio controls preload="none">
-    <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary1.mp3' %>">
-    <p>Your browser doesn't support HTML5 audio. Here is
-       a <a href="<%= url_for '../../audio/stories/marches/commentary1.mp3' %>">link to the audio</a> instead.</p>
-  </audio>
+<h3>Introduction</h3>
+<div class="row">
+  <div class="col-md-12">
+    <p>Good evening ladies and gentlemen, and thank you for attending our 125th anniversary concert. Since the university’s beginnings in 1869, dozens of pieces of music have been written for her. Tonight the Symphonic Band will present the most significant of these. We’ll also take the opportunity to enjoy once again the work of some of the band directors who’ve meant so much to us over the years. I'd like to acknowledge band alumnus Gary Steffens and his wonderful book <em>Pride of the Cornhuskers</em>. It has been invaluable in the preparation of this song set and portions of this script are quoted directly from it.</p>
+  </div>
 </div>
 
-<div class="script">
-  <p>Good evening ladies and gentlemen, and thank you for attending our 125th anniversary concert. Since the university’s beginnings in 1869, dozens of pieces of music have been written for her. Tonight the Symphonic Band will present the most significant of these. We’ll also take the opportunity to enjoy once again the work of some of the band directors who’ve meant so much to us over the years. I'd like to acknowledge band alumnus Gary Steffens and his wonderful book <em>Pride of the Cornhuskers</em>. It has been invaluable in the preparation of this song set and portions of this script are quoted directly from it.</p>
+<!-- The Cornhusker -->
 
-  <p>Dr. Mark Clinton plays <em>The Cornhusker</em>...</p>
-
-  <p>From the earliest days of the university there were calls for school songs. We didn’t have any one piece of music to rally around at sports events and the like. The first thing that served that purpose wasn’t even a song, but a cheer written by two of the cadet band members in 1889. it was called simply "U, U, UNI." There were many attempts over the next decade or so, but it wasn’t until 1909 when a tune by a piano instructor and rabid football fan named Robert W. Stevens was heard at a pep rally at the armory that a song finally began to catch on. The song wasn’t immediately popular, and some students were even inclined to make fun of it, but eventually after about a decade, <em>The Cornhusker</em> was declared the official field song by the university. Please welcome Dr. Robert Fought, assistant dean of the Hixson-Lied College of Fine and Performing Arts and former UNL band director as he conducts <em>The Cornhusker</em>.</p>
-
-  <div class="music card card-body bg-light">
-    Dr. Fought conducts <em>The Cornhusker</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/the-cornhusker.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/the-cornhusker.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+<h3><em>The Cornhusker</em></h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>From the earliest days of the university there were calls for school songs. We didn’t have any one piece of music to rally around at sports events and the like. The first thing that served that purpose wasn’t even a song, but a cheer written by two of the cadet band members in 1889. it was called simply "U, U, UNI." There were many attempts over the next decade or so, but it wasn’t until 1909 when a tune by a piano instructor and rabid football fan named Robert W. Stevens was heard at a pep rally at the armory that a song finally began to catch on. The song wasn’t immediately popular, and some students were even inclined to make fun of it, but eventually after about a decade, <em>The Cornhusker</em> was declared the official field song by the university. Please welcome Dr. Robert Fought, assistant dean of the Hixson-Lied College of Fine and Performing Arts and former UNL band director as he conducts <em>The Cornhusker</em>.</p>
   </div>
-
-  <div class="commentary card card-body bg-light">
-    Commentary by Professor Tony Falcone
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary2.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/commentary2.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: {
+      text: "Dr. Fought conducts <em>The Cornhusker</em>",
+      mp3_path: "../../audio/stories/marches/the-cornhusker.mp3"
+      } 
+    %>
+    <%= partial "marches_audio", locals: {
+      text: "Commentary by Professor Tony Falcone, Dr. Mark Clinton plays <em>The Cornhusker</em>",
+      mp3_path: "../../audio/stories/marches/commentary1.mp3"
+      } 
+    %>
   </div>
+</div>
 
-  <p>The second of the university’s school songs was written in 1916 by Professor Robert D. Scott. Scott, who for a time was Director of Athletics, was also a part time historian and composer. He wrote several musical pageants depicting the settlement of Nebraska. From his Omaha pageant he took an Indian chant and changed the wording to fit the university. It was called simply <em>Chant</em> and was almost immediately combined with the "U, U, UNI" cheer.</p>
+<!-- Chant -->
 
-  <div class="music card card-body bg-light">
-    Prof. Falcone conducts <em>Chant</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/chant.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/chant.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+<h3><em>Chant</em></h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>The second of the university’s school songs was written in 1916 by Professor Robert D. Scott. Scott, who for a time was Director of Athletics, was also a part time historian and composer. He wrote several musical pageants depicting the settlement of Nebraska. From his Omaha pageant he took an Indian chant and changed the wording to fit the university. It was called simply <em>Chant</em> and was almost immediately combined with the "U, U, UNI" cheer.</p>
   </div>
-
-  <div class="commentary card card-body bg-light">
-    Commentary by Professor Tony Falcone
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary3.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/commentary3.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: { text: "Prof. Falcone conducts <em>Chant</em>", mp3_path: "../../audio/stories/marches/chant.mp3" } %>
+    <%= partial "marches_audio", locals: { text: "Commentary by Professor Tony Falcone", mp3_path: "../../audio/stories/marches/commentary2.mp3" } %>
   </div>
+</div>
 
-  <p>Next is the story of perhaps the most well-known and beloved of all Nebraska songs.</p>
+<!-- Dear Old Nebraska U -->
 
-  <p>Dr. Clinton plays <em>Dear Old Nebraska U</em>...</p>
+<h3><em>Dear Old Nebraska U</em></h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>Next is the story of perhaps the most well-known and beloved of all Nebraska songs.</p>
 
-  <p><em>Dear Old Nebraska U</em> was written in 1923 by Harry Pecha. The story goes that he wrote the song while at an ROTC camp in Ft. Snelling, Minnesota that summer. There is evidence to suggest however that Pecha may have actually “borrowed” the song from an older tune from the University of Chicago entitled <em>I’m Strong for Chicago</em>. Similar tunes also exist at the Universities of Florida, Kentucky and Toledo indicating that the Chicago original was ripe for imitation. The practice was not uncommon. Oklahoma’s <em>Boomer Sooner</em> bears a not too coincidental resemblance to Yale’s <em>Boola Boola</em>. Originally in 3/4 time, as you can hear, Band Director Billy Quick arranged <em>No Place</em>, as it almost immediately became known, in 2/4 to facilitate its use on the march. "Sometime after his graduation in 1924 pecha offered to give <em>No Place</em> to the university in return for two lifetime football tickets. But, in one of those fateful decisions of history, the university declined the offer. The decision came from the board of intercollegiate athletics. Board member John K. Selleck remembered it as 'an unfortunate decision...'" Current Director of Bands Dr. Carolyn Barber will now conduct Harry Alford’s arrangement of <em>Dear Old Nebraska U</em>.</p>
-
-  <div class="music card card-body bg-light">
-    Dr. Barber conducts <em>Dear Old Nebraska U</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/nebraska-u.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/nebraska-u.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+    <p><em>Dear Old Nebraska U</em> was written in 1923 by Harry Pecha. The story goes that he wrote the song while at an ROTC camp in Ft. Snelling, Minnesota that summer. There is evidence to suggest however that Pecha may have actually “borrowed” the song from an older tune from the University of Chicago entitled <em>I’m Strong for Chicago</em>. Similar tunes also exist at the Universities of Florida, Kentucky and Toledo indicating that the Chicago original was ripe for imitation. The practice was not uncommon. Oklahoma’s <em>Boomer Sooner</em> bears a not too coincidental resemblance to Yale’s <em>Boola Boola</em>. Originally in 3/4 time, as you can hear, Band Director Billy Quick arranged <em>No Place</em>, as it almost immediately became known, in 2/4 to facilitate its use on the march. "Sometime after his graduation in 1924 pecha offered to give <em>No Place</em> to the university in return for two lifetime football tickets. But, in one of those fateful decisions of history, the university declined the offer. The decision came from the board of intercollegiate athletics. Board member John K. Selleck remembered it as 'an unfortunate decision...'" Current Director of Bands Dr. Carolyn Barber will now conduct Harry Alford’s arrangement of <em>Dear Old Nebraska U</em>.</p>
   </div>
-
-  <div class="commentary card card-body bg-light">
-    Commentary by Professor Tony Falcone
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary4.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/commentary4.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: { text: "Dr. Barber conducts <em>Dear Old Nebraska U</em>", mp3_path: "../../audio/stories/marches/nebraska-u.mp3" } %>
+    <%= partial "marches_audio", locals: { text: "Commentary by Professor Tony Falcone, Dr. Clinton plays <em>Dear Old Nebraska U</em>", mp3_path: "../../audio/stories/marches/commentary3.mp3" } %>
   </div>
+</div>
 
-  <p>On November 1st, 1927 John Philip Sousa visited Lincoln and presented the band a silver cup for "distinguished collegiate rating" at a concert in the Coliseum. At that time the War Department would bestow an award known as the Blue Star rating to units that rated excellent in their corps area of inspection. The Nebraska ROTC band won this rating frequently and had scores ranking among the highest in the nation. Sousa had an interest in developing school music programs, and wished to recognize Nebraska’s acheivement. Three months later, Sousa wrote a march "for the faculty and students of the University of Nebraska." In a letter to Chancellor Burnett, Sousa said of it "my friends seem to like it very much and I sincerely hope the march will appeal to you and your students and will be worthy of your fine band which is, without a doubt, one of the finest college bands in America." Nearly 70 years later, the band would receive another honor in the march king’s name. The John Philip Sousa Foundation’s Sudler Trophy was awarded to the Cornhusker Marching Band for demonstrating "The highest of musical standards and innovative marching routines and ideas, and [making] important contributions to the advancement of the performance standards of college marching bands over a period of several years." Please welcome former Associate Director of Bands Dr. Rod Chesnutt, who accepted this award in 1996, as he conducts Sousa’s the <em>University of Nebraska</em>.</p>
+<!-- University of Nebraska -->
 
-  <div class="music card card-body bg-light">
-    Dr. Chesnutt conducts the <em>University of Nebraska</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/university-of-nebraska.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/university-of-nebraska.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+<h3><em>University of Nebraska</em></h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>On November 1st, 1927 John Philip Sousa visited Lincoln and presented the band a silver cup for "distinguished collegiate rating" at a concert in the Coliseum. At that time the War Department would bestow an award known as the Blue Star rating to units that rated excellent in their corps area of inspection. The Nebraska ROTC band won this rating frequently and had scores ranking among the highest in the nation. Sousa had an interest in developing school music programs, and wished to recognize Nebraska’s acheivement. Three months later, Sousa wrote a march "for the faculty and students of the University of Nebraska." In a letter to Chancellor Burnett, Sousa said of it "my friends seem to like it very much and I sincerely hope the march will appeal to you and your students and will be worthy of your fine band which is, without a doubt, one of the finest college bands in America." Nearly 70 years later, the band would receive another honor in the march king’s name. The John Philip Sousa Foundation’s Sudler Trophy was awarded to the Cornhusker Marching Band for demonstrating "The highest of musical standards and innovative marching routines and ideas, and [making] important contributions to the advancement of the performance standards of college marching bands over a period of several years." Please welcome former Associate Director of Bands Dr. Rod Chesnutt, who accepted this award in 1996, as he conducts Sousa’s the <em>University of Nebraska</em>.</p>
   </div>
-
-  <div class="commentary card card-body bg-light">
-    Commentary by Professor Tony Falcone
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary5.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/commentary5.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: { text: "Dr. Chesnutt conducts the <em>University of Nebraska</em>", mp3_path: "../../audio/stories/marches/university-of-nebraska.mp3" } %>
+    <%= partial "marches_audio", locals: { text: "Commentary by Professor Tony Falcone", mp3_path: "../../audio/stories/marches/commentary4.mp3" } %>
   </div>
+</div>
 
-  <p>In November of 1940 the Cornhusker football team defeated Kansas State to win the Big Six title. Subsequently, after Texas defeated top contender Texas A & M, they received their first ever bowl game invitation to face Stanford in the 1941 Rose Bowl. After an outpouring of public support, the Chancellor advised the Athletic Board to include the band on the trip. The event proved historic to the band for another reason. Director Don Lentz recalled "the day we got on the train in Lincoln I was told that the American Society of Composers, Arrangers, and Performers (ASCAP) had barred all of their music from radio broadcast. This came about because of a contractural dispute and was due to go into effect on January 1st. Since both the parade and game were to be broadcast and every one of our scheduled pieces was ASCAP, we couldn’t use them. We had one other piece to use in the parade, and that was the <em>Band Song</em>. The melody was the <em>Song of the Vagabonds</em> from the operetta, <em>The Vagabond King</em> by Rudolf Friml. That was public domain so we could safely use it. There were several of the bandsmen who helped adopt the words to it on the way out on the train. Because of the ban [the tournament people] felt that ASCAP would monitor the parade and would make an example of anyone they caught playing their music. So I warned the men about that. I warned them particularly not to play <em>No Place</em>. When we went by the main reviewing stand, which was the most taboo place of all, somebody gave the sign and they broke into <em>No Place</em> and really blasted the daylights out of it. It was planned beautifully and they were all in on it. When they came in it was a big solid blast. It must have gone all over the world. It scared me to death and the first thing after we got back, Regent Rhompson called and asked, “Didn’t the band play <em>No Place</em>?” I said, “Yes, but not intentionally.” Here to conduct an arrangement of the original piece upon which <em>Band Song</em> was based is the current Assistant Director of Bands Doug Bush.</p>
+<!-- Band Song -->
 
-  <div class="music card card-body bg-light">
-    Prof. Bush conducts <em>Song of the Vagabonds</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/march-of-the-vagabonds.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/march-of-the-vagabonds.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+<h3><em>Band Song</em> (<em>March of the Vagabonds</em>)</h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>In November of 1940 the Cornhusker football team defeated Kansas State to win the Big Six title. Subsequently, after Texas defeated top contender Texas A & M, they received their first ever bowl game invitation to face Stanford in the 1941 Rose Bowl. After an outpouring of public support, the Chancellor advised the Athletic Board to include the band on the trip. The event proved historic to the band for another reason. Director Don Lentz recalled "the day we got on the train in Lincoln I was told that the American Society of Composers, Arrangers, and Performers (ASCAP) had barred all of their music from radio broadcast. This came about because of a contractural dispute and was due to go into effect on January 1st. Since both the parade and game were to be broadcast and every one of our scheduled pieces was ASCAP, we couldn’t use them. We had one other piece to use in the parade, and that was the <em>Band Song</em>. The melody was the <em>Song of the Vagabonds</em> from the operetta, <em>The Vagabond King</em> by Rudolf Friml. That was public domain so we could safely use it. There were several of the bandsmen who helped adopt the words to it on the way out on the train. Because of the ban [the tournament people] felt that ASCAP would monitor the parade and would make an example of anyone they caught playing their music. So I warned the men about that. I warned them particularly not to play <em>No Place</em>. When we went by the main reviewing stand, which was the most taboo place of all, somebody gave the sign and they broke into <em>No Place</em> and really blasted the daylights out of it. It was planned beautifully and they were all in on it. When they came in it was a big solid blast. It must have gone all over the world. It scared me to death and the first thing after we got back, Regent Rhompson called and asked, “Didn’t the band play <em>No Place</em>?” I said, “Yes, but not intentionally.” Here to conduct an arrangement of the original piece upon which <em>Band Song</em> was based is the current Assistant Director of Bands Doug Bush.</p>
   </div>
-
-  <div class="commentary card card-body bg-light">
-    Commentary by Professor Tony Falcone
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary6.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/commentary6.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: { text: "Prof. Bush conducts <em>Song of the Vagabonds</em>", mp3_path: "../../audio/stories/marches/march-of-the-vagabonds.mp3" } %>
+    <%= partial "marches_audio", locals: { text: "Commentary by Professor Tony Falcone", mp3_path: "../../audio/stories/marches/commentary5.mp3" } %>
   </div>
+</div>
 
-  <p>Don Lentz recalled: “The Rose Bowl generated a lot of interest in the school songs. A lot of people started sending in copies of songs they thought should be considered for new school songs. There were so many that we decided to hold a contest. Announcements were sent out about it and we held it later that same year [1942]. They came in all forms, mostly lyrics and unaccompanied melodies. Some were quite good. We finally selected <em>Hail Nebraska</em> by William Ackerman as the winner, although we also adopted Billy Quick’s tune, <em>March of the Cornhuskers</em>, which had been written years earlier, but rarely used." Here’s that contest winner, <em>Hail Nebraska</em>.</p>
+<!-- Hail Nebraska -->
 
-  <div class="music card card-body bg-light">
-    Prof. Falcone conducts <em>Hail Nebraska</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/hail-nebraska.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/hail-nebraska.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+<h3><em>Hail Nebraska</em></h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>Don Lentz recalled: “The Rose Bowl generated a lot of interest in the school songs. A lot of people started sending in copies of songs they thought should be considered for new school songs. There were so many that we decided to hold a contest. Announcements were sent out about it and we held it later that same year [1942]. They came in all forms, mostly lyrics and unaccompanied melodies. Some were quite good. We finally selected <em>Hail Nebraska</em> by William Ackerman as the winner, although we also adopted Billy Quick’s tune, <em>March of the Cornhuskers</em>, which had been written years earlier, but rarely used." Here’s that contest winner, <em>Hail Nebraska</em>.</p>
   </div>
-
-  <div class="commentary card card-body bg-light">
-    Commentary by Professor Tony Falcone
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary7.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/commentary7.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: { text: "Prof. Falcone conducts <em>Hail Nebraska</em>", mp3_path: "../../audio/stories/marches/hail-nebraska.mp3" } %>
+    <%= partial "marches_audio", locals: { text: "Commentary by Professor Tony Falcone", mp3_path: "../../audio/stories/marches/commentary6.mp3" } %>
   </div>
+</div>
+  
+<!-- March of the Cornhuskers -->
 
-  <p>In the fall of 1892 NU Military Department Commandant John Pershing was looking for ways to increase the band’s involvement with the newly formed football program. He proposed to the Athletic Board that the band present one of their reviews during a game. This seemed to make sense since both groups shared the same field, and the Board knew that the reviews drew large crowds. At the time there was no official provision for the length of the break between the halves, the decision being left to the two competing teams. They were usually about three minutes in length. The reviews, by contrast, were twenty to forty minutes long. The first such event took place in November of 1893, and with it perhaps the first halftime show in all of collegiate football and marching band history. John J. “Black Jack” pershing went on to become General of the Armies of the United States and the overall American Commander in Europe during World War I. The present conductor of “Pershing’s Own” U.S. Army Band and this evening's honoree as Alumni Achievement Award Winner, Col. Gary Lamb is with us to conduct <em>March of the Cornhuskers</em>.</p>
-
-  <div class="music card card-body bg-light">
-    Col. Lamb conducts <em>March of the Cornhuskers</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/march-of-the-cornhuskers.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/march-of-the-cornhuskers.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+<h3><em>March of the Cornhuskers</em></h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>In the fall of 1892 NU Military Department Commandant John Pershing was looking for ways to increase the band’s involvement with the newly formed football program. He proposed to the Athletic Board that the band present one of their reviews during a game. This seemed to make sense since both groups shared the same field, and the Board knew that the reviews drew large crowds. At the time there was no official provision for the length of the break between the halves, the decision being left to the two competing teams. They were usually about three minutes in length. The reviews, by contrast, were twenty to forty minutes long. The first such event took place in November of 1893, and with it perhaps the first halftime show in all of collegiate football and marching band history. John J. “Black Jack” pershing went on to become General of the Armies of the United States and the overall American Commander in Europe during World War I. The present conductor of “Pershing’s Own” U.S. Army Band and this evening's honoree as Alumni Achievement Award Winner, Col. Gary Lamb is with us to conduct <em>March of the Cornhuskers</em>.</p>
   </div>
-
-  <div class="commentary card card-body bg-light">
-    Commentary by Professor Tony Falcone
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/commentary8.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/commentary8.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: { text: "Col. Lamb conducts <em>March of the Cornhuskers</em>", mp3_path: "../../audio/stories/marches/march-of-the-cornhuskers.mp3" } %>
+    <%= partial "marches_audio", locals: { text: "Commentary by Professor Tony Falcone", mp3_path: "../../audio/stories/marches/commentary7.mp3" } %>
   </div>
+</div>
 
-  <p><em>Hail Varsity</em>, the official fight song for all Nebraska athletic teams, was composed in 1936 by Wilber Chenoweth with words by W. Joyce Ayres.<p>
+<!-- Hail Varsity -->
 
-  <p>Dr. Clinton plays <em>Hail Varsity</em>...<p>
+<h3><em>Hail Varsity</em></h3>
+<div class="row">
+  <div class="col-md-9">
+    <p><em>Hail Varsity</em>, the official fight song for all Nebraska athletic teams, was composed in 1936 by Wilber Chenoweth with words by W. Joyce Ayres.<p>
 
-  <p>Chenoweth, a former piano and organ instructor in the School of Music, recalls the events leading to its writing: "In the early 1930’s my good friend Dr. Harry Everett, a great Cornhusker fan, commissioned me to compose a new song for the University with spirit and marching capabilities. This I did during one of my semester breaks in California. As a matter of fact, I scored the song on the train returning to Lincoln. After arriving I showed the manuscript to Joyce Ayres and suggested he write the lyrics for it." Ayres, who had several songs to his credit continues: "we worked many evenings on it and finally satisfied ourselves to the point where we felt we could present it to the group who commissioned it. I don’t know what Wilber was paid for his efforts but he paid me the handsome sum of five dollars for my contribution." The song was accepted and then almost forgotten. It was played only sparingly for the next twelve or thirteen years until a curious combination of circumstances brought about its rejuvination. Ayres recalls: “it was about the time Nebraska played in its first Orange Bowl [in 1955]. Wilber had since moved off to California and he wrote me and suggested I do something about dusting off <em>Hail Varsity</em> for that bowl trip. I contacted all three major broadcast networks and each of them had a different “official” Nebraska fight song, none of which, to my knowledge, had ever been heard by anybody. For all intents and purposes Nebraska had no official fight song. This came to the attention of the Alumni Association, the Athletic Department, and the Board of Regents and, with the consent of these three organizations, <em>Hail Varsity</em> was recognized as the official University of Nebraska fight song. We’ve received all sorts of comments about it from all over the country. I think it’s the favorite of the students and that’s who it was really written for. When we signed the contract with Carl Fischer and Company for its publication, we insisted that the University be exempt from all royalties. The song is free to them." To conclude our set of marches and songs of the Cornhuskers please welcome Director of Bands Emeritus Jack Snider as he conducts Charles Miller’s arrangement of <em>Hail Varsity</em>.</p>
+    <p>Chenoweth, a former piano and organ instructor in the School of Music, recalls the events leading to its writing: "In the early 1930’s my good friend Dr. Harry Everett, a great Cornhusker fan, commissioned me to compose a new song for the University with spirit and marching capabilities. This I did during one of my semester breaks in California. As a matter of fact, I scored the song on the train returning to Lincoln. After arriving I showed the manuscript to Joyce Ayres and suggested he write the lyrics for it." Ayres, who had several songs to his credit continues: "we worked many evenings on it and finally satisfied ourselves to the point where we felt we could present it to the group who commissioned it. I don’t know what Wilber was paid for his efforts but he paid me the handsome sum of five dollars for my contribution." The song was accepted and then almost forgotten. It was played only sparingly for the next twelve or thirteen years until a curious combination of circumstances brought about its rejuvination. Ayres recalls: “it was about the time Nebraska played in its first Orange Bowl [in 1955]. Wilber had since moved off to California and he wrote me and suggested I do something about dusting off <em>Hail Varsity</em> for that bowl trip. I contacted all three major broadcast networks and each of them had a different “official” Nebraska fight song, none of which, to my knowledge, had ever been heard by anybody. For all intents and purposes Nebraska had no official fight song. This came to the attention of the Alumni Association, the Athletic Department, and the Board of Regents and, with the consent of these three organizations, <em>Hail Varsity</em> was recognized as the official University of Nebraska fight song. We’ve received all sorts of comments about it from all over the country. I think it’s the favorite of the students and that’s who it was really written for. When we signed the contract with Carl Fischer and Company for its publication, we insisted that the University be exempt from all royalties. The song is free to them." To conclude our set of marches and songs of the Cornhuskers please welcome Director of Bands Emeritus Jack Snider as he conducts Charles Miller’s arrangement of <em>Hail Varsity</em>.</p>
 
-  <div class="music card card-body bg-light">
-    Prof. Emeritus Snider conducts <em>Hail Varsity</em>
-    <audio controls preload="none">
-      <source type="audio/mpeg" src="<%= url_for '../../audio/stories/marches/hail-varsity.mp3' %>">
-      <p>Your browser doesn't support HTML5 audio. Here is
-         a <a href="<%= url_for '../../audio/stories/marches/hail-varsity.mp3' %>">link to the audio</a> instead.</p>
-    </audio>
   </div>
-
+  <div class="col-md-3">
+    <%= partial "marches_audio", locals: { text: "Prof. Emeritus Snider conducts <em>Hail Varsity</em>", mp3_path: "../../audio/stories/marches/hail-varsity.mp3" } %>
+    <%= partial "marches_audio", locals: { text: "Commentary by Professor Tony Falcone, Dr. Clinton plays <em>Hail Varsity</em>", mp3_path: "../../audio/stories/marches/commentary8.mp3" } %>
+  </div>
 </div>

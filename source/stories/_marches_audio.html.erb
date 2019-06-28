@@ -1,0 +1,8 @@
+<div class="audio-container card card-body bg-light">
+  <%= text %>
+  <audio controls preload="none">
+    <source type="audio/mpeg" src="<%= url_for mp3_path %>">
+    <p>Your browser doesn't support HTML5 audio. Here is
+       a <a href="<%= url_for mp3_path %>">link to the audio</a> instead.</p>
+  </audio>
+</div>

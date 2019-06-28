@@ -1,41 +1,29 @@
 ---
 title: Stories | Band History
 ---
+<%= stylesheet_link_tag "stories" %>
 
 <h2>Stories</h2>
 
-<p>Links to more content like essays (by us), interviews of former band members, etc.  I think that the timeline page can serve as a basic introduction to overall band history, but then if we want to go in depth in some areas, I think this would be a good place.  We could invite people like Dr. Barber, Bob Snider, etc, to contribute sections, potentially.  Some ideas include:</p>
+<div class="story-nav-container">
 
-<ul style="list-style-type:none">
-  <li>
-    <h4><%= link_to '"Marches and Songs of the Cornhuskers"', "stories/marches" %></h4>
-    <p>125th Anniversary Concert, April 23, 2005</p>
-  </li>
-  <li>
-    <h4>Band Day</h4>
-    <p>Falcone or Jessica, possibly guest author from NSBA?</p>
-  </li>
-  <li>
-    <h4>Uniforms Through Time</h4>
-    <p>Falcone or somebody from Archives (possibly joint venture)?  I think it would be cool to at least have a photo gallery of all the iterations of band uniforms we can document, starting from the cadets and going to the present!</p>
-  </li>
-  <li>
-    <h4>Women in Band / Interview 1940s Vet</h4>
-    <p>Jessica or Falcone?</p>
-  </li>
-  <li>
-    <h4>The Rose Bowl</h4>
-    <p>Possibly ask Gary if he would like to contribute this, republish his book chapter here, or interview a few people who are alive or whose parents were in this group?</p>
-  </li>
-  <li>
-    <h4>Jack Snider's Legacy</h4>
-    <p>Guest writer Bob Snider, if interested, or maybe we interview him?</p>
-  </li>
-  <li>
-    <%= link_to "Military History", "stories/military" %>
-    <h4>Origin and Military History</h4>
-    <p>Jessica and Josh Caster?  I don't think this would need to be particularly long or in depth, but it wouldn't be hard to put together at least a few sentences and some photos, etc</p>
-  </li>
-</ul>
+  <% link_to "stories/marches", class: "story-nav story-nav-march" do %>
+    <div class="story-nav-title">
+      "Marches and Songs of the Cornhuskers"
+    </div>
+    <div class="story-nav-subtitle">
+      125th Anniversary Concert, April 23, 2005
+    </div>
+  <% end %>
 
-<p></p>
+  <% link_to "stories/military", class: "story-nav story-nav-military" do %>
+    <div class="story-nav-title">
+      The Cadet Band
+    </div>
+    <div class="story-nav-subtitle">
+      The Military Origin of the University Band
+    </div>
+  <% end %>
+
+</div>
+

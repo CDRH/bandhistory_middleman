@@ -1,0 +1,20 @@
+<div class="timeline-article">
+  <div class="meta-date">
+    <span class="date">1943</span>
+  </div>
+  <% partial "partials/timeline_element", locals: {
+    direction: "left",
+    title: "WWII and Women in Band",
+    id: "womenWar" } do %>
+    <p>World War II brought with it many changes for the University of Nebraska as well as the band program. The 1944 yearbook explained that "...the armed forces drew heavily upon the personnel of the...band. This year for the first time in its history, coeds were permitted to march with the band…" Band director Prof. Lentz recalled that "during those war years we had to rely on the ladies all the way through." Women continued to be involved in marching band until 1946, when women were excluded from marching, but continued to play in concert band.</p>
+
+    <div class="resources">
+      Sources and Further Reading
+      <ul>
+        <li><%= link_to "Interview with Donald Lentz", "stories/lentz-interview" %></li>
+        <li><a href="http://yearbooks.unl.edu/yearbook.php?year=1944,328#page/148/mode/transcription"><em>The Cornhusker</em>, "R.O.T.C. Band."</a> 1944, p 142.</li>
+        <li><a href="http://yearbooks.unl.edu/yearbook.php?year=1947,504#page/224/mode/transcription"><em>The Cornhusker</em>, "Varsity Band."</a> 1947, p 220.</li>
+      </ul>
+    </div>
+  <% end %>
+</div>

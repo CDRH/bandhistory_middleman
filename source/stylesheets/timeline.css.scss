@@ -6,6 +6,10 @@ $secondary-color: #f1f1f1;
 $accent-color: #cacaca;
 $text-color: black;
 
+.resources {
+  font-size: 14px;
+}
+
 /*===== Vertical Timeline =====*/
 #band-timeline {
   position: relative;
@@ -70,7 +74,7 @@ $text-color: black;
 }
 
 .timeline-article h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .timeline-article p {

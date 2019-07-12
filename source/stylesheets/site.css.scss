@@ -20,6 +20,10 @@ body {
   background-color: $secondary-color !important;
 }
 
+header {
+  margin-bottom: 1em;
+}
+
 .navbar {
   background-color: $primary-color;
 }
@@ -32,6 +36,7 @@ body {
   background-color: $primary-color;
   border-radius: 4px;
   color: $secondary-color;
+  margin-top: 1em;
   padding: 15px;
 
   a {
@@ -51,53 +56,51 @@ body {
   width: 50px;
 }
 
-/* ******* */
-/* Footage */
-/* ******* */
+/* ****************** */
+/* Section Navigation */
+/* ****************** */
 
-.badge {
-  background-color: $secondary-color;
-  color: $text-color;
-}
+/* TODO come back and make these better later */
 
-.thumbnail {
-  width: 100%;
-  height: auto;
-}
-
-video {
-  width: 630px;
-}
-
-.videos-container {
+.section-nav-container {
   display: flex;
   flex-wrap: wrap;
-}
+  text-align: center;
 
-.video {
-  padding: 1em;
-  flex-basis: 260px;
-  flex-grow: 1;
-
-  a:link {
+  a {
     color: $text-color;
     text-decoration: none;
   }
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  a:active {
-    text-decoration: underline;
-  }
-
-  &:hover {
-    background-color: $accent-color;
-  };
 }
 
-.video-hidden {
-  display: none;
+.section-nav {
+  /* placeholder */
+  background-color: $accent-color;
+  background-size: 50%;
+  /* border: 4px solid rgba(31, 91, 138, 0.9); */
+  flex-basis: 1;
+  min-width: 45%;
+  margin: 4px;
+  padding: 20px;
+  width: 45%;
+
+  &:hover {
+    background-color: $primary-color;
+  }
+}
+
+.section-nav-title {
+  background-color: white;
+  color: rgba(25, 73, 111, 0.9);
+  display: block;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.section-nav-subtitle {
+  background-color: white;
+  color: rgba(25, 73, 111, 0.9);
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px;
 }

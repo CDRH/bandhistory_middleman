@@ -1,7 +1,26 @@
 ---
-title: Multimedia | Band History
+title: Sights & Sounds | Band History
 ---
 
-<h2>Multimedia</h2>
+<h2>Sights & Sounds</h2>
 
-<%= link_to "Footage", "multimedia/footage", class: "nav-link" %>
+<p>On a given game day, hundreds of photos and video are taken of the band. However, in the 19th and 20th centuries, records of the band were less common. These pages offer a glimpse into how the band looked and sounded throughout the decades.</p>
+
+<div class="section-nav-container">
+
+  <% link_to "multimedia/footage", class: "section-nav section-nav-multimedia section-nav-multimedia-footage" do %>
+    <div class="section-nav-title">Footage</div>
+    <div class="section-nav-subtitle">Band Day, bowl trips, half time shows, and very early clips of the band and football</div>
+  <% end %>
+
+  <% link_to "multimedia/audio", class: "section-nav section-nav-multimedia section-nav-multimedia-audio" do %>
+    <div class="section-nav-title">Audio</div>
+    <div class="section-nav-subtitle">Recordings of the band from as early as 1951</div>
+  <% end %>
+
+  <% link_to "multimedia/images", class: "section-nav section-nav-multimedia section-nav-multimedia-images" do %>
+    <div class="section-nav-title">Images (in progress)</div>
+    <div class="section-nav-subtitle">Photographs and slides</div>
+  <% end %>
+
+</div>

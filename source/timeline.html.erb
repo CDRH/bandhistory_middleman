@@ -1,6 +1,8 @@
 ---
 title: Timeline | Band History
 ---
+<%= stylesheet_link_tag "simpleLightbox.min" %>
+<%= javascript_include_tag "simpleLightbox.min" %>
 <%= stylesheet_link_tag "timeline" %>
 
 <h2>Timeline</h2>
@@ -20,6 +22,7 @@ title: Timeline | Band History
       <%= partial "partials/timeline/1882" %>
       <%= partial "partials/timeline/1898" %>
       <%= partial "partials/timeline/1943" %>
+      <%= partial "partials/timeline/1974" %>
       <%= partial "partials/timeline/1979" %>
       <%= partial "partials/timeline/1993" %>
       <%= partial "partials/timeline/1996" %>
@@ -29,3 +32,9 @@ title: Timeline | Band History
   </section>
   <!-- // Vertical Timeline -->
 </div>
+
+<!-- TODO make a new home for this -->
+<!-- NOTE images are 300 and 800 -->
+<script>
+  new SimpleLightbox({elements: '.band-timeline-content .gallery'});
+</script>

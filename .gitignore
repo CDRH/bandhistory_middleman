@@ -5,8 +5,9 @@
 build/
 
 # images and footage
-video_thumbs/
-videos/
 audio/
+content/
+videos/
+video_thumbs/
 
 deploy.sh

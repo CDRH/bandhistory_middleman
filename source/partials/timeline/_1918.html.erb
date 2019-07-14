@@ -1,0 +1,33 @@
+<div class="timeline-article">
+  <div class="meta-date">
+    <span class="date">1918</span>
+  </div>
+  <% partial "partials/timeline_element", locals: {
+    direction: "left",
+    title: "'Billy' Quick Becomes Band Director",
+    id: "quick",
+    image: nil,
+    image_caption: "",
+    image_attr: "" } do %>
+    <p>In 1918, sweeping changes to the military department were taking place due to the Great War. The Student Army Training Corps (SATC) was formed, temporarily replacing the Reserve Officer Training Corps (ROTC), which had only just replaced the Cadets a few years before.  In the midst of this, William T. Quick, known as Billy, took over direction of the band.  Quick would remain the band's director until 1937, the longest stretch of time in the band's history up until that point. During his tenure, the band continued to grow in size and popularity while continuing to be part of the military.</p>
+
+    <p>A century later, Quick's reputation for kindness remains a pillar of his legacy.  His successor, Donald Lentz, said of Quick "He was just the finest person you had ever met."  An entire page of <em>The Pride of the Cornhuskers</em> is filled with band members reminiscing about their affection for Quick. Loved by his music students and band members, Quick returned the sentiment upon his retirement, remarking to <em>The Daily Nebraskan</em> about the band: "...I love the work no matter how they play. I'll direct them until I die."</p>
+
+    <div class="resources">
+      Sources and Further Reading
+      <ul>
+        <li>
+          <a href="https://nebnewspapers.unl.edu/lccn/sn96080312/1918-09-30/ed-1/seq-1/">Forty-Five Band Men Selected In Tryouts,"</a> <em>The Daily Nebraskan</em>, September 30, 1918
+        </li>
+        <li>
+          <a href="https://nebnewspapers.unl.edu/lccn/sn96080312/1937-05-20/ed-1/seq-1/">"'Billy' Quick Reminisces on 19 Happy Years as Band Director,"</a> <em>The Daily Nebraskan</em>, May 20, 1937
+        </li>
+        <!-- TODO stick to some standard citation method please -->
+        <li>Steffens, Gary R. "Billy," <em>The Pride of the Cornhuskers, 1981. Taylor Publishing Company, Dallax, TX. Pg 60.</em></li>
+
+        <li><a href=" https://www.unl.edu/armyrotc/cadre-1">ROTC History at UNL</a></li>
+        <li>Lentz shares memories of Quick in an <%= link_to "interview with George Round", "/stories/lentz-interview" %></li>
+      </ul>
+    </div>
+  <% end %>
+</div>

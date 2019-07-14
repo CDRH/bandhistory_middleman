@@ -17,16 +17,26 @@ title: Timeline | Band History
     <div class="band-center-line"></div>
     <div class="band-timeline-content">
 
-      <%= partial "partials/timeline/1876" %>
-      <%= partial "partials/timeline/1879" %>
-      <%= partial "partials/timeline/1882" %>
-      <%= partial "partials/timeline/1898" %>
-      <%= partial "partials/timeline/1943" %>
-      <%= partial "partials/timeline/1974" %>
-      <%= partial "partials/timeline/1979" %>
-      <%= partial "partials/timeline/1993" %>
-      <%= partial "partials/timeline/1996" %>
-      <%= partial "partials/timeline/2008" %>
+      <% years = %w[
+        1876
+        1879
+        1882
+        1898
+        1918
+        1932
+        1943
+        1974
+        1979
+        1993
+        1996
+        2008
+      ] %>
+
+      <% years.each_with_index do |year, index| %>
+        <% direction = index%2 == 0 ? "left" : "right" %>
+        <%= partial "partials/timeline/#{year}", locals: { direction: direction } %> 
+      <% end %>
+
     </div>
     <div class="timeline-end">2019</div>
   </section>

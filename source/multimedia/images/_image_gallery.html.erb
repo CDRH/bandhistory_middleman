@@ -2,8 +2,13 @@
   <% data.images[category].each do |image| %>
     <% html_id = image["id"].gsub(".", "") %>
     <div class="image">
-      <h3><%= image["title"] %></h3>
+      <h3><%= image["title"] %> (<%= image["year"] %>)</h3>
       <%= image_tag "images/content/small/#{image["id"]}.jpg", class: "thumbnail" %>
+      <ul>
+        <li>ID: <%= image["id"] %></li>
+        <li>Date: <%= image["date"] %></li>
+        <li>Desc: <%= image["description"] %></li>
+      </ul>
     </div>
   <% end %>
 </div>

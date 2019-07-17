@@ -40,6 +40,26 @@ def add_to_category(category, info)
   end
 end
 
+def guess_year(date)
+  year = "Unknown"
+  if date
+    # many in MM/DD/YY format, if so assume 1900s
+    if date[/\d{1,2}\/\d{1,2}\/(\d{2})/,1]
+      partial = date[/\d{1,2}\/\d{1,2}\/(\d{2})/,1]
+      year = "19#{partial}"
+    # check for MM/DD/YYYY and M/D/YYYY
+    elsif date[/\d{1,2}\/\d{1,2}\/(\d{4})/,1]
+      year = date[/\d{1,2}\/\d{1,2}\/(\d{4})/,1]
+    # check for anything starting with 4 digits, assuming that's a year
+    # even if it's YYYY? or YYYY-YYYY, YYYY March 3, etc
+    elsif date[/^(\d{4})/,1]
+      year = date[/(^\d{4})/,1]
+    end
+  end
+  # converting it to a string to make it easier to sort again "Unknown"
+  year.to_s
+end
+
 categorized.each do |image|
   metadata = nil
   # search through the metadata spreadsheets looking for a match
@@ -55,17 +75,26 @@ categorized.each do |image|
   end
   if !metadata
     no_metadata << image["filename"]
-    add_to_category(image["category"], { "id" => image["filename"] })
+    add_to_category(image["category"], { "id" => image["filename"], "year" => "Unknown" })
   else
+    year = guess_year(metadata["date"])
+
     add_to_category(image["category"], {
       "id" => image["filename"],
       "title" => metadata["title"],
       "description" => metadata["description"],
       "date" => metadata["date"],
+      "year" => year,
       "box" => metadata["tablecontents/boxes/folders"],
       "collection" => metadata["publisher/repository"],
       "rg" => metadata["source/RG#/MS#"]
     })
+  end
+end
+
+@categories.each do |key, values|
+  @categories[key] = values.sort_by do |item|
+    item["year"] == "Unknown" ? "0" : item["year"]
   end
 end
 

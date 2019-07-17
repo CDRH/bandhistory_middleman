@@ -64,7 +64,7 @@ categorized.each do |image|
   metadata = nil
   # search through the metadata spreadsheets looking for a match
   # and report as no_metadata if there's a problem
-  [lentz, snider, ucomm].each do |sheet|
+  [lentz, snider, ucomm, other].each do |sheet|
     sheet.each do |row|
       # remove file endings
       if image["filename"] == row["identifier/filename"]

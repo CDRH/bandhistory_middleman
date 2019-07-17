@@ -568,8 +568,15 @@ documents:
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG130833
 group:
-- id: 390500-00001
+- id: 332100-00004
+  title: ROTC cadets studio portrait
+  description: Studio portrait of ROTC cadets. Dressed in formal uniforms, with three
+    rows of subjects, two standing and one sitting
+  date: undated
   year: Unknown
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 33-21-00
 - id: 130815-07233
   year: Unknown
 - id: 130833-00004
@@ -585,18 +592,15 @@ group:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-02
-- id: 332100-00002
-  year: Unknown
 - id: 332100-00003
-  year: Unknown
-- id: 332100-00004
-  year: Unknown
-- id: 332100-00005
-  year: Unknown
-- id: 332100-00007
-  year: Unknown
-- id: 390511-01690
-  year: Unknown
+  title: ROTC cadets on parade ground
+  description: ROTC cadets on parade ground, 1881. Surrounded by spectators, houses,
+    large buildings, one with a smokestack
+  date: '1881'
+  year: '1881'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 33-21-00
 - id: 130815-07231
   title: Cadets and cadet band outside University Hall
   description: ROTC cadets and cadet band stand in uniform outside University Hall;
@@ -606,6 +610,57 @@ group:
   box: B16
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 13-08-15
+- id: 390511-01690
+  title: Baseball team group portrait
+  description: 'Baseball teamabout 1887-1888, front row left to right: Charles W.
+    Bigelow ''89, William L. Stephens ''89, Montana A. Whisler ''87-89, Thomas A.
+    Williams ''89 back row: Joseph H. Mallalieu ''86-89, Thomas S. Allen ''89, Hervey
+    B. Hicks ''91, Myron I. Bigelow ''89, Winfield S. Scott ''84-86, ''87-88'
+  date: 1887-1888
+  year: '1887'
+  box: B1, F1
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: 39-11-00
+- id: 390500-00001
+  title: 2nd Team, 1891
+  description: Football team of 1891
+  date: '1891'
+  year: '1891'
+  box: 
+  collection: 
+  rg: '390500'
+- id: 332100-00005
+  title: ROTC cadet band studio portrait
+  description: 'Original caption: "Sombrero, 1895." Studio portrait of University
+    of Nebraska ROTC Cadet Band, holding instruments including horns, drums, and bass
+    drum inscribed "University Cadet Band Nebraska." A page taken from the student
+    annual from 1895.'
+  date: '1895'
+  year: '1895'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 33-21-00
+- id: 332100-00002
+  title: ROTC officers and cadet band, 1896
+  description: University of Nebraska ROTC officers and band, 1896. Men standing in
+    formation on a city street, with clothing, carpet, shoe, and other stores visible
+    behind them. Unpaved street with lengths of pipe in foreground
+  date: '1896'
+  year: '1896'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 33-21-00
+- id: 332100-00007
+  title: University of Nebraska ROTC Cadet Band camp in 1903
+  description: 'Original caption: "Cadet Band." Members of University of Nebraska
+    ROTC cadet band stand and sit with instruments in rural Wahoo, Nebraska, May 26
+    - 30 1903. Decoration Day, i.e., Memorial Day. Cadets are numbered with handwritten
+    numerals 1-20.'
+  date: '1903'
+  year: '1903'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 33-21-00
 - id: 2029-00172
   title: 1925 Band
   description: 'Original caption: "(ROTC) University of Nebraska Band, Wm. T. Quick
@@ -858,8 +913,16 @@ parade:
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: ACC2029
 people:
-- id: 332100-00006
+- id: 421203-00099
+  title: Pershing Day
+  description: 'Original caption: "Pershing day." The Coliseum''s façade fills the
+    background. In front of it, officers stand in formation. Pershing stands alone
+    in the foreground. '
+  date: undated
   year: Unknown
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
 - id: 421202-pp6173
   title: "[no title]"
   description: '"Band Member Playing Trumpet"'
@@ -911,7 +974,13 @@ people:
 - id: 130833-00003
   year: Unknown
 - id: 421202-pp6138
+  title: "[no title]"
+  description: '"Band Members on Football Field"'
+  date: 
   year: Unknown
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-02
 - id: 130833-00007
   year: Unknown
 - id: 421203-00101
@@ -924,17 +993,23 @@ people:
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-03
 - id: 332100-00001
-  year: Unknown
-- id: 421203-00099
-  title: Pershing Day
-  description: 'Original caption: "Pershing day." The Coliseum''s façade fills the
-    background. In front of it, officers stand in formation. Pershing stands alone
-    in the foreground. '
-  date: undated
-  year: Unknown
+  title: Lt. Thomas W. Griffith portrait
+  description: Studio portrait of Lt. Thomas W Griffith 1888 - 1891
+  date: 1888-1891
+  year: '1888'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
+  rg: RG 33-21-00
+- id: 332100-00006
+  title: ROTC cadet band in Beatrice
+  description: 'Original caption: "Camp at Beatrice, Nebr, 1911." University of Nebraska
+    ROTC cadet band camp. The band stands in the foreground, with the band director
+    using a baton, playing their instruments rwith tents and other men in the background'
+  date: '1911'
+  year: '1911'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 33-21-00
 - id: 421203-02431
   title: Nebraska vs. Notre Dame band performance
   description: Band photo from 1924 Nebraska vs. Notre Dame football game. Marching

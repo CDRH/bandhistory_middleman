@@ -1,0 +1,20 @@
+<div class="image-navbar">
+  <ul class="navbar-nav">
+    <% path = current_page.url %>
+    <li class="nav-item <%= 'active' if path.include?('documents') %>">
+      <%= link_to "Documents", "../documents/" %>
+    </li>
+    <li class="nav-item <%= 'active' if path.include?('group') %>">
+      <%= link_to "Group", "../group/" %>
+    </li>
+    <li class="nav-item <%= 'active' if path.include?('people') %>">
+      <%= link_to "People", "../people/" %>
+    </li>
+    <li class="nav-item <%= 'active' if path.include?('aerial') %>">
+      <%= link_to "Aerial", "aerial" %>
+    </li>
+    <li class="nav-item <%= 'active' if path.include?('parade') %>">
+      <%= link_to "Parade", "../parade/" %>
+    </li>
+  </ul>
+</div>

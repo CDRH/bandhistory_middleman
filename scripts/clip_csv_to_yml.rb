@@ -1,9 +1,13 @@
 require "csv"
 require "yaml"
 
-csv_file = "data/clips.csv"
-reel_file = "data/reels.csv"
-yml_file = "data/clips.yml"
+# combine a csv for all the metadata related to each clip
+# with a csv for the reels (from archives records)
+# into one mega reference file
+
+csv_file = File.join(File.dirname(__FILE__), "../data/clips.csv")
+reel_file = File.join(File.dirname(__FILE__), "../data/reels.csv")
+yml_file = File.join(File.dirname(__FILE__), "../data/clips.yml")
 
 clips = CSV.read(csv_file, headers: true)
 reels = CSV.read(reel_file, headers: true)

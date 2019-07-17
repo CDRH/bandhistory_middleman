@@ -3,6 +3,11 @@ $secondary-color: #f1f1f1;
 $accent-color: #cacaca;
 $text-color: black;
 
+.thumbnail {
+  width: 100%;
+  height: auto;
+}
+
 /* ******* */
 /* Footage */
 /* ******* */
@@ -10,11 +15,6 @@ $text-color: black;
 .badge {
   background-color: $secondary-color;
   color: $text-color;
-}
-
-.thumbnail {
-  width: 100%;
-  height: auto;
 }
 
 video {
@@ -52,4 +52,41 @@ video {
 
 .video-hidden {
   display: none;
+}
+
+/* ****** */
+/* Images */
+/* ****** */
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  padding: 1em;
+  flex-basis: 260px;
+  flex-grow: 1;
+
+  a:link {
+    color: $text-color;
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: underline;
+  }
+
+  &:hover {
+    background-color: $accent-color;
+  };
+}
+
+.image-navbar .active {
+  background-color: $accent-color;
 }

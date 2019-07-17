@@ -34,7 +34,7 @@ title: Timeline | Band History
 
       <% years.each_with_index do |year, index| %>
         <% direction = index%2 == 0 ? "left" : "right" %>
-        <%= partial "partials/timeline/#{year}", locals: { direction: direction } %> 
+        <%= partial "timeline/#{year}", locals: { direction: direction } %>
       <% end %>
 
     </div>

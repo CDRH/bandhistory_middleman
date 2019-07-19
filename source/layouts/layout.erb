@@ -12,29 +12,34 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
-    <%= stylesheet_link_tag "site" %>
+    
     <!-- bootstrap 4 css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous">
+          crossorigin="anonymous"> -->
+
     <!-- TODO check if fonts are necessary -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Cutive&display=swap" rel="stylesheet">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,900' rel='stylesheet' type='text/css'> -->
+    <%= stylesheet_link_tag "custom-bootstrap" %>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <%= stylesheet_link_tag "site" %>
   </head>
 
-  <body id="page-top">
+  <body id="page-top" class="<%= page_classes %>">
 
-  <div class="container">
+  
 
     <header role="banner">
+      <div class="container">
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <h1><%= link_to "Band History", "/index.html", class: "navbar-brand" %></h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <h1><%= link_to "Cornhusker Marching Band History", "/index.html", class: "navbar-brand" %></h1>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
           <ul class="navbar-nav mr-auto">
             <% path = current_page.url %>
             <li class="nav-item <%= 'active' if path.include?('/multimedia/') %>">
@@ -55,19 +60,29 @@
               <%= link_to "About", "/about.html", class: "nav-link" %>
             </li>
           </ul>
-        </div>
-      </nav>
+       <!--  </div> -->
+      </nav></div>
     </header>
+    <div class="container">
 
     <%= yield %>
 
-    <div class="footer">
-      <p class="logo_container">
-        <%= image_tag "images/UNL_logo.png" %>
-        Support provided by <a href="https://cdrh.unl.edu/">Center for Digital Research in the Humanities</a> and the <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a><br/>
-      </p>
     </div>
-  </div>
+
+    
+    <footer>
+      <div class="container">
+      <div class="card text-white bg-primary">
+        <div class="card-body footer">
+          <p class="logo_container card-text">
+            <%= image_tag "images/UNL_logo.png" %>
+            Support provided by <a href="https://cdrh.unl.edu/">Center for Digital Research in the Humanities</a> and the <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a><br/>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
   <!-- jQuery -->
   <%= javascript_include_tag "jquery.min" %>

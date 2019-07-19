@@ -1,7 +1,4 @@
-$primary-color: #d20000;
-$secondary-color: #f1f1f1;
-$accent-color: #cacaca;
-$text-color: black;
+@import "_site_variables.css.scss";
 
 .thumbnail {
   width: 100%;
@@ -13,7 +10,7 @@ $text-color: black;
 /* ******* */
 
 .badge {
-  background-color: $secondary-color;
+  background-color: $secondary;
   color: $text-color;
 }
 
@@ -46,7 +43,7 @@ video {
   }
 
   &:hover {
-    background-color: $accent-color;
+    background-color: $gray-200;
   };
 }
 
@@ -87,10 +84,10 @@ video {
   }
 
   &:hover {
-    background-color: $accent-color;
+    background-color: $gray-200;
   };
 }
 
 .image-navbar .active {
-  background-color: $accent-color;
+  background-color: $gray-200;
 }

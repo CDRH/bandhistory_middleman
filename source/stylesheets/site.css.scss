@@ -1,6 +1,5 @@
-$primary-color: #d20000;
-$secondary-color: #f1f1f1;
-$accent-color: #cacaca;
+@import "_site_variables.css.scss";
+
 
 /* in case you want corn colors */
 /*$primary-color: #878b97;
@@ -8,7 +7,7 @@ $secondary-color: #cacaca;
 $accent-color: #a2b58f;*/
 /* corn yellow */
 /*$accent-color: #e1d06c;*/
-$text-color: black;
+
 
 /* ****************** */
 /* General Appearance */
@@ -16,51 +15,101 @@ $text-color: black;
 
 /* TODO get header to have same border-radius as footer */
 
-body {
-  background-color: $secondary-color !important;
+// body {
+//   background-color: $secondary-color !important;
+// }
+
+html {
+  background-color: mix($primary,$black,70%);
 }
 
 header {
   margin-bottom: 1em;
+  background-color: mix($primary,$black,70%);
+  text-align:center;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 .navbar-brand {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, .8), 3px 3px 10px rgba(167, 17, 7, .8);
+  font-family: 'Cinzel', serif;
+  white-space: normal;
+}
+
+.index h1 .navbar-brand {
+  font-size: 1.8em;
+}
+
+.call_text {
+  font-size: 1.4em;
+  font-weight: 400;
+  font-family: 'Cutive', serif;
+}
+
+.lead {
+  font-weight: 400;
 }
 
 .navbar {
-  background-color: $primary-color;
+  display: block; 
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: $secondary-color;
+.navbar-nav {
+  flex-direction:row;
+  justify-content: center
+}
+
+.nav-item {
+  background-color: mix($primary,$black,70%);
+  font-family: 'Cutive', serif;
+  font-size: 1.2em;
+  margin: .1em .4em;
+  padding: .2em .4em 0 .4em;
+}
+
+h1, h2, h3, h4, h4, h5 {
+  font-family: 'Cutive', serif; 
+}
+
+a {
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: mix($primary,$black,70%);
+  margin-top: 3em;
 }
 
 .footer {
-  background-color: $primary-color;
-  border-radius: 4px;
-  color: $secondary-color;
   margin-top: 1em;
+  margin-bottom: 4em;
   padding: 15px;
+  display:block;
+  
 
   a {
-    color: $accent-color;
+    color: $white;
   }
 }
 
-#site_title {
-  color: $accent-color;
-}
-
-#site_title:hover {
-  color: $text-color;
-}
-
 .logo_container > img {
-  width: 50px;
+  width: 200px;
 }
 
 /* ****************** */
 /* Section Navigation */
 /* ****************** */
 
-/* TODO come back and make these better later */
+$dark-overlay: rgba(0,0,0,0.7);
 
 .section-nav-container {
   display: flex;
@@ -68,39 +117,136 @@ header {
   text-align: center;
 
   a {
-    color: $text-color;
+    border-style: solid;
+    border-bottom-width: 20px; // Must come after border-width
+    color: $dark-overlay; // Without this the border is white (???)
     text-decoration: none;
   }
 }
 
+
 .section-nav {
-  /* placeholder */
-  background-color: $accent-color;
-  background-size: 50%;
-  /* border: 4px solid rgba(31, 91, 138, 0.9); */
+  background-color: $secondary; // Fallback
+  background-position: bottom !important;
+  background-size: cover !important; // not sure why important is needed here
+  color: $white;
   flex-basis: 1;
+  margin: 10px;
   min-width: 45%;
-  margin: 4px;
-  padding: 20px;
   width: 45%;
 
   &:hover {
-    background-color: $primary-color;
+    border-color: $primary;
+    & .section-nav-title, & .section-nav-subtitle {
+      background-color: rgba($primary,.9)
+    }
   }
 }
 
-.section-nav-title {
-  background-color: white;
-  color: rgba(25, 73, 111, 0.9);
-  display: block;
-  font-size: 24px;
+.section-nav-title, .section-nav-subtitle {
+  background-color: $dark-overlay;
+  color: $white;
+  display:block;
+  font-size: 1.2em;
+  margin: 0 20px 20px 20px;
   padding: 10px;
 }
 
-.section-nav-subtitle {
-  background-color: white;
-  color: rgba(25, 73, 111, 0.9);
-  font-size: 18px;
-  display: inline-block;
-  padding: 10px;
+.section-nav-title {
+  font-family: 'Cutive', serif;
+  font-size: 1.4em;
+  margin-bottom: 0;
 }
+
+.section-nav-subtitle {
+  margin-bottom: 40px;
+}
+
+// Background photo setting: move these into 
+// their own files once they are all set?
+
+// Default images, alternating by nth child
+
+.section-nav:nth-child(1n)  {
+  background: url('../images/content/template/background01.jpg');
+}
+
+.section-nav:nth-child(2n) {
+  background: url('../images/content/template/background02.jpg');
+}
+
+.section-nav:nth-child(3n){
+  background: url('../images/content/template/background04.jpg');
+}
+
+.section-nav:nth-child(4n) {
+  background: url('../images/content/template/background03.jpg');
+}
+
+// Sights & Sounds
+
+.section-nav-multimedia-footage {}
+.section-nav-multimedia-audio {}
+.section-nav-multimedia-images {}
+
+// Sights & Sounds > Audio
+
+.section-nav-multimedia-on-parade {}
+.section-nav-multimedia-marches {}
+
+// Sights & Sounds > Images
+
+.section-nav-multimedia-documents {
+  // background: url('../images/content/template/street.jpg');
+}
+.section-nav-multimedia-group {
+
+}
+.section-nav-multimedia-people {
+
+}
+.section-nav-multimedia-sky {
+
+}
+.section-nav-multimedia-parade {
+
+}
+
+// Stories
+
+.section-nav-stories-march {}
+.section-nav-stories-military {}
+.section-nav-stories-lentz {}
+
+//Home
+
+.home_callout {
+height: 40vh;
+width: 100%;
+margin: 2em 0;
+}
+
+.home_callout_1 {
+  background: url('../images/content/template/street.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // background-size: cover;
+}
+
+.callout_inner {
+  background-color: rgba(0,0,0,.6);
+  color: $white;
+  width: 40%;
+  padding: 1.5em 1em 1em 1em;
+  font-size: 1.3em;
+}
+
+
+
+
+
+
+
+

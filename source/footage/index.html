@@ -1,0 +1,3007 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Footage | Band History</title>
+    <link href="../stylesheets/site.css" rel="stylesheet" />
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <!-- TODO check if fonts are necessary -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="page-top">
+
+  <div class="container">
+
+    <header role="banner">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="../" class="navbar-brand">Band History</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <!-- TODO follow this example for how to make it apparent to screenreader -->
+              <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+              <!-- TODO add actual active classes -->
+              <a href="./" class="nav-link">Footage</a>
+            </li>
+            <li class="nav-item ">
+              <a href="../stories/" class="nav-link">Stories</a>
+            </li>
+            <li class="nav-item ">
+              <a href="../timeline/" class="nav-link">Timeline</a>
+              <!-- TODO how to disable if we need that -->
+              <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
+            </li>
+            <li class="nav-item ">
+              <a href="../about/" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- TODO move this to a script! -->
+<script>
+
+  function call_modal(id) {
+    $(id).modal("show");
+  }
+
+  window.onload = function() {
+    if (window.location.hash) {
+      call_modal(window.location.hash);
+    }
+  }
+</script>
+
+<h2>Footage</h2>
+
+<strong>Filtering is a work in progress, it probably makes sense to start whittling down the keyword field to only reflect those we find particularly interesting or useful</strong>
+
+<div class="filters">
+  <div class="filters-topic">
+    <p>Filter Projects by Topic:</p>
+
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="away-game?">Away Game? <span class="badge">1</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="band-day">Band Day <span class="badge">12</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="bowl">Bowl <span class="badge">6</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="campus">Campus <span class="badge">2</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="card-section">Card Section <span class="badge">27</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="cheerleaders">Cheerleaders <span class="badge">5</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="closeup">Closeup <span class="badge">7</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="drill">Drill <span class="badge">37</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="football">Football <span class="badge">4</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="guest-band">Guest Band <span class="badge">5</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="halftime">Halftime <span class="badge">36</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="homecoming">Homecoming <span class="badge">3</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="pep-band">Pep Band <span class="badge">2</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="pyrotechnics">Pyrotechnics <span class="badge">1</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="tunnel-walk">Tunnel Walk <span class="badge">2</span>
+      </button>
+  </div>
+
+  <div class="filters-decade">
+    <p>Filter Projects by Decade:</p>
+
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="decade-1920">Decade 1920 <span class="badge">2</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="decade-1930">Decade 1930 <span class="badge">3</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="decade-1940">Decade 1940 <span class="badge">9</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="decade-1950">Decade 1950 <span class="badge">34</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="decade-1960">Decade 1960 <span class="badge">7</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="decade-1970">Decade 1970 <span class="badge">1</span>
+      </button>
+      <button class="btn btn-filter btn-secondary" onclick="filter(this);"
+        id="decade-unknown">Decade Unknown <span class="badge">4</span>
+      </button>
+  </div>
+
+</div>
+
+<div class="videos-container">
+    <div class="video closeup decade-unknown">
+      <h3>Unknown</h3>
+      <a href="#20101" onclick="$('#20101').modal('show')">
+        <img src="../images/video_thumbs/2.01.01.jpg" class="thumbnail" alt="2.01.01" />
+        <p>Unknown man stands in front of band members, view of stands</p>
+        <p>Reel: 130815-2-01</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20101" tabindex="-1" role="dialog"
+      aria-labelledby="20101" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.01.01">Unknown</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.01.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.01.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> Unknown</li>
+              <li><strong>Reel Seconds:</strong> 0:00-0:27</li>
+              <li><strong>Description:</strong> Unknown man stands in front of band members, view of stands</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-01</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "WOW TV Omaha Nebraska #10392." </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1676~1464449:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=13&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video football decade-unknown">
+      <h3>Unknown</h3>
+      <a href="#20102" onclick="$('#20102').modal('show')">
+        <img src="../images/video_thumbs/2.01.02.jpg" class="thumbnail" alt="2.01.02" />
+        <p>Football</p>
+        <p>Reel: 130815-2-01</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20102" tabindex="-1" role="dialog"
+      aria-labelledby="20102" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.01.02">Unknown</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.01.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.01.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> Unknown</li>
+              <li><strong>Reel Seconds:</strong> 0:27-2:20</li>
+              <li><strong>Description:</strong> Football</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-01</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "WOW TV Omaha Nebraska #10392." </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1676~1464449:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=13&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video  decade-unknown">
+      <h3>Unknown</h3>
+      <a href="#20103" onclick="$('#20103').modal('show')">
+        <img src="../images/video_thumbs/2.01.03.jpg" class="thumbnail" alt="2.01.03" />
+        <p>John G. Neihardt and others</p>
+        <p>Reel: 130815-2-01</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20103" tabindex="-1" role="dialog"
+      aria-labelledby="20103" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.01.03">Unknown</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.01.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.01.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> Unknown</li>
+              <li><strong>Reel Seconds:</strong> 2:20-3:58</li>
+              <li><strong>Description:</strong> John G. Neihardt and others</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-01</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "WOW TV Omaha Nebraska #10392." </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1676~1464449:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=13&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video drill card-section decade-1920">
+      <h3>1927</h3>
+      <a href="#20201" onclick="$('#20201').modal('show')">
+        <img src="../images/video_thumbs/2.02.01.jpg" class="thumbnail" alt="2.02.01" />
+        <p>Drill and card section from NYU game</p>
+        <p>Reel: 130815-2-02</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20201" tabindex="-1" role="dialog"
+      aria-labelledby="20201" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.02.01">1927</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.02.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.02.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1927</li>
+              <li><strong>Reel Seconds:</strong> 0:00-1:10</li>
+              <li><strong>Description:</strong> Drill and card section from NYU game</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-02</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#2 Band 1927, 28, 29. 1st segment, up to date block (1928) from NYU game of 1927. 2nd segment, date block to 'American Legion Drum…' from Missouri game of 1928. 3rd segment, 'American Legion…' from Pittsburg game of 1930."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1684~1464451:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=12&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video drill card-section decade-1920">
+      <h3>1928</h3>
+      <a href="#20202" onclick="$('#20202').modal('show')">
+        <img src="../images/video_thumbs/2.02.02.jpg" class="thumbnail" alt="2.02.02" />
+        <p>Missouri game drill, card section, N on field</p>
+        <p>Reel: 130815-2-02</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20202" tabindex="-1" role="dialog"
+      aria-labelledby="20202" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.02.02">1928</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.02.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.02.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1928</li>
+              <li><strong>Reel Seconds:</strong> 1:10-2:37</li>
+              <li><strong>Description:</strong> Missouri game drill, card section, N on field</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-02</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#2 Band 1927, 28, 29. 1st segment, up to date block (1928) from NYU game of 1927. 2nd segment, date block to 'American Legion Drum…' from Missouri game of 1928. 3rd segment, 'American Legion…' from Pittsburg game of 1930."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1684~1464451:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=12&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video guest-band halftime drill decade-1930">
+      <h3>1930</h3>
+      <a href="#20203" onclick="$('#20203').modal('show')">
+        <img src="../images/video_thumbs/2.02.03.jpg" class="thumbnail" alt="2.02.03" />
+        <p>Pittsburgh game Auburn band and Pershing Rifles, N on field for halftime</p>
+        <p>Reel: 130815-2-02</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20203" tabindex="-1" role="dialog"
+      aria-labelledby="20203" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.02.03">1930</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.02.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.02.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1930</li>
+              <li><strong>Reel Seconds:</strong> 2:38-3:05</li>
+              <li><strong>Description:</strong> Pittsburgh game Auburn band and Pershing Rifles, N on field for halftime</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-02</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#2 Band 1927, 28, 29. 1st segment, up to date block (1928) from NYU game of 1927. 2nd segment, date block to 'American Legion Drum…' from Missouri game of 1928. 3rd segment, 'American Legion…' from Pittsburg game of 1930."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1684~1464451:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=12&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video drill card-section halftime homecoming closeup decade-1950">
+      <h3>1952</h3>
+      <a href="#20301" onclick="$('#20301').modal('show')">
+        <img src="../images/video_thumbs/2.03.01.jpg" class="thumbnail" alt="2.03.01" />
+        <p>Band entering field, homecoming halftime show</p>
+        <p>Reel: 130815-2-03</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20301" tabindex="-1" role="dialog"
+      aria-labelledby="20301" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.03.01">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.03.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.03.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 0:00-2:14</li>
+              <li><strong>Description:</strong> Band entering field, homecoming halftime show</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-03</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Band 1952 & misc. LIST: Game shots; spectators entering; Cheerleaders; Crowd shots; Band lining up, marching off, playing; Step off from sidelines (reversed); Homecoming halftime show (reversed); Homecoming halftime show (reversed)"</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video campus cheerleaders closeup tunnel-walk decade-1950">
+      <h3>1952</h3>
+      <a href="#20302" onclick="$('#20302').modal('show')">
+        <img src="../images/video_thumbs/2.03.02.jpg" class="thumbnail" alt="2.03.02" />
+        <p>Campus, fans arriving at stadium, football team entrance, Tassels and Corncob cheerleading</p>
+        <p>Reel: 130815-2-03</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20302" tabindex="-1" role="dialog"
+      aria-labelledby="20302" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.03.02">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.03.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.03.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 2:14-5:37</li>
+              <li><strong>Description:</strong> Campus, fans arriving at stadium, football team entrance, Tassels and Corncob cheerleading</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-03</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Band 1952 & misc. LIST: Game shots; spectators entering; Cheerleaders; Crowd shots; Band lining up, marching off, playing; Step off from sidelines (reversed); Homecoming halftime show (reversed); Homecoming halftime show (reversed)"</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video cheerleaders drill closeup tunnel-walk band-day pep-band decade-1950">
+      <h3>1952</h3>
+      <a href="#20303" onclick="$('#20303').modal('show')">
+        <img src="../images/video_thumbs/2.03.03.jpg" class="thumbnail" alt="2.03.03" />
+        <p>Band lining up, band day instruments, Tassels, performance, football team arrives, crowd cheers, pep band</p>
+        <p>Reel: 130815-2-03</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20303" tabindex="-1" role="dialog"
+      aria-labelledby="20303" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.03.03">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.03.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.03.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 5:37-8:18</li>
+              <li><strong>Description:</strong> Band lining up, band day instruments, Tassels, performance, football team arrives, crowd cheers, pep band</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-03</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Band 1952 & misc. LIST: Game shots; spectators entering; Cheerleaders; Crowd shots; Band lining up, marching off, playing; Step off from sidelines (reversed); Homecoming halftime show (reversed); Homecoming halftime show (reversed)"</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video closeup drill decade-1950">
+      <h3>1952</h3>
+      <a href="#20401" onclick="$('#20401').modal('show')">
+        <img src="../images/video_thumbs/2.04.01.jpg" class="thumbnail" alt="2.04.01" />
+        <p>Band entering field and marching along sidelines</p>
+        <p>Reel: 130815-2-04</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20401" tabindex="-1" role="dialog"
+      aria-labelledby="20401" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.04.01">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.04.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.04.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 0:00-0:52</li>
+              <li><strong>Description:</strong> Band entering field and marching along sidelines</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-04</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Football inserts BG Color Orig. Crowd, Band, etc. Band 1952 sideline & sitting."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video closeup pep-band cheerleaders decade-1950">
+      <h3>1952</h3>
+      <a href="#20402" onclick="$('#20402').modal('show')">
+        <img src="../images/video_thumbs/2.04.02.jpg" class="thumbnail" alt="2.04.02" />
+        <p>Cheerleaders and pep band lead crowd in cheers</p>
+        <p>Reel: 130815-2-04</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20402" tabindex="-1" role="dialog"
+      aria-labelledby="20402" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.04.02">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.04.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.04.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 0:52-8:29</li>
+              <li><strong>Description:</strong> Cheerleaders and pep band lead crowd in cheers</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-04</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Football inserts BG Color Orig. Crowd, Band, etc. Band 1952 sideline & sitting."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video campus homecoming decade-1950">
+      <h3>1952</h3>
+      <a href="#20501" onclick="$('#20501').modal('show')">
+        <img src="../images/video_thumbs/2.05.01.jpg" class="thumbnail" alt="2.05.01" />
+        <p>Minnesota game homecoming floats</p>
+        <p>Reel: 130815-2-05</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20501" tabindex="-1" role="dialog"
+      aria-labelledby="20501" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.05.01">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.05.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.05.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 0:00-3:36</li>
+              <li><strong>Description:</strong> Minnesota game homecoming floats</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-05</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Football Background W.P. Color Moto Productions, Motion Picture Unit, Univ. of Nebraska, West Stadium, Lincoln, NE."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1674~1464457:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=14&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video closeup cheerleaders decade-1950">
+      <h3>1952</h3>
+      <a href="#20502" onclick="$('#20502').modal('show')">
+        <img src="../images/video_thumbs/2.05.02.jpg" class="thumbnail" alt="2.05.02" />
+        <p>Cheerleaders and stands</p>
+        <p>Reel: 130815-2-05</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20502" tabindex="-1" role="dialog"
+      aria-labelledby="20502" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.05.02">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.05.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.05.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 3:36-5:23</li>
+              <li><strong>Description:</strong> Cheerleaders and stands</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-05</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Football Background W.P. Color Moto Productions, Motion Picture Unit, Univ. of Nebraska, West Stadium, Lincoln, NE."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1674~1464457:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=14&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video drill halftime bowl decade-1970">
+      <h3>1977</h3>
+      <a href="#20601" onclick="$('#20601').modal('show')">
+        <img src="../images/video_thumbs/2.06.01.jpg" class="thumbnail" alt="2.06.01" />
+        <p>Liberty Bowl performance</p>
+        <p>Reel: 130815-2-06</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20601" tabindex="-1" role="dialog"
+      aria-labelledby="20601" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.06.01">1977</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.06.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.06.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1977</li>
+              <li><strong>Reel Seconds:</strong> 0:00-6:37</li>
+              <li><strong>Description:</strong> Liberty Bowl performance</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-06</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "A TEL RA Production Nebraska Bowl. Liberty Bowl 1977 Print #2."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1683~1464459:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=5&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video football decade-1930">
+      <h3>1930</h3>
+      <a href="#20701" onclick="$('#20701').modal('show')">
+        <img src="../images/video_thumbs/2.07.01.jpg" class="thumbnail" alt="2.07.01" />
+        <p>Football summary from NE vs Pittsburgh</p>
+        <p>Reel: 130815-2-07</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20701" tabindex="-1" role="dialog"
+      aria-labelledby="20701" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.07.01">1930</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.07.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.07.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1930</li>
+              <li><strong>Reel Seconds:</strong> 0:00-7:24</li>
+              <li><strong>Description:</strong> Football summary from NE vs Pittsburgh</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-07</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Nebraska vs. Pittsburg 1930 Sports-Football 45-4-D 6:51"</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1667~1464461:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=6&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video bowl drill decade-1940">
+      <h3>1941</h3>
+      <a href="#20801" onclick="$('#20801').modal('show')">
+        <img src="../images/video_thumbs/2.08.01.jpg" class="thumbnail" alt="2.08.01" />
+        <p>Rose Bowl parade and field</p>
+        <p>Reel: 130815-2-08</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20801" tabindex="-1" role="dialog"
+      aria-labelledby="20801" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.08.01">1941</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.08.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.08.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1941</li>
+              <li><strong>Reel Seconds:</strong> 0:00-1:31</li>
+              <li><strong>Description:</strong> Rose Bowl parade and field</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-08</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Rose Bowl UNL." Accompanying notes: "Rose Bowl, 1941: Parade, Football, Half-time design of bell, 3 bells with 'N' seen later in reel. 1941: Circus, 3-ring circus (2 small side rings not in full view) Clown, Giraffe, Elephant. Pitt game, 1938: Revolving Circle (Freshman Band in gray uniforms), Hearts. 1940: 'M' (for Missouri), Precision blocks, Bell, 3 bells with 'N'. 1941: Army show of Outline of United States, U.S. Shield."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video bowl football decade-1940">
+      <h3>1941</h3>
+      <a href="#20802" onclick="$('#20802').modal('show')">
+        <img src="../images/video_thumbs/2.08.02.jpg" class="thumbnail" alt="2.08.02" />
+        <p>Rose Bowl football game clips</p>
+        <p>Reel: 130815-2-08</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20802" tabindex="-1" role="dialog"
+      aria-labelledby="20802" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.08.02">1941</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.08.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.08.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1941</li>
+              <li><strong>Reel Seconds:</strong> 1:31-3:06</li>
+              <li><strong>Description:</strong> Rose Bowl football game clips</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-08</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Rose Bowl UNL." Accompanying notes: "Rose Bowl, 1941: Parade, Football, Half-time design of bell, 3 bells with 'N' seen later in reel. 1941: Circus, 3-ring circus (2 small side rings not in full view) Clown, Giraffe, Elephant. Pitt game, 1938: Revolving Circle (Freshman Band in gray uniforms), Hearts. 1940: 'M' (for Missouri), Precision blocks, Bell, 3 bells with 'N'. 1941: Army show of Outline of United States, U.S. Shield."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1940">
+      <h3>1941</h3>
+      <a href="#20803" onclick="$('#20803').modal('show')">
+        <img src="../images/video_thumbs/2.08.03.jpg" class="thumbnail" alt="2.08.03" />
+        <p>Halftime show: circus, clown, giraffe, elephant</p>
+        <p>Reel: 130815-2-08</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20803" tabindex="-1" role="dialog"
+      aria-labelledby="20803" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.08.03">1941</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.08.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.08.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1941</li>
+              <li><strong>Reel Seconds:</strong> 3:06-5:13</li>
+              <li><strong>Description:</strong> Halftime show: circus, clown, giraffe, elephant</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-08</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Rose Bowl UNL." Accompanying notes: "Rose Bowl, 1941: Parade, Football, Half-time design of bell, 3 bells with 'N' seen later in reel. 1941: Circus, 3-ring circus (2 small side rings not in full view) Clown, Giraffe, Elephant. Pitt game, 1938: Revolving Circle (Freshman Band in gray uniforms), Hearts. 1940: 'M' (for Missouri), Precision blocks, Bell, 3 bells with 'N'. 1941: Army show of Outline of United States, U.S. Shield."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1930">
+      <h3>1938</h3>
+      <a href="#20804" onclick="$('#20804').modal('show')">
+        <img src="../images/video_thumbs/2.08.04.jpg" class="thumbnail" alt="2.08.04" />
+        <p>Halftime show: peace, circles, hearts (freshman band in gray)</p>
+        <p>Reel: 130815-2-08</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20804" tabindex="-1" role="dialog"
+      aria-labelledby="20804" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.08.04">1938</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.08.04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.08.04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1938</li>
+              <li><strong>Reel Seconds:</strong> 5:13-8:42</li>
+              <li><strong>Description:</strong> Halftime show: peace, circles, hearts (freshman band in gray)</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-08</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Rose Bowl UNL." Accompanying notes: "Rose Bowl, 1941: Parade, Football, Half-time design of bell, 3 bells with 'N' seen later in reel. 1941: Circus, 3-ring circus (2 small side rings not in full view) Clown, Giraffe, Elephant. Pitt game, 1938: Revolving Circle (Freshman Band in gray uniforms), Hearts. 1940: 'M' (for Missouri), Precision blocks, Bell, 3 bells with 'N'. 1941: Army show of Outline of United States, U.S. Shield."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill decade-1940">
+      <h3>1940</h3>
+      <a href="#20805" onclick="$('#20805').modal('show')">
+        <img src="../images/video_thumbs/2.08.05.jpg" class="thumbnail" alt="2.08.05" />
+        <p>Missouri game halftime show: M, bells</p>
+        <p>Reel: 130815-2-08</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20805" tabindex="-1" role="dialog"
+      aria-labelledby="20805" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.08.05">1940</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.08.05.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.08.05.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1940</li>
+              <li><strong>Reel Seconds:</strong> 8:42-10:41</li>
+              <li><strong>Description:</strong> Missouri game halftime show: M, bells</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-08</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Rose Bowl UNL." Accompanying notes: "Rose Bowl, 1941: Parade, Football, Half-time design of bell, 3 bells with 'N' seen later in reel. 1941: Circus, 3-ring circus (2 small side rings not in full view) Clown, Giraffe, Elephant. Pitt game, 1938: Revolving Circle (Freshman Band in gray uniforms), Hearts. 1940: 'M' (for Missouri), Precision blocks, Bell, 3 bells with 'N'. 1941: Army show of Outline of United States, U.S. Shield."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1940">
+      <h3>1941</h3>
+      <a href="#20806" onclick="$('#20806').modal('show')">
+        <img src="../images/video_thumbs/2.08.06.jpg" class="thumbnail" alt="2.08.06" />
+        <p>Army game halftime show: United States, shield</p>
+        <p>Reel: 130815-2-08</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20806" tabindex="-1" role="dialog"
+      aria-labelledby="20806" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.08.06">1941</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.08.06.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.08.06.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1941</li>
+              <li><strong>Reel Seconds:</strong> 10:41-12:23</li>
+              <li><strong>Description:</strong> Army game halftime show: United States, shield</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-08</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "Rose Bowl UNL." Accompanying notes: "Rose Bowl, 1941: Parade, Football, Half-time design of bell, 3 bells with 'N' seen later in reel. 1941: Circus, 3-ring circus (2 small side rings not in full view) Clown, Giraffe, Elephant. Pitt game, 1938: Revolving Circle (Freshman Band in gray uniforms), Hearts. 1940: 'M' (for Missouri), Precision blocks, Bell, 3 bells with 'N'. 1941: Army show of Outline of United States, U.S. Shield."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1668~1464463:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=18&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video bowl drill guest-band decade-1950">
+      <h3>1955</h3>
+      <a href="#20901" onclick="$('#20901').modal('show')">
+        <img src="../images/video_thumbs/2.09.01.jpg" class="thumbnail" alt="2.09.01" />
+        <p>Orange Bowl, Nebraska, Duke, Miami U, and high school band entries</p>
+        <p>Reel: 130815-2-09</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20901" tabindex="-1" role="dialog"
+      aria-labelledby="20901" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.09.01">1955</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.09.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.09.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1955</li>
+              <li><strong>Reel Seconds:</strong> 0:00-3:53</li>
+              <li><strong>Description:</strong> Orange Bowl, Nebraska, Duke, Miami U, and high school band entries</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-09</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Accompanying notes: "Orange Bowl, 1955 (whole reel): Nebr. Band entry, Duke Band entry, Miami U. Band entry, High school band entries, Football highlights, Massed high school bands in East stands., Precision Drill by Nebr. U Band, Some frames of Duke Band (in blue), Pageant."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video bowl football guest-band decade-1950">
+      <h3>1955</h3>
+      <a href="#20902" onclick="$('#20902').modal('show')">
+        <img src="../images/video_thumbs/2.09.02.jpg" class="thumbnail" alt="2.09.02" />
+        <p>Orange Bowl, football team takes the field with band support, football highlights, view of high school bands in audience</p>
+        <p>Reel: 130815-2-09</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20902" tabindex="-1" role="dialog"
+      aria-labelledby="20902" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.09.02">1955</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.09.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.09.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1955</li>
+              <li><strong>Reel Seconds:</strong> 3:53-5:35</li>
+              <li><strong>Description:</strong> Orange Bowl, football team takes the field with band support, football highlights, view of high school bands in audience</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-09</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Accompanying notes: "Orange Bowl, 1955 (whole reel): Nebr. Band entry, Duke Band entry, Miami U. Band entry, High school band entries, Football highlights, Massed high school bands in East stands., Precision Drill by Nebr. U Band, Some frames of Duke Band (in blue), Pageant."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video bowl drill guest-band decade-1950">
+      <h3>1955</h3>
+      <a href="#20903" onclick="$('#20903').modal('show')">
+        <img src="../images/video_thumbs/2.09.03.jpg" class="thumbnail" alt="2.09.03" />
+        <p>orange bowl, halftime show with NE band, then Duke band, then all bands and carnival props</p>
+        <p>Reel: 130815-2-09</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="20903" tabindex="-1" role="dialog"
+      aria-labelledby="20903" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.09.03">1955</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.09.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.09.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1955</li>
+              <li><strong>Reel Seconds:</strong> 5:35-11:12</li>
+              <li><strong>Description:</strong> orange bowl, halftime show with NE band, then Duke band, then all bands and carnival props</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-09</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Accompanying notes: "Orange Bowl, 1955 (whole reel): Nebr. Band entry, Duke Band entry, Miami U. Band entry, High school band entries, Football highlights, Massed high school bands in East stands., Precision Drill by Nebr. U Band, Some frames of Duke Band (in blue), Pageant."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1959</h3>
+      <a href="#21001" onclick="$('#21001').modal('show')">
+        <img src="../images/video_thumbs/2.10.01.jpg" class="thumbnail" alt="2.10.01" />
+        <p>Texas game drill, longhorn, Texas, NU</p>
+        <p>Reel: 130815-2-10</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21001" tabindex="-1" role="dialog"
+      aria-labelledby="21001" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.10.01">1959</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.10.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.10.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1959</li>
+              <li><strong>Reel Seconds:</strong> 0:00-2:50</li>
+              <li><strong>Description:</strong> Texas game drill, longhorn, Texas, NU</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-10</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#6."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1959</h3>
+      <a href="#21002" onclick="$('#21002').modal('show')">
+        <img src="../images/video_thumbs/2.10.02.jpg" class="thumbnail" alt="2.10.02" />
+        <p>Oregon game halftime show</p>
+        <p>Reel: 130815-2-10</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21002" tabindex="-1" role="dialog"
+      aria-labelledby="21002" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.10.02">1959</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.10.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.10.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1959</li>
+              <li><strong>Reel Seconds:</strong> 2:50-5:32</li>
+              <li><strong>Description:</strong> Oregon game halftime show</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-10</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#6."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1959</h3>
+      <a href="#21003" onclick="$('#21003').modal('show')">
+        <img src="../images/video_thumbs/2.10.03.jpg" class="thumbnail" alt="2.10.03" />
+        <p>Hawaii game halftime show</p>
+        <p>Reel: 130815-2-10</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21003" tabindex="-1" role="dialog"
+      aria-labelledby="21003" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.10.03">1959</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.10.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.10.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1959</li>
+              <li><strong>Reel Seconds:</strong> 5:32-9:52</li>
+              <li><strong>Description:</strong> Hawaii game halftime show</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-10</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#6."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video band-day card-section decade-1950">
+      <h3>1959</h3>
+      <a href="#21004" onclick="$('#21004').modal('show')">
+        <img src="../images/video_thumbs/2.10.04.jpg" class="thumbnail" alt="2.10.04" />
+        <p>Band Day, N, Peace</p>
+        <p>Reel: 130815-2-10</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21004" tabindex="-1" role="dialog"
+      aria-labelledby="21004" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.10.04">1959</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.10.04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.10.04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1959</li>
+              <li><strong>Reel Seconds:</strong> 9:52-13:49</li>
+              <li><strong>Description:</strong> Band Day, N, Peace</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-10</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#6."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime homecoming drill card-section decade-1950">
+      <h3>1959</h3>
+      <a href="#21005" onclick="$('#21005').modal('show')">
+        <img src="../images/video_thumbs/2.10.05.jpg" class="thumbnail" alt="2.10.05" />
+        <p>Oklahoma game halftime show, homecoming</p>
+        <p>Reel: 130815-2-10</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21005" tabindex="-1" role="dialog"
+      aria-labelledby="21005" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.10.05">1959</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.10.05.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.10.05.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1959</li>
+              <li><strong>Reel Seconds:</strong> 13:49-16:06</li>
+              <li><strong>Description:</strong> Oklahoma game halftime show, homecoming</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-10</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#6."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1960">
+      <h3>1960</h3>
+      <a href="#21101" onclick="$('#21101').modal('show')">
+        <img src="../images/video_thumbs/2.11.01.jpg" class="thumbnail" alt="2.11.01" />
+        <p>Big 8</p>
+        <p>Reel: 130815-2-11</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21101" tabindex="-1" role="dialog"
+      aria-labelledby="21101" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.11.01">1960</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.11.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.11.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1960</li>
+              <li><strong>Reel Seconds:</strong> 0:00-2:40</li>
+              <li><strong>Description:</strong> Big 8</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-11</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#7."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1960">
+      <h3>1960</h3>
+      <a href="#21102" onclick="$('#21102').modal('show')">
+        <img src="../images/video_thumbs/2.11.02.jpg" class="thumbnail" alt="2.11.02" />
+        <p>Halftime drill</p>
+        <p>Reel: 130815-2-11</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21102" tabindex="-1" role="dialog"
+      aria-labelledby="21102" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.11.02">1960</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.11.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.11.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1960</li>
+              <li><strong>Reel Seconds:</strong> 2:40-5:29</li>
+              <li><strong>Description:</strong> Halftime drill</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-11</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#7."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video band-day card-section decade-1960">
+      <h3>1960</h3>
+      <a href="#21103" onclick="$('#21103').modal('show')">
+        <img src="../images/video_thumbs/2.11.03.jpg" class="thumbnail" alt="2.11.03" />
+        <p>Band Day "freedom"</p>
+        <p>Reel: 130815-2-11</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21103" tabindex="-1" role="dialog"
+      aria-labelledby="21103" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.11.03">1960</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.11.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.11.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1960</li>
+              <li><strong>Reel Seconds:</strong> 5:29-10:40</li>
+              <li><strong>Description:</strong> Band Day "freedom"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-11</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#7."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime card-section drill cheerleaders decade-1960">
+      <h3>1960</h3>
+      <a href="#21104" onclick="$('#21104').modal('show')">
+        <img src="../images/video_thumbs/2.11.04.jpg" class="thumbnail" alt="2.11.04" />
+        <p>Armed forces show, precision, and Huskerettes</p>
+        <p>Reel: 130815-2-11</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21104" tabindex="-1" role="dialog"
+      aria-labelledby="21104" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.11.04">1960</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.11.04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.11.04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1960</li>
+              <li><strong>Reel Seconds:</strong> 10:40-16:21</li>
+              <li><strong>Description:</strong> Armed forces show, precision, and Huskerettes</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-11</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#7."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1955</h3>
+      <a href="#21201" onclick="$('#21201').modal('show')">
+        <img src="../images/video_thumbs/2.12.01.jpg" class="thumbnail" alt="2.12.01" />
+        <p>Precision drill, "welcome parents"</p>
+        <p>Reel: 130815-2-12</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21201" tabindex="-1" role="dialog"
+      aria-labelledby="21201" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.12.01">1955</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.12.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.12.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1955</li>
+              <li><strong>Reel Seconds:</strong> 0:00-2:49</li>
+              <li><strong>Description:</strong> Precision drill, "welcome parents"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-12</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr. - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1955?</h3>
+      <a href="#21202" onclick="$('#21202').modal('show')">
+        <img src="../images/video_thumbs/2.12.02.jpg" class="thumbnail" alt="2.12.02" />
+        <p>Western show</p>
+        <p>Reel: 130815-2-12</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21202" tabindex="-1" role="dialog"
+      aria-labelledby="21202" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.12.02">1955?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.12.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.12.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1955?</li>
+              <li><strong>Reel Seconds:</strong> 2:49-5:39</li>
+              <li><strong>Description:</strong> Western show</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-12</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr. - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video band-day decade-1950">
+      <h3>1955</h3>
+      <a href="#21203" onclick="$('#21203').modal('show')">
+        <img src="../images/video_thumbs/2.12.03.jpg" class="thumbnail" alt="2.12.03" />
+        <p>Band Day</p>
+        <p>Reel: 130815-2-12</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21203" tabindex="-1" role="dialog"
+      aria-labelledby="21203" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.12.03">1955</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.12.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.12.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1955</li>
+              <li><strong>Reel Seconds:</strong> 2:51-8:33</li>
+              <li><strong>Description:</strong> Band Day</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-12</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr. - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1955</h3>
+      <a href="#21204" onclick="$('#21204').modal('show')">
+        <img src="../images/video_thumbs/2.12.04.jpg" class="thumbnail" alt="2.12.04" />
+        <p>Big 8</p>
+        <p>Reel: 130815-2-12</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21204" tabindex="-1" role="dialog"
+      aria-labelledby="21204" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.12.04">1955</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.12.04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.12.04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1955</li>
+              <li><strong>Reel Seconds:</strong> 8:33-11:22</li>
+              <li><strong>Description:</strong> Big 8</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-12</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr. - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section pyrotechnics decade-1950">
+      <h3>1953</h3>
+      <a href="#21205" onclick="$('#21205').modal('show')">
+        <img src="../images/video_thumbs/2.12.05.jpg" class="thumbnail" alt="2.12.05" />
+        <p>University college spotlight</p>
+        <p>Reel: 130815-2-12</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21205" tabindex="-1" role="dialog"
+      aria-labelledby="21205" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.12.05">1953</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.12.05.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.12.05.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1953</li>
+              <li><strong>Reel Seconds:</strong> 11:22-13:23</li>
+              <li><strong>Description:</strong> University college spotlight</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-12</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr. - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1952</h3>
+      <a href="#21206" onclick="$('#21206').modal('show')">
+        <img src="../images/video_thumbs/2.12.06.jpg" class="thumbnail" alt="2.12.06" />
+        <p>Precision drill, "DAD"</p>
+        <p>Reel: 130815-2-12</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21206" tabindex="-1" role="dialog"
+      aria-labelledby="21206" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.12.06">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.12.06.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.12.06.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 13:23-15:56</li>
+              <li><strong>Description:</strong> Precision drill, "DAD"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-12</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr. - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1952</h3>
+      <a href="#21207" onclick="$('#21207').modal('show')">
+        <img src="../images/video_thumbs/2.12.07.jpg" class="thumbnail" alt="2.12.07" />
+        <p>Halftime show: presidential election</p>
+        <p>Reel: 130815-2-12</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21207" tabindex="-1" role="dialog"
+      aria-labelledby="21207" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.12.07">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.12.07.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.12.07.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 15:56-18:47</li>
+              <li><strong>Description:</strong> Halftime show: presidential election</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-12</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr. - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime band-day decade-1950">
+      <h3>1952</h3>
+      <a href="#21301" onclick="$('#21301').modal('show')">
+        <img src="../images/video_thumbs/2.13.01.jpg" class="thumbnail" alt="2.13.01" />
+        <p>Band Day</p>
+        <p>Reel: 130815-2-13</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21301" tabindex="-1" role="dialog"
+      aria-labelledby="21301" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.13.01">1952</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.13.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.13.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1952</li>
+              <li><strong>Reel Seconds:</strong> 0:00-2:41</li>
+              <li><strong>Description:</strong> Band Day</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-13</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#10."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime band-day decade-1950">
+      <h3>1953</h3>
+      <a href="#21302" onclick="$('#21302').modal('show')">
+        <img src="../images/video_thumbs/2.13.02.jpg" class="thumbnail" alt="2.13.02" />
+        <p>Band Day</p>
+        <p>Reel: 130815-2-13</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21302" tabindex="-1" role="dialog"
+      aria-labelledby="21302" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.13.02">1953</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.13.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.13.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1953</li>
+              <li><strong>Reel Seconds:</strong> 2:41-5:02</li>
+              <li><strong>Description:</strong> Band Day</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-13</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#10."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime band-day decade-1950">
+      <h3>1957</h3>
+      <a href="#21303" onclick="$('#21303').modal('show')">
+        <img src="../images/video_thumbs/2.13.03.jpg" class="thumbnail" alt="2.13.03" />
+        <p>Band Day: "Nebraska High Schools"</p>
+        <p>Reel: 130815-2-13</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21303" tabindex="-1" role="dialog"
+      aria-labelledby="21303" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.13.03">1957</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.13.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.13.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1957</li>
+              <li><strong>Reel Seconds:</strong> 5:02-9:58</li>
+              <li><strong>Description:</strong> Band Day: "Nebraska High Schools"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-13</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#10."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime band-day decade-1960">
+      <h3>1961</h3>
+      <a href="#21304" onclick="$('#21304').modal('show')">
+        <img src="../images/video_thumbs/2.13.04.jpg" class="thumbnail" alt="2.13.04" />
+        <p>Band Day</p>
+        <p>Reel: 130815-2-13</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21304" tabindex="-1" role="dialog"
+      aria-labelledby="21304" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.13.04">1961</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.13.04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.13.04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1961</li>
+              <li><strong>Reel Seconds:</strong> 9:58-11:30</li>
+              <li><strong>Description:</strong> Band Day</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-13</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#10."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime band-day decade-1960">
+      <h3>1962</h3>
+      <a href="#21305" onclick="$('#21305').modal('show')">
+        <img src="../images/video_thumbs/2.13.05.jpg" class="thumbnail" alt="2.13.05" />
+        <p>Band Day</p>
+        <p>Reel: 130815-2-13</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21305" tabindex="-1" role="dialog"
+      aria-labelledby="21305" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.13.05">1962</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.13.05.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.13.05.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1962</li>
+              <li><strong>Reel Seconds:</strong> 11:30-16:35</li>
+              <li><strong>Description:</strong> Band Day</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-13</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#10."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime band-day decade-1960">
+      <h3>1963</h3>
+      <a href="#21306" onclick="$('#21306').modal('show')">
+        <img src="../images/video_thumbs/2.13.06.jpg" class="thumbnail" alt="2.13.06" />
+        <p>Band Day</p>
+        <p>Reel: 130815-2-13</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21306" tabindex="-1" role="dialog"
+      aria-labelledby="21306" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.13.06">1963</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.13.06.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.13.06.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1963</li>
+              <li><strong>Reel Seconds:</strong> 16:35-18.22</li>
+              <li><strong>Description:</strong> Band Day</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-13</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Notations on reel canister: "#10."</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill decade-1940">
+      <h3>1943</h3>
+      <a href="#21401" onclick="$('#21401').modal('show')">
+        <img src="../images/video_thumbs/2.14.01.jpg" class="thumbnail" alt="2.14.01" />
+        <p>Drill, women in band</p>
+        <p>Reel: 130815-2-14</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21401" tabindex="-1" role="dialog"
+      aria-labelledby="21401" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.14.01">1943</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.14.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.14.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1943</li>
+              <li><strong>Reel Seconds:</strong> 0:00-0:32</li>
+              <li><strong>Description:</strong> Drill, women in band</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-14</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Accompanying notes: "1943: Ladies in Band; Hallowe'en (no crowd); Pumpkin; Ghost; Bat; Cat"</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill decade-1940">
+      <h3>1943</h3>
+      <a href="#21402" onclick="$('#21402').modal('show')">
+        <img src="../images/video_thumbs/2.14.02.jpg" class="thumbnail" alt="2.14.02" />
+        <p>Halftime show: Halloween</p>
+        <p>Reel: 130815-2-14</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21402" tabindex="-1" role="dialog"
+      aria-labelledby="21402" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.14.02">1943</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.14.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.14.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1943</li>
+              <li><strong>Reel Seconds:</strong> 0:32-2:24</li>
+              <li><strong>Description:</strong> Halftime show: Halloween</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-14</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Accompanying notes: "1943: Ladies in Band; Hallowe'en (no crowd); Pumpkin; Ghost; Bat; Cat"</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill decade-1940">
+      <h3>1943</h3>
+      <a href="#21403" onclick="$('#21403').modal('show')">
+        <img src="../images/video_thumbs/2.14.03.jpg" class="thumbnail" alt="2.14.03" />
+        <p>Block drill</p>
+        <p>Reel: 130815-2-14</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="21403" tabindex="-1" role="dialog"
+      aria-labelledby="21403" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="2.14.03">1943</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/2.14.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/2.14.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1943</li>
+              <li><strong>Reel Seconds:</strong> 2:24-2:39</li>
+              <li><strong>Description:</strong> Block drill</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-2-14</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Accompanying notes: "1943: Ladies in Band; Hallowe'en (no crowd); Pumpkin; Ghost; Bat; Cat"</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video band-day card-section decade-1950">
+      <h3>1950</h3>
+      <a href="#30101" onclick="$('#30101').modal('show')">
+        <img src="../images/video_thumbs/3.01.01.jpg" class="thumbnail" alt="3.01.01" />
+        <p>Band Day</p>
+        <p>Reel: 130815-reel00003</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="30101" tabindex="-1" role="dialog"
+      aria-labelledby="30101" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="3.01.01">1950</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/3.01.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/3.01.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1950</li>
+              <li><strong>Reel Seconds:</strong> 0:00-1:43</li>
+              <li><strong>Description:</strong> Band Day</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00003</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in the 1949-1950 academic year. The video content includes the following topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet, Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle, dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy). 
+</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video guest-band card-section decade-1950">
+      <h3>1950</h3>
+      <a href="#30102" onclick="$('#30102').modal('show')">
+        <img src="../images/video_thumbs/3.01.02.jpg" class="thumbnail" alt="3.01.02" />
+        <p>Missouri Band "M"</p>
+        <p>Reel: 130815-reel00003</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="30102" tabindex="-1" role="dialog"
+      aria-labelledby="30102" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="3.01.02">1950</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/3.01.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/3.01.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1950</li>
+              <li><strong>Reel Seconds:</strong> 1:43-1:55</li>
+              <li><strong>Description:</strong> Missouri Band "M"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00003</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in the 1949-1950 academic year. The video content includes the following topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet, Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle, dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy). 
+</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1950</h3>
+      <a href="#30103" onclick="$('#30103').modal('show')">
+        <img src="../images/video_thumbs/3.01.03.jpg" class="thumbnail" alt="3.01.03" />
+        <p>Halftime show:  "Evolution of the Dance" including Minuet, "Indian Dance", Square Dance, Charlestone, Jitterbug</p>
+        <p>Reel: 130815-reel00003</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="30103" tabindex="-1" role="dialog"
+      aria-labelledby="30103" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="3.01.03">1950</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/3.01.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/3.01.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1950</li>
+              <li><strong>Reel Seconds:</strong> 1:55-5:00</li>
+              <li><strong>Description:</strong> Halftime show:  "Evolution of the Dance" including Minuet, "Indian Dance", Square Dance, Charlestone, Jitterbug</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00003</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in the 1949-1950 academic year. The video content includes the following topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet, Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle, dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy). 
+</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill decade-1950">
+      <h3>1950?</h3>
+      <a href="#30104" onclick="$('#30104').modal('show')">
+        <img src="../images/video_thumbs/3.01.04.jpg" class="thumbnail" alt="3.01.04" />
+        <p>Halftime show:  "SI" Big 7 and arrow?  TODO not sure how to describe this except possibly by being more general "Undescribed halftime show" or something"</p>
+        <p>Reel: 130815-reel00003</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="30104" tabindex="-1" role="dialog"
+      aria-labelledby="30104" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="3.01.04">1950?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/3.01.04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/3.01.04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1950?</li>
+              <li><strong>Reel Seconds:</strong> 5:00-5:32</li>
+              <li><strong>Description:</strong> Halftime show:  "SI" Big 7 and arrow?  TODO not sure how to describe this except possibly by being more general "Undescribed halftime show" or something"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00003</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in the 1949-1950 academic year. The video content includes the following topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet, Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle, dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy). 
+</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill decade-1950">
+      <h3>1950</h3>
+      <a href="#30105" onclick="$('#30105').modal('show')">
+        <img src="../images/video_thumbs/3.01.05.jpg" class="thumbnail" alt="3.01.05" />
+        <p>Halftime show: Faculty salute including hypodermic needle, dollar sign, T-square & triangle, lamp of learning, scale of justice, pharmacy</p>
+        <p>Reel: 130815-reel00003</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="30105" tabindex="-1" role="dialog"
+      aria-labelledby="30105" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="3.01.05">1950</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/3.01.05.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/3.01.05.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1950</li>
+              <li><strong>Reel Seconds:</strong> 5:32-7:18</li>
+              <li><strong>Description:</strong> Halftime show: Faculty salute including hypodermic needle, dollar sign, T-square & triangle, lamp of learning, scale of justice, pharmacy</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00003</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in the 1949-1950 academic year. The video content includes the following topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet, Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle, dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy). 
+</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1940">
+      <h3>1949</h3>
+      <a href="#30106" onclick="$('#30106').modal('show')">
+        <img src="../images/video_thumbs/3.01.06.jpg" class="thumbnail" alt="3.01.06" />
+        <p>Halftime show: "Transportation" including Tricycle, Surrey, Train, Plane.  "Hi Dad"</p>
+        <p>Reel: 130815-reel00003</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="30106" tabindex="-1" role="dialog"
+      aria-labelledby="30106" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="3.01.06">1949</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/3.01.06.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/3.01.06.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1949</li>
+              <li><strong>Reel Seconds:</strong> 7:18-9:12</li>
+              <li><strong>Description:</strong> Halftime show: "Transportation" including Tricycle, Surrey, Train, Plane.  "Hi Dad"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00003</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in the 1949-1950 academic year. The video content includes the following topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet, Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle, dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy). 
+</li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video  decade-unknown">
+      <h3></h3>
+      <a href="#04" onclick="$('#04').modal('show')">
+        <img src="../images/images/video_thumbs/04.jpg" class="thumbnail" alt="04" />
+        <p>I'm having trouble figuring out where the 1943 date might be, if there is one, vs when 1947 starts....might ultimately need to cut it at the long columns, short colums, and orange bowl</p>
+        <p>Reel: 130815-reel00004</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="04" tabindex="-1" role="dialog"
+      aria-labelledby="04" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="04"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> </li>
+              <li><strong>Reel Seconds:</strong> </li>
+              <li><strong>Description:</strong> I'm having trouble figuring out where the 1943 date might be, if there is one, vs when 1947 starts....might ultimately need to cut it at the long columns, short colums, and orange bowl</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00004</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in 1943, 1947, 1952, and 1954. The video content includes the following precision drills: long columns (1947); short columns shot at slower speed (1952); and drills at Missouri used in the Orange Bowl (1954). </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1685~1464479:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=9&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video band-day decade-1950">
+      <h3>1954</h3>
+      <a href="#50101" onclick="$('#50101').modal('show')">
+        <img src="../images/video_thumbs/5.01.01.jpg" class="thumbnail" alt="5.01.01" />
+        <p>Band Day "100"</p>
+        <p>Reel: 130815-reel00005</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="50101" tabindex="-1" role="dialog"
+      aria-labelledby="50101" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="5.01.01">1954</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/5.01.01.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/5.01.01.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1954</li>
+              <li><strong>Reel Seconds:</strong> 0:00-1:37</li>
+              <li><strong>Description:</strong> Band Day "100"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00005</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in 1954. The video content includes the following drills: Band Day "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock, umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and Christmas tree).  </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1954</h3>
+      <a href="#50102" onclick="$('#50102').modal('show')">
+        <img src="../images/video_thumbs/5.01.02.jpg" class="thumbnail" alt="5.01.02" />
+        <p>Halftime show: Halloween including pumpkin, ghost, cat, and bat, with costumed ghosts and pumpkins accompanying band, "welcome parents"</p>
+        <p>Reel: 130815-reel00005</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="50102" tabindex="-1" role="dialog"
+      aria-labelledby="50102" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="5.01.02">1954</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/5.01.02.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/5.01.02.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1954</li>
+              <li><strong>Reel Seconds:</strong> 1:37-4:39</li>
+              <li><strong>Description:</strong> Halftime show: Halloween including pumpkin, ghost, cat, and bat, with costumed ghosts and pumpkins accompanying band, "welcome parents"</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00005</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in 1954. The video content includes the following drills: Band Day "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock, umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and Christmas tree).  </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill away-game? decade-1950">
+      <h3>1954</h3>
+      <a href="#50103" onclick="$('#50103').modal('show')">
+        <img src="../images/video_thumbs/5.01.03.jpg" class="thumbnail" alt="5.01.03" />
+        <p>Halftime show: U of Colorado, bison, precision drills</p>
+        <p>Reel: 130815-reel00005</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="50103" tabindex="-1" role="dialog"
+      aria-labelledby="50103" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="5.01.03">1954</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/5.01.03.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/5.01.03.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1954</li>
+              <li><strong>Reel Seconds:</strong> 4:39-7:52</li>
+              <li><strong>Description:</strong> Halftime show: U of Colorado, bison, precision drills</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00005</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in 1954. The video content includes the following drills: Band Day "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock, umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and Christmas tree).  </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video halftime drill card-section decade-1950">
+      <h3>1954</h3>
+      <a href="#50104" onclick="$('#50104').modal('show')">
+        <img src="../images/video_thumbs/5.01.04.jpg" class="thumbnail" alt="5.01.04" />
+        <p>Halftime show: U of Pittsburgh, homecoming, 12 months of the year (bell, heart, shamrock, umbrella, flower, bridal, firecracker, fish, R.R.R., pumpkin, turkey, Christmas tree)</p>
+        <p>Reel: 130815-reel00005</p>
+      </a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="50104" tabindex="-1" role="dialog"
+      aria-labelledby="50104" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="5.01.04">1954</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video controls preload="none">
+              <source src="../videos/5.01.04.mp4" type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                 a <a href="../videos/5.01.04.mp4">link to the video</a> instead.</p>
+            </video>
+            <h6>Clip Information</h6>
+            <ul>
+              <li><strong>Date:</strong> 1954</li>
+              <li><strong>Reel Seconds:</strong> 7:52-14:02</li>
+              <li><strong>Description:</strong> Halftime show: U of Pittsburgh, homecoming, 12 months of the year (bell, heart, shamrock, umbrella, flower, bridal, firecracker, fish, R.R.R., pumpkin, turkey, Christmas tree)</li>
+            </ul>
+
+            <h6>Reel Information</h6>
+            <ul>
+              <li><strong>Reel:</strong> 130815-reel00005</li>
+              <li><strong>Format:</strong> Film: 16mm Safety Film</li>
+              <li><strong>Record Group:</strong> RG13-08-15, University of Nebraska Archives and Special Collections</li>
+              <li><strong>Reel Description:</strong> Digitized video (without audio) of the University of Nebraska-Lincoln Marching Band in 1954. The video content includes the following drills: Band Day "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock, umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and Christmas tree).  </li>
+              <li><a href="https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19">Mediacommons Link (external)</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-filter btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+
+
+    <div class="footer">
+      <p class="logo_container">
+        <img src="../images/UNL_logo.png" alt="Unl logo" />
+        Support provided by <a href="https://cdrh.unl.edu/">Center for Digital Research in the Humanities</a> and the <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a><br/>
+      </p>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+<script src="../javascripts/jquery.min.js"></script>
+
+<!-- Bootstrap 4 Core JavaScript -->
+<!-- TODO download what we need if we decide to use middleman permanently -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Site specific JavaScript -->
+<script src="../javascripts/site.js"></script>
+
+
+</body>
+</html>

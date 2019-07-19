@@ -1,10 +1,7 @@
+@import "_site_variables.css.scss";
+
 /* Timeline concept adapted from code by Ratko Solaja */
 /* https://codepen.io/Ratko_Solaja/pen/ztxkw */
-
-$primary-color: #d20000;
-$secondary-color: #f1f1f1;
-$accent-color: #cacaca;
-$text-color: black;
 
 .resources {
   font-size: 14px;
@@ -30,7 +27,7 @@ $text-color: black;
   font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
-  background: $primary-color;
+  background: $primary;
   padding: 15px 23px;
   color: #fff;
   max-width: 5%;
@@ -49,7 +46,7 @@ $text-color: black;
   top: 0;
   left: 50%;
   margin-left: -2px;
-  background: $primary-color;
+  background: $primary;
   z-index: -1;
 }
 #band-timeline .band-timeline-content {
@@ -73,7 +70,7 @@ $text-color: black;
   position: relative;
   width: auto;
   border: 1px solid #ddd;
-  background-color: $accent-color;
+  background-color: $secondary;
   box-shadow: 0 1px 3px rgba(0,0,0,.03);
   padding: 27px 25px;
 }
@@ -99,7 +96,7 @@ $text-color: black;
   font-size: 44px;
   top: 10px;
   left: -60px;
-  color: $accent-color;
+  color: $secondary;
 }
 .timeline-article .content-left-container {
   float: left;
@@ -118,12 +115,12 @@ $text-color: black;
 .timeline-article .content-left:before {
   content: "\f0da";
   right: -8px;
-  color: $accent-color;
+  color: $secondary;
 }
 .timeline-article .content-right:before {
   content: "\f0d9";
   left: -8px;
-  color: $accent-color;
+  color: $secondary;
 }
 .timeline-article .meta-date {
   position: absolute;
@@ -134,7 +131,7 @@ $text-color: black;
   margin-left: -31px;
   color: #fff;
   border-radius: 100%;
-  background: $primary-color;
+  background: $primary;
 }
 .timeline-article .meta-date .date {
   display: block;

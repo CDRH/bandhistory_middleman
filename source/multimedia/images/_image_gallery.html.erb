@@ -1,7 +1,7 @@
-<div class="images-container">
+<div class="images-container flex-container">
   <% data.images[category].each do |image| %>
     <% html_id = image["id"].gsub(".", "") %>
-    <div class="image">
+    <div class="image flex-item">
       <h3><%= image["title"] %> (<%= image["year"] %>)</h3>
       <%= image_tag "images/content/small/#{image["id"]}.jpg", class: "thumbnail" %>
       <ul>

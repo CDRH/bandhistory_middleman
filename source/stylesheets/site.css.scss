@@ -1,23 +1,8 @@
 @import "_site_variables.css.scss";
 
-
-/* in case you want corn colors */
-/*$primary-color: #878b97;
-$secondary-color: #cacaca;
-$accent-color: #a2b58f;*/
-/* corn yellow */
-/*$accent-color: #e1d06c;*/
-
-
 /* ****************** */
 /* General Appearance */
 /* ****************** */
-
-/* TODO get header to have same border-radius as footer */
-
-// body {
-//   background-color: $secondary-color !important;
-// }
 
 html {
   background-color: mix($primary,$black,70%);
@@ -61,7 +46,23 @@ h1 .navbar-brand {
 
 .navbar-nav {
   flex-direction:row;
-  justify-content: center
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-item {
+  &.active {
+    background-color: mix($primary,$black,30%);
+  }
+  &:hover {
+    background-color: mix($primary,$black,90%);
+  }
+  .nav-link {
+    color: #ffffff;
+  }
 }
 
 .nav-item {
@@ -95,7 +96,6 @@ footer {
   padding: 15px;
   display:block;
   
-
   a {
     color: $white;
   }
@@ -221,32 +221,23 @@ $dark-overlay: rgba(0,0,0,0.7);
 //Home
 
 .home_callout {
-height: 40vh;
-width: 100%;
-margin: 2em 0;
+  height: 40vh;
+  margin: 2em 0;
+  width: 100%;
 }
 
 .home_callout_1 {
   background: url('../images/content/template/street.jpg') no-repeat center center; 
-    -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  // background-size: cover;
 }
 
 .callout_inner {
   background-color: rgba(0,0,0,.6);
   color: $white;
-  width: 40%;
-  padding: 1.5em 1em 1em 1em;
   font-size: 1.3em;
+  padding: 1.5em 1em 1em 1em;
+  width: 40%;
 }
-
-
-
-
-
-
-
-

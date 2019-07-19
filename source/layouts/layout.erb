@@ -27,31 +27,20 @@
   </head>
 
   <body id="page-top" class="<%= page_classes %>">
-
-  
-
     <header role="banner">
       <div class="container">
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <h1><%= link_to "Cornhusker Marching Band History", "/index.html", class: "navbar-brand" %></h1>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-
-        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
           <ul class="navbar-nav mr-auto">
             <% path = current_page.url %>
             <li class="nav-item <%= 'active' if path.include?('/multimedia/') %>">
               <!-- TODO follow this example for how to make it apparent to screenreader -->
-              <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
               <!-- TODO add actual active classes -->
               <%= link_to "Sights & Sounds", "/multimedia.html", class: "nav-link" %>
             </li>
             <li class="nav-item <%= 'active' if path == '/timeline/' %>">
               <%= link_to "Timeline", "/timeline.html", class: "nav-link" %>
-              <!-- TODO how to disable if we need that -->
-              <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
             </li>
             <li class="nav-item <%= 'active' if path.include?('/stories/') %>">
               <%= link_to "Stories", "/stories.html", class: "nav-link" %>
@@ -60,7 +49,6 @@
               <%= link_to "About", "/about.html", class: "nav-link" %>
             </li>
           </ul>
-       <!--  </div> -->
       </nav></div>
     </header>
     <div class="container">
@@ -69,7 +57,6 @@
 
     </div>
 
-    
     <footer>
       <div class="container">
       <div class="card text-white bg-primary">
@@ -82,7 +69,6 @@
       </div>
     </div>
   </footer>
-
 
   <!-- jQuery -->
   <%= javascript_include_tag "jquery.min" %>

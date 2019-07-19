@@ -7,11 +7,9 @@ title: Footage | Band History
 
 <h2>Footage</h2>
 
-<strong>Filtering is a work in progress, it probably makes sense to start whittling down the keyword field to only reflect those we find particularly interesting or useful</strong>
-
 <div class="filters">
   <div class="filters-topic">
-    <p>Filter Projects by Topic:</p>
+    <h3>Filter Projects by Topic:</h3>
 
     <% tally_filter(data.clips, "keywords").each do |decade_id, num| %>
       <button class="btn btn-filter btn-secondary" onclick="filter(this);"
@@ -24,7 +22,7 @@ title: Footage | Band History
   </div>
 
   <div class="filters-decade">
-    <p>Filter Projects by Decade:</p>
+    <h3>Filter Projects by Decade:</h3>
 
     <% tally_filter(data.clips, "decade").each do |decade_id, num| %>
       <button class="btn btn-filter btn-secondary" onclick="filter(this);"
@@ -38,10 +36,10 @@ title: Footage | Band History
 
 </div>
 
-<div class="videos-container">
+<div class="videos-container flex-container">
   <% data.clips.each do |id, info| %>
     <% html_id = id.gsub(".", "") %>
-    <div class="video <%= info["keywords"] %> <%= info["decade"] %>">
+    <div class="video flex-item <%= info["keywords"] %> <%= info["decade"] %>">
       <h3><%= info["year_estimate"] %></h3>
       <a href="#<%= html_id %>" onclick="$('#<%= html_id %>').modal('show')">
         <%= image_tag "images/video_thumbs/#{id}.jpg", class: "thumbnail" %>

@@ -1,5 +1,41 @@
 @import "_site_variables.css.scss";
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: .5em;
+}
+
+.flex-item {
+  padding: 1em;
+  flex-basis: 260px;
+  flex-grow: 1;
+  max-width: 25%;
+  border: solid 1px $gray-100;
+  background: #fff;
+  h3 {
+    font-size: 1.2em;
+  }
+  ul {
+    margin: .5em 0 0 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  li {
+    line-height: 1.1em;
+    margin-bottom: .4em;
+  }
+}
+
+.filters-topic button, .filters-decade button {
+  margin: 0 5px 8px 0
+}
+
+.filters-topic h3, .filters-decade h3 {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
 .thumbnail {
   width: 100%;
   height: auto;
@@ -15,19 +51,14 @@
 }
 
 video {
-  width: 630px;
-}
-
-.videos-container {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  background-color: $primary;
 }
 
 .video {
-  padding: 1em;
-  flex-basis: 260px;
-  flex-grow: 1;
-
+  h3 {
+    font-size: 1.6em;
+  }
   a:link {
     color: $text-color;
     text-decoration: none;
@@ -55,15 +86,6 @@ video {
 /* Images */
 /* ****** */
 
-.images-container {
-  display: flex;
-  flex-wrap: wrap;
-
-  h3 {
-    font-size: 18px;
-  }
-}
-
 .image {
   padding: 1em;
   flex-basis: 260px;
@@ -88,6 +110,14 @@ video {
   };
 }
 
-.image-navbar .active {
-  background-color: $gray-200;
+.image-navbar .navbar-nav {
+  .nav-item {
+    background-color: $gray-600;
+  }
+  a {
+    color: #fff;
+  }
+  .active {
+    background-color: mix($primary,$black,70%);
+  }
 }

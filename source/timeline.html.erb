@@ -22,6 +22,7 @@ title: Timeline | Band History
         1879
         1882
         1898
+        1904
         1918
         1932
         1943
@@ -29,10 +30,12 @@ title: Timeline | Band History
         1979
         1993
         1996
+        1999
         2008
       ] %>
 
       <% years.each_with_index do |year, index| %>
+        <%# alternate left and right sides by year %>
         <% direction = index%2 == 0 ? "left" : "right" %>
         <%= partial "timeline/#{year}", locals: { direction: direction } %>
       <% end %>

@@ -35,8 +35,6 @@
           <ul class="navbar-nav mr-auto">
             <% path = current_page.url %>
             <li class="nav-item <%= 'active' if path.include?('/multimedia/') %>">
-              <!-- TODO follow this example for how to make it apparent to screenreader -->
-              <!-- TODO add actual active classes -->
               <%= link_to "Sights & Sounds", "/multimedia.html", class: "nav-link" %>
             </li>
             <li class="nav-item <%= 'active' if path == '/timeline/' %>">

@@ -1,7 +1,4 @@
-$primary-color: #d20000;
-$secondary-color: #f1f1f1;
-$accent-color: #cacaca;
-$text-color: black;
+@import "_site_variables.css.scss";
 
 /* lentz interview */
 
@@ -14,7 +11,7 @@ $text-color: black;
 }
 
 .interview-round {
-  background-color: $accent-color;
+  background-color: $secondary;
 }
 
 .interview-row {

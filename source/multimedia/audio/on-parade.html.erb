@@ -1,0 +1,65 @@
+---
+title: On Parade | Band History
+---
+<%= stylesheet_link_tag "simpleLightbox.min" %>
+<%= javascript_include_tag "simpleLightbox.min" %>
+
+<h2>On Parade</h2>
+
+<p>Listen to the band's recording from the early 1950s. Processed by RCA Victor, produced and published by Recorded Publications, Co., and made possible by Gamma Lambda.</p>
+
+<p>Recordings provided courtesy of the UNL Band Department</p>
+
+<% tracks = [
+  { title: "The Purple Carnival", filename: "01-the-purple-carnival.mp3" },
+  { title: "March of the Cornhuskers", filename: "02-march-of-the-cornhuskers.mp3" },
+  { title: "Hail Nebraska", filename: "03-hail-nebraska.mp3" },
+  { title: "Thunder and Blazes", filename: "04-thunder-and-blazes.mp3" },
+  { title: "Hail Varsity", filename: "05-hail-varsity.mp3" },
+  { title: "The Cornhusker", filename: "06-the-cornhusker.mp3" },
+  { title: "Chant", filename: "07-chant.mp3" },
+  { title: "Dear Old Nebraska U", filename: "08-dear-old-nebraska-u.mp3" },
+] %>
+
+<% tracks.each_with_index do |track, index| %>
+  <div class="row tracks_listing">
+    <div class="col-md-1">
+      <%= index+1 %>
+    </div>
+    <div class="col-md-4">
+      <%= track[:title] %>
+    </div>
+    <div class="col-md-7">
+      <audio controls preload="none">
+        <% path = "../../audio/multimedia/on_parade/#{track[:filename]}" %>
+
+        <source type="audio/mpeg" src="<%= url_for path %>">
+        <p>Your browser doesn't support HTML5 audio. Here is a <a href="<%= url_for path %>">link to the audio</a>
+      </audio>
+    </div>
+  </div>
+<% end %>
+
+<% images = [
+  { id: "130815-00031.jpg", label: "Front Cover" },
+  { id: "130815-00033.jpg", label: "Inside Cover" },
+  { id: "130815-00034.jpg", label: "Side 1A" },
+  { id: "130815-00035.jpg", label: "Side 1B" },
+  { id: "130815-00036.jpg", label: "Side 2A" },
+  { id: "130815-00037.jpg", label: "Side 2B" },
+  { id: "130815-00032.jpg", label: "Back Cover" },
+] %>
+
+<div class="album_gallery">
+  <% images.each do |image| %>
+    <a class="gallery" href="<%= url_for "images/content/large/#{image[:id]}" %>"
+      title="<%= image[:label] %>">
+      <%= image_tag "images/content/small/#{image[:id]}", class: "preview", alt: image[:label] %>
+    </a>
+  <% end %>
+</div>
+
+<!-- TODO make a new home for this -->
+<script>
+  new SimpleLightbox({elements: '.album_gallery .gallery'});
+</script>

@@ -5,7 +5,7 @@
 build/
 
 # images and footage
-audio/
+source/audio/
 content/
 videos/
 video_thumbs/

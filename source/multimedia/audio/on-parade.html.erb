@@ -52,7 +52,8 @@ title: On Parade | Band History
 
 <div class="album_gallery">
   <% images.each do |image| %>
-    <a class="gallery" href="<%= url_for "images/content/large/#{image[:id]}" %>"
+    <a class="gallery"
+      href="<%= url_for "images/content/large/#{image[:id]}" %>"
       title="<%= image[:label] %>">
       <%= image_tag "images/content/small/#{image[:id]}", class: "preview", alt: image[:label] %>
     </a>

@@ -1,14 +1,31 @@
+<%= stylesheet_link_tag "simpleLightbox.min" %>
+<%= javascript_include_tag "simpleLightbox.min" %>
+
 <div class="images-container flex-container">
   <% data.images[category].each do |image| %>
-    <% html_id = image["id"].gsub(".", "") %>
+    <%# TODO keep if this ends up a modal or something %>
+    <%# html_id = image["id"].gsub(".", "") %>
+
+
+    <!-- TODO should the link description make it clear that this will open a larger image with more metadata for screenreaders? -->
     <div class="image flex-item">
       <h3><%= image["title"] %> (<%= image["year"] %>)</h3>
-      <%= image_tag "images/content/small/#{image["id"]}.jpg", class: "thumbnail" %>
+      <a class="gallery"
+        href="<%= url_for "images/content/large/#{image["id"]}.jpg" %>"
+        title="<%= image["title"] %>">
+        <%= image_tag "images/content/small/#{image["id"]}.jpg", class: "thumbnail", alt: image["title"] %>
+      </a>
       <ul>
         <li>ID: <%= image["id"] %></li>
         <li>Date: <%= image["date"] %></li>
         <li>Desc: <%= image["description"] %></li>
       </ul>
     </div>
+
   <% end %>
 </div>
+
+<!-- TODO make a new home for this -->
+<script>
+  new SimpleLightbox({elements: '.gallery'});
+</script>

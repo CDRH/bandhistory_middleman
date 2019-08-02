@@ -11,7 +11,7 @@
 }
 
 .interview-round, .interview-dussault {
-  background-color: $secondary;
+  background-color: lighten( $secondary, 15% );
 }
 
 .interview-row {

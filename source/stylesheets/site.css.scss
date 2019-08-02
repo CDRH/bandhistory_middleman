@@ -138,7 +138,10 @@ $dark-overlay: rgba(0,0,0,0.7);
   &:hover {
     border-color: $primary;
     & .section-nav-title, & .section-nav-subtitle {
-      background-color: rgba($primary,.9)
+      background-color: rgba($primary,.9);
+    }
+    & .section-nav-subtitle {
+      opacity: 0;
     }
   }
 }
@@ -168,55 +171,65 @@ $dark-overlay: rgba(0,0,0,0.7);
 // Default images, alternating by nth child
 
 .section-nav:nth-child(1n)  {
-  background: url('../images/content/template/background01.jpg');
+  background: url('../images/content/template/nav_backgrounds/default01.jpg');
 }
 
 .section-nav:nth-child(2n) {
-  background: url('../images/content/template/background02.jpg');
+  background: url('../images/content/template/nav_backgrounds/default02.jpg');
 }
 
 .section-nav:nth-child(3n){
-  background: url('../images/content/template/background04.jpg');
+  background: url('../images/content/template/nav_backgrounds/default04.jpg');
 }
 
 .section-nav:nth-child(4n) {
-  background: url('../images/content/template/background03.jpg');
+  background: url('../images/content/template/nav_backgrounds/default03.jpg');
 }
 
 // Sights & Sounds
 
-.section-nav-multimedia-footage {}
-.section-nav-multimedia-audio {}
-.section-nav-multimedia-images {}
+.section-nav.section-nav-multimedia-footage {
+  background: url('../images/content/template/nav_backgrounds/footage.jpg');
+}
+.section-nav.section-nav-multimedia-audio {
+  background: url('../images/content/template/nav_backgrounds/audio.jpg');
+}
+.section-nav.section-nav-multimedia-images {
+  background: url('../images/content/template/nav_backgrounds/images.jpg');
+}
+.section-nav.section-nav-multimedia-documents {
+  background: url('../images/content/template/nav_backgrounds/default02.jpg');
+}
 
 // Sights & Sounds > Audio
 
-.section-nav-multimedia-on-parade {}
-.section-nav-multimedia-marches {}
+.section-nav.section-nav-multimedia-on-parade {
+  background: url('../images/content/template/nav_backgrounds/onparade.jpg');
+}
+.section-nav.section-nav-multimedia-marches {}
 
 // Sights & Sounds > Images
 
-.section-nav-multimedia-documents {
-  // background: url('../images/content/template/street.jpg');
+.section-nav.section-nav-multimedia-group {
+  background: url('../images/content/template/nav_backgrounds/group.jpg');
 }
-.section-nav-multimedia-group {
-
+.section-nav.section-nav-multimedia-people {
+  background: url('../images/content/template/nav_backgrounds/people.jpg');
 }
-.section-nav-multimedia-people {
-
+.section-nav.section-nav-multimedia-sky {
+  background: url('../images/content/template/nav_backgrounds/aerial.jpg');
 }
-.section-nav-multimedia-sky {
-
-}
-.section-nav-multimedia-parade {
-
+.section-nav.section-nav-multimedia-parade {
+  background: url('../images/content/template/nav_backgrounds/parade.jpg');
 }
 
 // Stories
 
-.section-nav-stories-march {}
-.section-nav-stories-military {}
-.section-nav-stories-lentz {}
+.section-nav.section-nav-stories-march {}
+.section-nav.section-nav-stories-military {}
+.section-nav.section-nav-stories-lentz {
+  background: url('../images/content/template/nav_backgrounds/lentz.jpg');
+}
 
 //Home
 

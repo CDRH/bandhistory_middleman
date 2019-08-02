@@ -21,6 +21,7 @@ csv_dir = File.join(File.dirname(__FILE__), "../data/image_metadata")
 yml_out = File.join(File.dirname(__FILE__), "../data/images.yml")
 
 categorized = CSV.read(File.join(csv_dir, "categories.csv"), headers: true)
+band = CSV.read(File.join(csv_dir, "rg130815.csv"), headers: true)
 lentz = CSV.read(File.join(csv_dir, "2029-lentz.csv"), headers: true)
 snider = CSV.read(File.join(csv_dir, "rg130833.csv"), headers: true)
 ucomm = CSV.read(File.join(csv_dir, "ucomm-band-digitized.csv"), headers: true)
@@ -64,7 +65,7 @@ categorized.each do |image|
   metadata = nil
   # search through the metadata spreadsheets looking for a match
   # and report as no_metadata if there's a problem
-  [lentz, snider, ucomm, other].each do |sheet|
+  [band, lentz, snider, ucomm, other].each do |sheet|
     sheet.each do |row|
       # remove file endings
       if image["filename"] == row["identifier/filename"]

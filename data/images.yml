@@ -1,8 +1,12 @@
 ---
 aerial:
-- id: 130833-00011
-  year: Unknown
 - id: 130833-00017
+  year: Unknown
+- id: 130815-00046
+  year: Unknown
+- id: 130815-00040
+  year: Unknown
+- id: 130833-00011
   year: Unknown
 - id: 130815-07232
   title: ROTC cadet band halftime show 1911
@@ -56,16 +60,6 @@ aerial:
   box: Athletics, Publications & Photography (University Communications)
   collection: 
   rg: University Communications, Photo Services Department
-- id: 421201-05095
-  title: PP5095.jpg
-  description: 'Original Item #:11004;"Football Views. 4x5." The negative contains
-    one image of the Nebraska-Missouri game from the 1938-39 season.  The word "MISSOURI"
-    has been spelled out in the stands.; OrigLoc:B1Three negatives in envelope;'
-  date: 1938, Oct. 01
-  year: '1938'
-  box: Athletics, Publications & Photography (University Communications)
-  collection: 
-  rg: University Communications, Photo Services Department
 - id: 421201-05097
   title: PP5097.jpg
   description: 'Original Item #:11004;"Football Views. 4x5." The negative contains
@@ -86,6 +80,16 @@ aerial:
   box: B1
   collection: 
   rg: RG 42-12-01
+- id: 421201-05095
+  title: PP5095.jpg
+  description: 'Original Item #:11004;"Football Views. 4x5." The negative contains
+    one image of the Nebraska-Missouri game from the 1938-39 season.  The word "MISSOURI"
+    has been spelled out in the stands.; OrigLoc:B1Three negatives in envelope;'
+  date: 1938, Oct. 01
+  year: '1938'
+  box: Athletics, Publications & Photography (University Communications)
+  collection: 
+  rg: University Communications, Photo Services Department
 - id: 421201-05394
   title: 
   description: '"Music. Band and football negatives. Missouri game." The negative
@@ -96,32 +100,11 @@ aerial:
   box: B2
   collection: 
   rg: RG 42-12-01
-- id: 421201-05392
-  title: 
-  description: '"Music. Band and football negatives. Missouri game." The negative
-    contains one photograph of the marching band performing in the shape of an "N"
-    on the field during the 1940 Nebraska-Missouri game.'
-  date: 1940, Oct. 26
-  year: '1940'
-  box: B2
-  collection: 
-  rg: RG 42-12-01
-- id: 421201-05385
-  title: 
-  description: '"Music. b/w take. Band Formations. Indiana football game." The negative
-    contains one photograph of the Nebraska marching band performing in a semi-circle
-    formation during the 1940 football game versus Indiana.'
-  date: 1940, Oct. 12
-  year: '1940'
-  box: B2
-  collection: 
-  rg: RG 42-12-01
-- id: 421201-05503
+- id: 421201-05505
   title: 
   description: '"Music. b/w takes. Band formations. UNL vs. Kansas State Football."
-    The negative contains a photograph of the marching band performing during the
-    1940 Nebraska-Kansas State game. Part of the band is in two vertical  lines, and
-    the other part is in a larger group formation.'
+    The negative contains a photograph of the marching band in lines on either side
+    of an "X" formation.'
   date: 1940, Nov. 30
   year: '1940'
   box: B2
@@ -138,12 +121,33 @@ aerial:
   box: B2
   collection: 
   rg: RG 42-12-01
-- id: 421201-05505
+- id: 421201-05503
   title: 
   description: '"Music. b/w takes. Band formations. UNL vs. Kansas State Football."
-    The negative contains a photograph of the marching band in lines on either side
-    of an "X" formation.'
+    The negative contains a photograph of the marching band performing during the
+    1940 Nebraska-Kansas State game. Part of the band is in two vertical  lines, and
+    the other part is in a larger group formation.'
   date: 1940, Nov. 30
+  year: '1940'
+  box: B2
+  collection: 
+  rg: RG 42-12-01
+- id: 421201-05385
+  title: 
+  description: '"Music. b/w take. Band Formations. Indiana football game." The negative
+    contains one photograph of the Nebraska marching band performing in a semi-circle
+    formation during the 1940 football game versus Indiana.'
+  date: 1940, Oct. 12
+  year: '1940'
+  box: B2
+  collection: 
+  rg: RG 42-12-01
+- id: 421201-05392
+  title: 
+  description: '"Music. Band and football negatives. Missouri game." The negative
+    contains one photograph of the marching band performing in the shape of an "N"
+    on the field during the 1940 Nebraska-Missouri game.'
+  date: 1940, Oct. 26
   year: '1940'
   box: B2
   collection: 
@@ -157,16 +161,6 @@ aerial:
   date: 1940, Nov. 30
   year: '1940'
   box: B2
-  collection: 
-  rg: RG 42-12-01
-- id: 421201-06208
-  title: 
-  description: '"Athletics. Band Day. Oklahoma football game, ''49." The negative
-    shows many marching bands on the football field during Band Day. It was also the
-    1949 Nebraska-Oklahome game.'
-  date: 1949, Oct. 25
-  year: '1949'
-  box: B5
   collection: 
   rg: RG 42-12-01
 - id: 421201-06202
@@ -189,21 +183,21 @@ aerial:
   box: B5
   collection: 
   rg: RG 42-12-01
-- id: 421201-06269
+- id: 421201-06208
+  title: 
+  description: '"Athletics. Band Day. Oklahoma football game, ''49." The negative
+    shows many marching bands on the football field during Band Day. It was also the
+    1949 Nebraska-Oklahome game.'
+  date: 1949, Oct. 25
+  year: '1949'
+  box: B5
+  collection: 
+  rg: RG 42-12-01
+- id: 421201-06266
   title: 
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
     game." The negative shows the card section making an ''N'', and the marching band
-    in the shape of an airplane.'
-  date: 1950, Sept. 30
-  year: '1950'
-  box: B6
-  collection: 
-  rg: RG 42-12-01
-- id: 421201-06265
-  title: 
-  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows the card section spelling "March of Time" and the band
-    in the formation of a clock tower at the Nebraska-Indiana game.'
+    in the shape of a train.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
@@ -219,11 +213,11 @@ aerial:
   box: B6
   collection: 
   rg: RG 42-12-01
-- id: 421201-06268
+- id: 421201-06265
   title: 
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows the card section making an ''N'', and the marching band
-    in the shape of a car.'
+    game." The negative shows the card section spelling "March of Time" and the band
+    in the formation of a clock tower at the Nebraska-Indiana game.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
@@ -239,23 +233,24 @@ aerial:
   box: B6
   collection: 
   rg: RG 42-12-01
-- id: 421201-06266
+- id: 421201-06268
   title: 
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
     game." The negative shows the card section making an ''N'', and the marching band
-    in the shape of a train.'
+    in the shape of a car.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
   collection: 
   rg: RG 42-12-01
-- id: 421201-06488
+- id: 421201-06269
   title: 
-  description: '"Public Rel. Mass Formations. Band Day." The negative shows band members
-    forming the number ''100'' on the football field on Band Day 1954.'
-  date: 1954, Oct. 20
-  year: '1954'
-  box: B8
+  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
+    game." The negative shows the card section making an ''N'', and the marching band
+    in the shape of an airplane.'
+  date: 1950, Sept. 30
+  year: '1950'
+  box: B6
   collection: 
   rg: RG 42-12-01
 - id: 421201-06489
@@ -263,6 +258,15 @@ aerial:
   description: '"Public Rel. Mass Formations. Band Day." The negative shows band members
     covering the football field and the crowd holding up a sign that says, "Welcome
     Bands."'
+  date: 1954, Oct. 20
+  year: '1954'
+  box: B8
+  collection: 
+  rg: RG 42-12-01
+- id: 421201-06488
+  title: 
+  description: '"Public Rel. Mass Formations. Band Day." The negative shows band members
+    forming the number ''100'' on the football field on Band Day 1954.'
   date: 1954, Oct. 20
   year: '1954'
   box: B8
@@ -277,12 +281,33 @@ aerial:
   box: B8
   collection: 
   rg: RG 42-12-01
+- id: 421201-00133
+  title: Memorial Stadium aerial shot
+  description: 'Original caption: "Athletics. 4x5 color transparencies. Aerial shots
+    of the Stadium during Halftime. Band Day- Nebr - S.Carolina game," showing marching
+    bands preparing to march onto the field.'
+  date: 10/10/64
+  year: '1964'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-01
 - id: 421201-00129
   title: Memorial Stadium aerial shot
   description: 'Original caption: "Athletics. 4x5 color transparencies. Aerial shots
     of Stadium during Halftime. Band Day- Nebr - S. Carolina game." Band formation
     pictured on the field.'
   date: 10/10/64
+  year: '1964'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-01
+- id: 421201-00173
+  title: University Marching Band
+  description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
+    onto football field. Crowd in stadium. Band formations, Big 8, Vote, & football.
+    Football action," shows the marching band spelling out the word VOTE on the field,
+    with a large crowd visible in the background.'
+  date: 10/17/64
   year: '1964'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
@@ -310,24 +335,14 @@ aerial:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-01
-- id: 421201-00173
-  title: University Marching Band
-  description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
-    onto football field. Crowd in stadium. Band formations, Big 8, Vote, & football.
-    Football action," shows the marching band spelling out the word VOTE on the field,
-    with a large crowd visible in the background.'
-  date: 10/17/64
-  year: '1964'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-01
-- id: 421201-00133
-  title: Memorial Stadium aerial shot
-  description: 'Original caption: "Athletics. 4x5 color transparencies. Aerial shots
-    of the Stadium during Halftime. Band Day- Nebr - S.Carolina game," showing marching
-    bands preparing to march onto the field.'
-  date: 10/10/64
-  year: '1964'
+- id: 421201-00140
+  title: 'Memorial Stadium aerial shot '
+  description: 'Original caption: "Athletics. Copy neg of 2 color transparencies Aerial
+    of crowd in Stadium. Nebr- Kansas State Homecoming," showing stadium and downtown
+    Lincoln from directly behind the Nebraska line with marching band visible on the
+    field.'
+  date: 2/26/65
+  year: '1965'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-01
@@ -340,23 +355,20 @@ aerial:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-01
-- id: 421201-00140
-  title: 'Memorial Stadium aerial shot '
-  description: 'Original caption: "Athletics. Copy neg of 2 color transparencies Aerial
-    of crowd in Stadium. Nebr- Kansas State Homecoming," showing stadium and downtown
-    Lincoln from directly behind the Nebraska line with marching band visible on the
-    field.'
-  date: 2/26/65
-  year: '1965'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-01
 - id: 421201-00359
   title: Aerial view, Memorial Stadium
   description: Athletics, aerial of Stadium (Band on field), shows the stadium and
     the surrounding city, band spells out U of N on the field.
   date: 10/15/66
   year: '1966'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-01
+- id: 421201-00611
+  title: Aerials of stadium
+  description: Aerials of stadium. The marching band forms a ram shape during halftime.
+  date: 10/26/70
+  year: '1970'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-01
@@ -374,14 +386,6 @@ aerial:
   description: Band on field during Nebraska vs. Missouri game 1970, Oct. 10. Band
     is in formation, with the color guard located in the foreground.
   date: 9/28/70
-  year: '1970'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-01
-- id: 421201-00611
-  title: Aerials of stadium
-  description: Aerials of stadium. The marching band forms a ram shape during halftime.
-  date: 10/26/70
   year: '1970'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
@@ -583,6 +587,17 @@ group:
   year: Unknown
 - id: 130833-00005
   year: Unknown
+- id: 130815-00047
+  year: Unknown
+- id: 130815-00025
+  title: Cadet Band at summer camp
+  description: 'Original caption: "Early 1900s at summer camp." A group portrait of
+    the University of Nebraska Cadet band posed in front of tents. '
+  date: undated
+  year: Unknown
+  box: B16 F3
+  collection: 
+  rg: RG 13-08-15
 - id: 421202-01188
   title: "[no title]"
   description: 'Original caption:  "University of Nebraska-Lincoln marching band."
@@ -650,6 +665,15 @@ group:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 33-21-00
+- id: 130815-00023
+  title: 1903 Marching band
+  description: 'Original caption: "on old library steps (now Arch. Hall) . Director-August
+    Hageuow. Claire Cornell front, left. '
+  date: '1903'
+  year: '1903'
+  box: B16 F3
+  collection: 
+  rg: RG 13-08-15
 - id: 332100-00007
   title: University of Nebraska ROTC Cadet Band camp in 1903
   description: 'Original caption: "Cadet Band." Members of University of Nebraska
@@ -714,10 +738,11 @@ group:
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-02
 parade:
-- id: 421203-03628
-  title: Cadets
-  description: 'Original caption: "Cadets reviewd by Major General Wood"'
-  date: 
+- id: 421203-03216
+  title: Commencement Views
+  description: 'Original caption: "Exercises and Parade" Members of a marching band
+    in uniform walk along the center of a street, playing their instruments.'
+  date: undated
   year: Unknown
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
@@ -747,19 +772,18 @@ parade:
   box: B1 F33
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: ACC2029
-- id: 421203-00105
-  title: Pershing Day
-  description: 'Original caption: "Pershing day." Parading down a street with houses
-    in the background, the University''s marching band plays for Pershing Day.'
-  date: undated
+- id: 421203-03628
+  title: Cadets
+  description: 'Original caption: "Cadets reviewd by Major General Wood"'
+  date: 
   year: Unknown
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-03
-- id: 421203-03216
-  title: Commencement Views
-  description: 'Original caption: "Exercises and Parade" Members of a marching band
-    in uniform walk along the center of a street, playing their instruments.'
+- id: 421203-00105
+  title: Pershing Day
+  description: 'Original caption: "Pershing day." Parading down a street with houses
+    in the background, the University''s marching band plays for Pershing Day.'
   date: undated
   year: Unknown
   box: 
@@ -782,11 +806,19 @@ parade:
   box: B16
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 13-08-15
-- id: 421203-03611
-  title: Commencement
-  description: 'Original caption: "1919 - Class entering St. Pauls Methodist church
-    for baccalaureate address by Major General Wood"'
-  date: '1919'
+- id: 130815-00019
+  title: Cadet Band marches with instruments
+  description: Cadet band marches and plays during stop on 1916 Oregon trip.
+  date: '1916'
+  year: '1916'
+  box: 
+  collection: 
+  rg: RG 13-08-15
+- id: 421203-00019
+  title: Cadet regiment
+  description: 'Original caption: "Cadet Regiment." Birds-eye view of cadets in formation
+    with grandstands in the background'
+  date: 1919, May
   year: '1919'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
@@ -802,11 +834,11 @@ parade:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-03
-- id: 421203-00019
-  title: Cadet regiment
-  description: 'Original caption: "Cadet Regiment." Birds-eye view of cadets in formation
-    with grandstands in the background'
-  date: 1919, May
+- id: 421203-03611
+  title: Commencement
+  description: 'Original caption: "1919 - Class entering St. Pauls Methodist church
+    for baccalaureate address by Major General Wood"'
+  date: '1919'
   year: '1919'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
@@ -869,18 +901,28 @@ parade:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-03
-- id: 421202-04601
-  title: ROTC Inspection
-  description: Various groupings of ROTC members march in formation across a field.
-  date: 1947, May 8
-  year: '1947'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-02
+- id: 130815-00027
+  title: Wartime Review
+  description: 'Original caption: "Wartime review. Pat McNaughton. Courtesy NU Band."  Pat
+    McNaughton stands in his band uniform in a field. Cadets in military uniform stand
+    in lines behind him.'
+  date: 1940-1950
+  year: '1940'
+  box: B16 F6
+  collection: 
+  rg: RG 13-08-15
 - id: 421202-01965
   title: ROTC Inspection
   description: ROTC marching band performing, while cadets lined up in formation watch
   date: 1947, May 08
+  year: '1947'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-02
+- id: 421202-04601
+  title: ROTC Inspection
+  description: Various groupings of ROTC members march in formation across a field.
+  date: 1947, May 8
   year: '1947'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
@@ -903,6 +945,26 @@ parade:
   box: B5
   collection: 
   rg: RG 42-12-01
+- id: 130815-00029
+  title: Homecoming Parade
+  description: 'Original caption: "Homecoming Parade-O st. Glassford''s Days 195."
+    The Marching Band marche down O street in downtown Lincoln. JC Penney department
+    store can be seen in the background.'
+  date: 1950-1960
+  year: '1950'
+  box: B16 F7
+  collection: 
+  rg: RG 13-08-15
+- id: 130815-00030
+  title: Homecoming Parade
+  description: 'Original caption: "Homecoming Parade-O st." The Marching Band marche
+    down O street in downtown Lincoln. JC Penney department store can be seen in the
+    background.'
+  date: 1950-1960
+  year: '1950'
+  box: B16 F7
+  collection: 
+  rg: RG 13-08-15
 - id: 2029-00177
   title: Orange Bowl parade
   description: 'Original caption: "Orange Bowl 1955 parade." The Band marches down
@@ -913,24 +975,16 @@ parade:
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: ACC2029
 people:
-- id: 421203-00099
-  title: Pershing Day
-  description: 'Original caption: "Pershing day." The Coliseum''s façade fills the
-    background. In front of it, officers stand in formation. Pershing stands alone
-    in the foreground. '
-  date: undated
-  year: Unknown
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
-- id: 421202-pp6173
+- id: 421202-pp6138
   title: "[no title]"
-  description: '"Band Member Playing Trumpet"'
+  description: '"Band Members on Football Field"'
   date: 
   year: Unknown
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-02
+- id: 130833-00007
+  year: Unknown
 - id: 130833-00008
   year: Unknown
 - id: 130833-00009
@@ -952,6 +1006,18 @@ people:
   box: B1 F31
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: ACC2029
+- id: 130815-00051
+  year: Unknown
+- id: 130815-00050
+  year: Unknown
+- id: 130815-00045
+  year: Unknown
+- id: 130815-00043
+  year: Unknown
+- id: 130815-00042
+  year: Unknown
+- id: 130815-00039
+  year: Unknown
 - id: 421201-00441
   title: Drum Major and Homecoming Queen
   description: Drum major and Homecoming Queen with a crowd behind them in Memorial
@@ -961,6 +1027,35 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-01
+- id: 421203-00101
+  title: Pershing Day
+  description: 'Original caption: "Pershing day." Profile view of Pershing and officers
+    facing cadets.'
+  date: undated
+  year: Unknown
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
+- id: 421203-00099
+  title: Pershing Day
+  description: 'Original caption: "Pershing day." The Coliseum''s façade fills the
+    background. In front of it, officers stand in formation. Pershing stands alone
+    in the foreground. '
+  date: undated
+  year: Unknown
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
+- id: 130833-00003
+  year: Unknown
+- id: 421202-pp6173
+  title: "[no title]"
+  description: '"Band Member Playing Trumpet"'
+  date: 
+  year: Unknown
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-02
 - id: 2029-00175
   title: Jack Snider and Darwin Fredrickson
   description: 'Original caption: "Jack Snider and Darwin Fredrickson planning shows."
@@ -971,27 +1066,18 @@ people:
   box: B1 F31
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: ACC2029
-- id: 130833-00003
+- id: 130815-00052
   year: Unknown
-- id: 421202-pp6138
-  title: "[no title]"
-  description: '"Band Members on Football Field"'
-  date: 
-  year: Unknown
+- id: 130815-07226
+  title: Cadet band conductor D.F. Easterday
+  description: 'Original caption: "Cadet band, D.F. Easterday Conductor; Oval portrait
+    of Marching Band Conductor D. F. Easterday, who has large moustache and wears
+    high-collared white shirt and lapeled jacket.'
+  date: 1883-1889
+  year: '1883'
   box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-02
-- id: 130833-00007
-  year: Unknown
-- id: 421203-00101
-  title: Pershing Day
-  description: 'Original caption: "Pershing day." Profile view of Pershing and officers
-    facing cadets.'
-  date: undated
-  year: Unknown
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
+  collection: 
+  rg: RG 13-08-15
 - id: 332100-00001
   title: Lt. Thomas W. Griffith portrait
   description: Studio portrait of Lt. Thomas W Griffith 1888 - 1891
@@ -1000,6 +1086,15 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 33-21-00
+- id: 130815-07227
+  title: Marching Band Director August Hagenow
+  description: Marching Band Director August Hagenow stands in uniform with several
+    band members holding brass instruments behind him.
+  date: '1903'
+  year: '1903'
+  box: 
+  collection: 
+  rg: RG 13-08-15
 - id: 332100-00006
   title: ROTC cadet band in Beatrice
   description: 'Original caption: "Camp at Beatrice, Nebr, 1911." University of Nebraska
@@ -1010,19 +1105,45 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 33-21-00
-- id: 421203-02431
+- id: 130815-00021
+  title: Cadet Band in Laramie, Wyoming
+  description: Cadet Band in Laramie, Wyoming in snow, on its way to Oregon in 1916.
+  date: '1916'
+  year: '1916'
+  box: 
+  collection: 
+  rg: RG 13-08-15
+- id: 130815-00022
+  title: Cadet Band on stop during trip to Oregon
+  description: Cadet Band stands in circle practicing during a stop on its 1916 Oregon
+    trip.
+  date: '1916'
+  year: '1916'
+  box: 
+  collection: 
+  rg: RG 13-08-15
+- id: 130815-07229
+  title: Marching band director Billy Quick
+  description: 'Original caption: "W.T. "Billy" Quick"; in studio portrait, Quick
+    wears dark suit with tie and billed cap.'
+  date: 1917-1937
+  year: '1917'
+  box: B16
+  collection: 
+  rg: RG 13-08-15
+- id: 421203-02430
   title: Nebraska vs. Notre Dame band performance
   description: Band photo from 1924 Nebraska vs. Notre Dame football game. Marching
-    band with goalpost and stadium in the background.
+    band with stadium in the background.
   date: 1924, November 15
   year: '1924'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-03
-- id: 421203-02430
+- id: 421203-02431
   title: Nebraska vs. Notre Dame band performance
   description: Band photo from 1924 Nebraska vs. Notre Dame football game. Marching
-    band with stadium in the background.
+    band with goalpost and stadium in the background.
   date: 1924, November 15
   year: '1924'
   box: 
@@ -1058,15 +1179,6 @@ people:
   box: B1
   collection: 
   rg: RG 42-12-01
-- id: 421202-00411
-  title: R. Middlehauf
-  description: 'Original caption: "Middlehauf, R., Band Uniform." Studio portrait
-    of R. Middlehauf in band uniform. One double negative.'
-  date: 1935, January 9
-  year: '1935'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-02
 - id: 421202-00410
   title: Phil Kleppinger
   description: 'Original caption: "Kleppinger, Phil, Band Uniform" Portrait of Phil
@@ -1076,6 +1188,77 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-02
+- id: 421202-00411
+  title: R. Middlehauf
+  description: 'Original caption: "Middlehauf, R., Band Uniform." Studio portrait
+    of R. Middlehauf in band uniform. One double negative.'
+  date: 1935, January 9
+  year: '1935'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-02
+- id: 421203-03347
+  title: Minnesota Game
+  description: Marching band members walk and position themselves with their instruments
+    by the stadium stands.
+  date: 1937, October
+  year: '1937'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
+- id: 130815-07228
+  title: Marching band director Donald Lentz
+  description: Marching Band Director Donald Lentz studio portrait; Lentz wears dark
+    suit and tie and has small moustache.
+  date: 1937-1973
+  year: '1937'
+  box: B16
+  collection: 
+  rg: RG 13-08-15
+- id: 421203-03416
+  title: Football Game
+  description: In the front of the football audience, band members hold their instruments
+    in front of them.
+  date: '1937'
+  year: '1937'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
+- id: 421203-03412
+  title: Football Game
+  description: The marching band plays on the football field in rows.
+  date: '1937'
+  year: '1937'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
+- id: 421203-03399
+  title: Football Game
+  description: Photographed from behind, marching band members play in formation on
+    the field.
+  date: '1937'
+  year: '1937'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
+- id: 421203-03356
+  title: Minnesota Game
+  description: Positioned in front of the football audience, the marching band members
+    hold their instruments at the ready.
+  date: 1937, October
+  year: '1937'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
+- id: 421203-03348
+  title: Minnesota Game
+  description: Members of the marching band are positioned in stadium seating, more
+    of the football audience behind them.
+  date: 1937, October
+  year: '1937'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-03
 - id: 421203-03333
   title: Minnesota Game
   description: Members of the marching band stand together, photographed close up
@@ -1094,59 +1277,6 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-03
-- id: 421203-03347
-  title: Minnesota Game
-  description: Marching band members walk and position themselves with their instruments
-    by the stadium stands.
-  date: 1937, October
-  year: '1937'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
-- id: 421203-03348
-  title: Minnesota Game
-  description: Members of the marching band are positioned in stadium seating, more
-    of the football audience behind them.
-  date: 1937, October
-  year: '1937'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
-- id: 421203-03356
-  title: Minnesota Game
-  description: Positioned in front of the football audience, the marching band members
-    hold their instruments at the ready.
-  date: 1937, October
-  year: '1937'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
-- id: 421203-03399
-  title: Football Game
-  description: Photographed from behind, marching band members play in formation on
-    the field.
-  date: '1937'
-  year: '1937'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
-- id: 421203-03412
-  title: Football Game
-  description: The marching band plays on the football field in rows.
-  date: '1937'
-  year: '1937'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
-- id: 421203-03416
-  title: Football Game
-  description: In the front of the football audience, band members hold their instruments
-    in front of them.
-  date: '1937'
-  year: '1937'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-03
 - id: 2029-00181
   title: Don Lentz and Emanuel Wishnow
   description: 'Original caption: "Emanuel Wishnow and Don Lentz." Emanuel sits on
@@ -1157,6 +1287,15 @@ people:
   box: B1 F34
   collection: 
   rg: ACC2029
+- id: 130815-00028
+  title: Holdrege band
+  description: 'Photo collage of an unidentified band possibly from Holdrege, Nebraska
+    on Band Day. A band member eats a candy apple. '
+  date: 1940-1950
+  year: '1940'
+  box: B16 F6
+  collection: 
+  rg: RG 13-08-15
 - id: 2029-00183
   title: Martha Nickerson
   description: 'Original caption: "Martha Nickerson Omaha, who plays the French Horn.
@@ -1204,21 +1343,20 @@ people:
   box: B5
   collection: 
   rg: RG 42-12-01
-- id: 421201-06291
-  title: 
-  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows the marching band performing on the field, kneeling,
-    during the 1950 Nebraska-Indiana game.'
-  date: 1950, Sept. 30
-  year: '1950'
-  box: B6
-  collection: 
-  rg: RG 42-12-01
 - id: 421201-06285
   title: 
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
     game." The negative shows the marching band performing on the field during the
     1950 Nebraska-Indiana game.'
+  date: 1950, Sept. 30
+  year: '1950'
+  box: B6
+  collection: 
+  rg: RG 42-12-01
+- id: 421201-06286
+  title: 
+  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
+    game." The negative shows a drum major leading the band.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
@@ -1234,20 +1372,21 @@ people:
   box: B6
   collection: 
   rg: RG 42-12-01
-- id: 421201-06281
+- id: 421201-06291
   title: 
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows several band members kneeling while playing their instruments
-    at the Nebraska-Indiana game.'
+    game." The negative shows the marching band performing on the field, kneeling,
+    during the 1950 Nebraska-Indiana game.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
   collection: 
   rg: RG 42-12-01
-- id: 421201-06286
+- id: 421201-06281
   title: 
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows a drum major leading the band.'
+    game." The negative shows several band members kneeling while playing their instruments
+    at the Nebraska-Indiana game.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
@@ -1291,15 +1430,6 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-02
-- id: 421202-01774
-  title: Band/Marching Band
-  description: 'Original Item #631321; "Photo Services" recorded by Thom421202-00on,
-    Band Leader with Band Members. Miscellaneous." '
-  date: 1962, November 30
-  year: '1962'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-02
 - id: 421202-01855
   title: Jack Snider
   description: Original Caption "Public Relations. Snider, Jack/wish. Band Uniform
@@ -1319,6 +1449,15 @@ people:
   box: Athletics, Publications & Photography (University Communications)
   collection: 
   rg: University Communications, Photo Services Department
+- id: 421202-01774
+  title: Band/Marching Band
+  description: 'Original Item #631321; "Photo Services" recorded by Thom421202-00on,
+    Band Leader with Band Members. Miscellaneous." '
+  date: 1962, November 30
+  year: '1962'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-02
 - id: 421201-00112
   title: Drum major and marching band
   description: 'Original caption: "Photo Prod. Thomson. Nebr. vs Missouri. McCloughan
@@ -1348,6 +1487,15 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-01
+- id: 421201-00414
+  title: Marching band
+  description: Looking down row at band members on football field. Overall of ABC
+    T.V. camera and crowd. Band members stand in formation.
+  date: 10/31/66
+  year: '1966'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-01
 - id: 421201-00355
   title: Jack Snider, Don Lentz, and "Big Bertha"
   description: Athletics, Drum Majors Jack Snider, Don Lentz and Big Bertha (drum)
@@ -1366,15 +1514,6 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-02
-- id: 421201-00414
-  title: Marching band
-  description: Looking down row at band members on football field. Overall of ABC
-    T.V. camera and crowd. Band members stand in formation.
-  date: 10/31/66
-  year: '1966'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-01
 - id: 421201-00470
   title: Color Guard
   description: Color Guard on football field, band in background. Color Guard holding
@@ -1393,20 +1532,20 @@ people:
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
   rg: RG 42-12-01
-- id: 421201-00564
-  title: Jack Snyder and Diane Tangemann
-  description: 'Jack Snyder and Diane Tangemann posing outside. The Mueller bell tower
-    is seen behind them. '
-  date: 6/11/69
-  year: '1969'
-  box: 
-  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-  rg: RG 42-12-01
 - id: 421201-00556
   title: Band performing at football game
   description: Susy Kunc and band on field, close-up of the band performing on the
     football field.
   date: 2/22/69
+  year: '1969'
+  box: 
+  collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+  rg: RG 42-12-01
+- id: 421201-00564
+  title: Jack Snyder and Diane Tangemann
+  description: 'Jack Snyder and Diane Tangemann posing outside. The Mueller bell tower
+    is seen behind them. '
+  date: 6/11/69
   year: '1969'
   box: 
   collection: Archives & Special Collections, University of Nebraska-Lincoln Libraries

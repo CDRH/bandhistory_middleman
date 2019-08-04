@@ -21,13 +21,16 @@ csv_dir = File.join(File.dirname(__FILE__), "../data/image_metadata")
 yml_out = File.join(File.dirname(__FILE__), "../data/images.yml")
 
 categorized = CSV.read(File.join(csv_dir, "categories.csv"), headers: true)
-band = CSV.read(File.join(csv_dir, "rg130815.csv"), headers: true)
-lentz = CSV.read(File.join(csv_dir, "2029-lentz.csv"), headers: true)
-snider = CSV.read(File.join(csv_dir, "rg130833.csv"), headers: true)
-ucomm = CSV.read(File.join(csv_dir, "ucomm-band-digitized.csv"), headers: true)
-# this csv is cobbled together for the baseball, football, etc where I
-# have one image but no spreadsheet from archives
-other = CSV.read(File.join(csv_dir, "other-collections-partial.csv"), headers: true)
+
+collection_csvs = {
+  "band" => CSV.read(File.join(csv_dir, "rg130815.csv"), headers: true),
+  "snider" => CSV.read(File.join(csv_dir, "rg130833.csv"), headers: true),
+  "ucomm" => CSV.read(File.join(csv_dir, "ucomm-band-digitized.csv"), headers: true),
+  "lentz" => CSV.read(File.join(csv_dir, "2029-lentz.csv"), headers: true),
+  # this csv is cobbled together for the baseball, football, etc where I
+  # have one image but no spreadsheet from archives
+  "other" => CSV.read(File.join(csv_dir, "other-collections-partial.csv"), headers: true)
+}
 
 # categories should have every images that will need this metadata business
 # so use that as the authoritative list of images, and organize
@@ -63,31 +66,39 @@ end
 
 categorized.each do |image|
   metadata = nil
+  collection = nil
   # search through the metadata spreadsheets looking for a match
   # and report as no_metadata if there's a problem
-  [band, lentz, snider, ucomm, other].each do |sheet|
+  collection_csvs.each do |collection_name, sheet|
     sheet.each do |row|
       # remove file endings
       if image["filename"] == row["identifier/filename"]
         metadata = row
+        collection = collection_name
         break
       end
     end
   end
   if !metadata
     no_metadata << image["filename"]
-    add_to_category(image["category"], { "id" => image["filename"], "year" => "Unknown" })
+    add_to_category(image["category"], {
+      "id" => image["filename"],
+      "year" => image["patch_date"] || "Undated",
+      "title" => image["patch_title"] || "Unlabeled",
+      "description" => image["patch_description"] || "No Description",
+      "collection" => collection
+    })
   else
-    year = guess_year(metadata["date"])
+    year = guess_year(image["patch_date"] || metadata["date"])
 
     add_to_category(image["category"], {
       "id" => image["filename"],
-      "title" => metadata["title"],
+      "title" => image["patch_title"] || metadata["title"],
       "description" => metadata["description"],
-      "date" => metadata["date"],
+      "date" => image["page_date"] || metadata["date"],
       "year" => year,
       "box" => metadata["tablecontents/boxes/folders"],
-      "collection" => metadata["publisher/repository"],
+      "collection" => metadata["isPartOf/Collection"],
       "rg" => metadata["source/RG#/MS#"]
     })
   end

@@ -84,9 +84,10 @@ categorized.each do |image|
     add_to_category(image["category"], {
       "id" => image["filename"],
       "year" => image["patch_date"] || "Undated",
+      "date" => image["patch_date"] || "Undated",
       "title" => image["patch_title"] || "Unlabeled",
       "description" => image["patch_description"] || "No Description",
-      "collection" => collection
+      "collection" => collection || "Unknown collection"
     })
   else
     year = guess_year(image["patch_date"] || metadata["date"])

@@ -384,24 +384,28 @@ aerial:
   rg: RG 42-12-01
 - id: 130833-00017
   year: '1974'
+  date: '1974'
   title: Europe tour
   description: Slide of the band performing in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00011
   year: '1974'
+  date: '1974'
   title: Europe tour
   description: Slide of the band performing in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130815-00040
   year: TODO verify
+  date: TODO verify
   title: Preparing for Joyce to jump out of Big Bertha
   description: No Description
-  collection: 
+  collection: Unknown collection
 - id: 130815-00046
   year: Undated
+  date: Undated
   title: Band forms circles on field
   description: No Description
-  collection: 
+  collection: Unknown collection
 documents:
 - id: 130833-00027
   title: Halloween Halftime Show Drill Chart
@@ -520,15 +524,6 @@ documents:
   box: B2 F Colorado Show
   collection: Jack Snider Band Papers
   rg: RG130833
-- id: 130833-00022
-  title: 1959 Texas V Nebraska Drill Chart
-  description: Drill Chart for University of Nebraska Band halftime show NU vs Texas
-    1959
-  date: 9/20/59
-  year: '1959'
-  box: B2 F Texas-Nebraska
-  collection: Jack Snider Band Papers
-  rg: RG130833
 - id: 130833-00018
   title: 1959 Texas V Nebraska Press and Radio
   description: Press and radio script for University of Nebraska Band halftime show
@@ -547,11 +542,11 @@ documents:
   box: B2 F Texas-Nebraska
   collection: Jack Snider Band Papers
   rg: RG130833
-- id: 130833-00019
-  title: 1959 Texas V Nebraska Press and Radio
-  description: Press and radio script for University of Nebraska Band halftime show
-    page 2/4
-  date: 9/19/59
+- id: 130833-00022
+  title: 1959 Texas V Nebraska Drill Chart
+  description: Drill Chart for University of Nebraska Band halftime show NU vs Texas
+    1959
+  date: 9/20/59
   year: '1959'
   box: B2 F Texas-Nebraska
   collection: Jack Snider Band Papers
@@ -569,6 +564,15 @@ documents:
   title: 1959 Texas V Nebraska Press and Radio
   description: Press and radio script for University of Nebraska Band halftime show
     page 3/4
+  date: 9/19/59
+  year: '1959'
+  box: B2 F Texas-Nebraska
+  collection: Jack Snider Band Papers
+  rg: RG130833
+- id: 130833-00019
+  title: 1959 Texas V Nebraska Press and Radio
+  description: Press and radio script for University of Nebraska Band halftime show
+    page 2/4
   date: 9/19/59
   year: '1959'
   box: B2 F Texas-Nebraska
@@ -669,15 +673,6 @@ group:
   box: 
   collection: Reserve Officers' Training Corps, Records
   rg: RG 33-21-00
-- id: 130815-00023
-  title: Cadet band on library steps
-  description: 'Original caption: "on old library steps (now Arch. Hall) . Director-August
-    Hageuow. Claire Cornell front, left. '
-  date: '1903'
-  year: '1903'
-  box: B16 F3
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
 - id: 332100-00007
   title: University of Nebraska ROTC Cadet Band camp 
   description: 'Original caption: "Cadet Band." Members of University of Nebraska
@@ -689,6 +684,15 @@ group:
   box: 
   collection: Reserve Officers' Training Corps, Records
   rg: RG 33-21-00
+- id: 130815-00023
+  title: Cadet band on library steps
+  description: 'Original caption: "on old library steps (now Arch. Hall) . Director-August
+    Hageuow. Claire Cornell front, left. '
+  date: '1903'
+  year: '1903'
+  box: B16 F3
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
 - id: 2029-00172
   title: 1925 Band
   description: 'Original caption: "(ROTC) University of Nebraska Band, Wm. T. Quick
@@ -733,14 +737,16 @@ group:
   rg: RG 42-12-02
 - id: 130833-00004
   year: '1974'
+  date: '1974'
   title: Europe tour
   description: Slide of the band performing in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00005
   year: '1974'
+  date: '1974'
   title: Europe tour
   description: Slide of the band performing in Europe
-  collection: 
+  collection: Unknown collection
 - id: 421202-01181
   title: Band photograph on the Nebraska Capitol steps
   description: 'Original caption: "Marching Band on Capitol Steps, 9-19-82." The Cornhusker
@@ -753,16 +759,18 @@ group:
   rg: RG 42-12-02
 - id: 130815-07233
   year: TODO verify
+  date: TODO verify
   title: University of Nebraska Regimental Band
   description: Cornell (TODO CHECK) stands in front of the Cadet Band, probably in
     X or Y year
-  collection: 
+  collection: Unknown collection
 - id: 130815-00047
   year: Undated
+  date: Undated
   title: Pep band in front of Westbrook Music Building
   description: Members of a pep band pose for a photograph on a sculpture on the east
     side of the Westbrook Music Building
-  collection: 
+  collection: Unknown collection
 parade:
 - id: 130833-00024
   title: Marching Band in Front of Union
@@ -994,25 +1002,29 @@ parade:
   rg: ACC2029
 - id: 130833-00001
   year: '1974'
+  date: '1974'
   title: Europe tour
   description: Slide of the band in parade formation
-  collection: 
+  collection: Unknown collection
 - id: 130833-00014
   year: '1974'
+  date: '1974'
   title: Bass drummer
   description: Slide of a bass drummer performing in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00002
   year: '1974'
+  date: '1974'
   title: Europe tour
   description: Slide of the band marching in parade formation, led by twirler Diane
     Tangeman
-  collection: 
+  collection: Unknown collection
 - id: 130833-00016
   year: Undated
+  date: Undated
   title: Europe tour drum major
   description: Slide of  a drum major performing in Europe
-  collection: 
+  collection: Unknown collection
 people:
 - id: 421201-00441
   title: Drum Major and Homecoming Queen
@@ -1571,45 +1583,53 @@ people:
   rg: RG42-12-01
 - id: 130833-00010
   year: '1974'
+  date: '1974'
   title: Trumpet player
   description: Slide of a trumpet player performing in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00015
   year: '1974'
+  date: '1974'
   title: Snider conducts in Europe
   description: Slide of Director Jack Snider conducting in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00003
   year: '1974'
+  date: '1974'
   title: Europe tour
   description: Slide of the band in Europe, sousaphones featured
-  collection: 
+  collection: Unknown collection
 - id: 130833-00009
   year: '1974'
+  date: '1974'
   title: Director Snider rehearsing in Europe
   description: Slide of Director Jack Snider speaking through a megaphone during a
     band rehearsal in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00008
   year: '1974'
+  date: '1974'
   title: Rehearsing on the Europe tour
   description: Slide of band members rehearsing in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00007
   year: '1974'
+  date: '1974'
   title: Making new friends in Europe
   description: Slide of a band member posing with Europeans wearing traditional clothing
-  collection: 
+  collection: Unknown collection
 - id: 130833-00013
   year: '1974'
+  date: '1974'
   title: Sousaphones in Europe
   description: Slide of band members including sousaphone players in Europe
-  collection: 
+  collection: Unknown collection
 - id: 130833-00012
   year: '1974'
+  date: '1974'
   title: Unpacking a bus in Europe
   description: Slide of band members and equipment outside of a bus in Europe
-  collection: 
+  collection: Unknown collection
 - id: 421201-00569
   title: Dianne Tangemann, twirler
   description: Tangemann flanked by two members of the band.
@@ -1636,37 +1656,44 @@ people:
   rg: RG 42-12-01
 - id: 130815-00050
   year: TODO
+  date: TODO
   title: TODO
   description: TODO
-  collection: 
+  collection: Unknown collection
 - id: 130815-00045
   year: TODO
+  date: TODO
   title: Unlabeled
   description: No Description
-  collection: 
+  collection: Unknown collection
 - id: 130815-00042
   year: TODO
+  date: TODO
   title: Unlabeled
   description: No Description
-  collection: 
+  collection: Unknown collection
 - id: 130815-00051
   year: TODO
+  date: TODO
   title: TODO
   description: TODO
-  collection: 
+  collection: Unknown collection
 - id: 130815-00043
   year: TODO
+  date: TODO
   title: Unlabeled
   description: No Description
-  collection: 
+  collection: Unknown collection
 - id: 130815-00039
   year: Undated
+  date: Undated
   title: Unlabeled
   description: No Description
-  collection: 
+  collection: Unknown collection
 - id: 130815-00052
   year: Undated
+  date: Undated
   title: Unlabeled
   description: No Description
-  collection: 
+  collection: Unknown collection
 other: []

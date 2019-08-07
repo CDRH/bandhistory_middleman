@@ -1,7 +1,6 @@
 
 echo "starting script"
 for filepath in ./source/images/content/originals_to_resize/*; do
-  echo "working with $filepath"
   filename=$(basename $filepath)
   echo "filename $filename"
   gm convert -resize 800x800 $filepath source/images/content/large/$filename

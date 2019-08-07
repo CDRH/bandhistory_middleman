@@ -17,7 +17,7 @@ filename,category,patch_date,patch_title,patch_description,concerns
 130833-00013,people,1974,Sousaphones in Europe,Slide of band members including sousaphone players in Europe,
 130833-00014,parade,1974,Bass drummer,Slide of a bass drummer performing in Europe,TODO check if this is something Sara digitized from slides?
 130833-00015,people,1974,Snider conducts in Europe,Slide of Director Jack Snider conducting in Europe,
-130833-00016,parade,,Europe tour drum major,Slide of  a drum major performing in Europe,
+130833-00016,parade,1974,Drum Major,Slide of  a drum major performing in Europe,
 130833-00017,aerial,1974,Europe tour,Slide of the band performing in Europe,
 130833-00018,documents,,,,
 130833-00019,documents,,,,
@@ -176,16 +176,27 @@ filename,category,patch_date,patch_title,patch_description,concerns
 130815-00029,parade,,,"Original caption: ""Homecoming Parade-O st. Glassford's Days 195."" The Marching Band marches down O street in downtown Lincoln. JC Penney department store can be seen in the background.",fixes typo
 130815-00030,parade,,,"Original caption: ""Homecoming Parade-O st."" The Marching Band marches down O street in downtown Lincoln. JC Penney department store can be seen in the background.",fixestypo
 130815-00039,people,,,,
-130815-00040,aerial,TODO verify,Preparing for Joyce to jump out of Big Bertha,,
-130815-00042,people,TODO,,,TODO does Katie have this metadata?
-130815-00043,people,TODO,,,TODO does Katie have this metadata?
-130815-00045,people,TODO,,,TODO does Katie have this metadata?
-130815-00046,aerial,,Band forms circles on field,,TODO does Katie have this metadata?
-130815-00047,group,,Pep band in front of Westbrook Music Building,Members of a pep band pose for a photograph on a sculpture on the east side of the Westbrook Music Building,TODO does Katie have this metadata?
-130815-00050,people,TODO,TODO,TODO,check if Katie has this described
-130815-00051,people,TODO,TODO,TODO,Is this in honor of Bob Devaney?
-130815-00052,people,,,,TODO does Katie have this metadata?
-130815-07226,people,,,,TODO does Katie have this metadata?
-130815-07227,people,,,,TODO does Katie have this metadata?
-130815-07228,people,,,,TODO does Katie have this metadata?
-130815-07229,people,,,,TODO does Katie have this metadata?
+130815-00040,aerial,,Preparing for Joyce to jump out of Big Bertha,,TODO check on her last name
+130815-00042,people,,,,
+130815-00043,people,,,,
+130815-00045,people,,,,
+130815-00046,aerial,,,,
+130815-00047,group,,,,
+130815-00050,people,,,,
+130815-00051,people,,,,Is this in honor of Bob Devaney?
+130815-00052,people,,,,
+130815-07226,people,,,,
+130815-07227,people,,,,
+130815-07228,people,,,,
+130815-07229,people,,,,
+mb002,people,,,,
+mb006,people,,,,
+mb009,group,,,,
+mb011,people,,,,
+mb012,people,,,,
+mb014,parade,,,,
+mb015,people,,,,
+mb016,people,,,,
+mb017,people,,,,
+mb018,parade,,,,
+mb019,parade,,,,

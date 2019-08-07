@@ -24,9 +24,10 @@ categorized = CSV.read(File.join(csv_dir, "categories.csv"), headers: true)
 
 collection_csvs = {
   "band" => CSV.read(File.join(csv_dir, "rg130815.csv"), headers: true),
+  "lentz" => CSV.read(File.join(csv_dir, "2029-lentz.csv"), headers: true),
+  "johnson" => CSV.read(File.join(csv_dir, "johnson.csv"), headers: true),
   "snider" => CSV.read(File.join(csv_dir, "rg130833.csv"), headers: true),
   "ucomm" => CSV.read(File.join(csv_dir, "ucomm-band-digitized.csv"), headers: true),
-  "lentz" => CSV.read(File.join(csv_dir, "2029-lentz.csv"), headers: true),
   # this csv is cobbled together for the baseball, football, etc where I
   # have one image but no spreadsheet from archives
   "other" => CSV.read(File.join(csv_dir, "other-collections-partial.csv"), headers: true)

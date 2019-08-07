@@ -273,16 +273,14 @@ aerial:
   box: B8
   collection: Publications and Photography, Athletic Series
   rg: RG 42-12-01
-- id: 421201-00133
-  title: Memorial Stadium aerial shot
-  description: 'Original caption: "Athletics. 4x5 color transparencies. Aerial shots
-    of the Stadium during Halftime. Band Day- Nebr - S.Carolina game," showing marching
-    bands preparing to march onto the field.'
-  date: 10/10/64
-  year: '1964'
-  box: 
-  collection: Athletics Photos, University Communications Records
-  rg: RG 42-12-01
+- id: 130815-00040
+  title: Preparing for Joyce to jump out of Big Bertha
+  description: 'Original caption: "No Oak (?) st. waiting for Joyce to appear."'
+  date: '1961'
+  year: '1961'
+  box: B16 F8
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
 - id: 421201-00171
   title: Football formation
   description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
@@ -291,6 +289,16 @@ aerial:
     field. A crowd in the stands holds up placards that combine to form the image
     of a cow.'
   date: 10/17/64
+  year: '1964'
+  box: 
+  collection: Athletics Photos, University Communications Records
+  rg: RG 42-12-01
+- id: 421201-00129
+  title: Memorial Stadium aerial shot
+  description: 'Original caption: "Athletics. 4x5 color transparencies. Aerial shots
+    of Stadium during Halftime. Band Day- Nebr - S. Carolina game." Band formation
+    pictured on the field.'
+  date: 10/10/64
   year: '1964'
   box: 
   collection: Athletics Photos, University Communications Records
@@ -306,11 +314,11 @@ aerial:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
-- id: 421201-00129
+- id: 421201-00133
   title: Memorial Stadium aerial shot
   description: 'Original caption: "Athletics. 4x5 color transparencies. Aerial shots
-    of Stadium during Halftime. Band Day- Nebr - S. Carolina game." Band formation
-    pictured on the field.'
+    of the Stadium during Halftime. Band Day- Nebr - S.Carolina game," showing marching
+    bands preparing to march onto the field.'
   date: 10/10/64
   year: '1964'
   box: 
@@ -382,29 +390,25 @@ aerial:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
-- id: 130833-00017
-  year: '1974'
-  date: '1974'
-  title: Europe tour
-  description: Slide of the band performing in Europe
-  collection: Unknown collection
+- id: 130815-00046
+  title: 1971 band day
+  description: 'Original caption: "Band Day - 1971."'
+  date: '1971'
+  year: '1971'
+  box: B16 F11
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
 - id: 130833-00011
   year: '1974'
   date: '1974'
   title: Europe tour
   description: Slide of the band performing in Europe
   collection: Unknown collection
-- id: 130815-00040
-  year: TODO verify
-  date: TODO verify
-  title: Preparing for Joyce to jump out of Big Bertha
-  description: No Description
-  collection: Unknown collection
-- id: 130815-00046
-  year: Undated
-  date: Undated
-  title: Band forms circles on field
-  description: No Description
+- id: 130833-00017
+  year: '1974'
+  date: '1974'
+  title: Europe tour
+  description: Slide of the band performing in Europe
   collection: Unknown collection
 documents:
 - id: 130833-00027
@@ -735,6 +739,16 @@ group:
   box: 
   collection: University Photos, University Communications Records
   rg: RG 42-12-02
+- id: 130815-00047
+  title: KFOR pep band
+  description: 'Original caption: "the KFOR pep band. Back row: Dave Huffman, Nancy
+    Ringer, Bill Reece, Roger Thayden, Paul Sherrod, Bob Snider. Front row: John Varvel,
+    Jim Schmucker, Bruce Chapman."'
+  date: '1972'
+  year: '1972'
+  box: B17 F1
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
 - id: 130833-00004
   year: '1974'
   date: '1974'
@@ -757,6 +771,15 @@ group:
   box: 
   collection: University Photos, University Communications Records
   rg: RG 42-12-02
+- id: mb009
+  title: Big Red Express at 2017 NCAA Volleyball Championship
+  description: Cell phone photo of Big Red Express after the 2017 NCAA Volleyball
+    Championship game
+  date: '2017'
+  year: '2017'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
 - id: 130815-07233
   year: TODO verify
   date: TODO verify
@@ -764,22 +787,16 @@ group:
   description: Cornell (TODO CHECK) stands in front of the Cadet Band, probably in
     X or Y year
   collection: Unknown collection
-- id: 130815-00047
-  year: Undated
-  date: Undated
-  title: Pep band in front of Westbrook Music Building
-  description: Members of a pep band pose for a photograph on a sculpture on the east
-    side of the Westbrook Music Building
-  collection: Unknown collection
 parade:
-- id: 130833-00024
-  title: Marching Band in Front of Union
-  description: 'Original caption: "UNL Band in front of UNL Union"'
-  date: Undated
+- id: 421203-00105
+  title: Pershing Day
+  description: 'Original caption: "Pershing day." Parading down a street with houses
+    in the background, the University''s marching band plays for Pershing Day.'
+  date: undated
   year: Unknown
-  box: B1 F Unlabeled
-  collection: Jack Snider Band Papers
-  rg: RG130833
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
 - id: 421203-03628
   title: Cadet review
   description: 'Original caption: "Cadets reviewd by Major General Wood"'
@@ -788,19 +805,18 @@ parade:
   box: 
   collection: University Photo Collection
   rg: RG 42-12-03
+- id: 130833-00024
+  title: Marching Band in Front of Union
+  description: 'Original caption: "UNL Band in front of UNL Union"'
+  date: Undated
+  year: Unknown
+  box: B1 F Unlabeled
+  collection: Jack Snider Band Papers
+  rg: RG130833
 - id: 421203-03216
   title: Commencement Views
   description: 'Original caption: "Exercises and Parade" Members of a marching band
     in uniform walk along the center of a street, playing their instruments.'
-  date: undated
-  year: Unknown
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-- id: 421203-00105
-  title: Pershing Day
-  description: 'Original caption: "Pershing day." Parading down a street with houses
-    in the background, the University''s marching band plays for Pershing Day.'
   date: undated
   year: Unknown
   box: 
@@ -831,6 +847,15 @@ parade:
   box: 
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
+- id: 421203-00019
+  title: Cadet regiment
+  description: 'Original caption: "Cadet Regiment." Birds-eye view of cadets in formation
+    with grandstands in the background'
+  date: 1919, May
+  year: '1919'
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
 - id: 421203-00149
   title: Commencement procession to St. Pauls
   description: 'Original caption: "1919 Commencement procession to St. Pauls Methodist
@@ -847,15 +872,6 @@ parade:
   description: 'Original caption: "1919 - Class entering St. Pauls Methodist church
     for baccalaureate address by Major General Wood"'
   date: '1919'
-  year: '1919'
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-- id: 421203-00019
-  title: Cadet regiment
-  description: 'Original caption: "Cadet Regiment." Birds-eye view of cadets in formation
-    with grandstands in the background'
-  date: 1919, May
   year: '1919'
   box: 
   collection: University Photo Collection
@@ -928,17 +944,17 @@ parade:
   box: B16 F6
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
-- id: 421202-01965
+- id: 421202-01964
   title: ROTC Inspection
-  description: ROTC marching band performing, while cadets lined up in formation watch
+  description: ROTC cadets and marching band
   date: 1947, May 08
   year: '1947'
   box: 
   collection: University Photos, University Communications Records
   rg: RG 42-12-02
-- id: 421202-01964
+- id: 421202-01965
   title: ROTC Inspection
-  description: ROTC cadets and marching band
+  description: ROTC marching band performing, while cadets lined up in formation watch
   date: 1947, May 08
   year: '1947'
   box: 
@@ -964,7 +980,7 @@ parade:
   rg: RG 42-12-01
 - id: 130815-00030
   title: Homecoming Parade
-  description: 'Original caption: "Homecoming Parade-O st." The Marching Band marche
+  description: 'Original caption: "Homecoming Parade-O st." The Marching Band march
     down O street in downtown Lincoln. JC Penney department store can be seen in the
     background.'
   date: 1950-1960
@@ -982,15 +998,6 @@ parade:
   box: B16 F7
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
-- id: 2029-00177
-  title: Orange Bowl parade
-  description: 'Original caption: "Orange Bowl 1955 parade." The Band marches down
-    a street during a parade. '
-  date: '1955'
-  year: '1955'
-  box: B1 F33
-  collection: Don and Velma Lentz, Papers
-  rg: ACC2029
 - id: 2029-00176
   title: Orange Bowl parade
   description: 'Original caption: "Orange Bowl 1955 parade." The Band marches down
@@ -1000,11 +1007,20 @@ parade:
   box: B1 F33
   collection: Don and Velma Lentz, Papers
   rg: ACC2029
-- id: 130833-00001
+- id: 2029-00177
+  title: Orange Bowl parade
+  description: 'Original caption: "Orange Bowl 1955 parade." The Band marches down
+    a street during a parade. '
+  date: '1955'
+  year: '1955'
+  box: B1 F33
+  collection: Don and Velma Lentz, Papers
+  rg: ACC2029
+- id: 130833-00016
   year: '1974'
   date: '1974'
-  title: Europe tour
-  description: Slide of the band in parade formation
+  title: Drum Major
+  description: Slide of  a drum major performing in Europe
   collection: Unknown collection
 - id: 130833-00014
   year: '1974'
@@ -1019,13 +1035,45 @@ parade:
   description: Slide of the band marching in parade formation, led by twirler Diane
     Tangeman
   collection: Unknown collection
-- id: 130833-00016
-  year: Undated
-  date: Undated
-  title: Europe tour drum major
-  description: Slide of  a drum major performing in Europe
+- id: 130833-00001
+  year: '1974'
+  date: '1974'
+  title: Europe tour
+  description: Slide of the band in parade formation
   collection: Unknown collection
+- id: mb014
+  title: St. Patrick's Day Parade
+  description: Photo of band during the St. Patrick's Day Parade
+  date: '1996'
+  year: '1996'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+- id: mb018
+  title: St. Patrick's Day Parade
+  description: St. Patrick's Day Parade in Ireland
+  date: '1996'
+  year: '1996'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+- id: mb019
+  title: St. Patrick's Day Parade
+  description: St. Patrick's Day Parade in Ireland
+  date: '2000'
+  year: '2000'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
 people:
+- id: 421202-pp6138
+  title: Trombones
+  description: '"Band Members on Football Field"'
+  date: 
+  year: Unknown
+  box: 
+  collection: University Photos, University Communications Records
+  rg: RG 42-12-02
 - id: 421201-00441
   title: Drum Major and Homecoming Queen
   description: Drum major and Homecoming Queen with a crowd behind them in Memorial
@@ -1039,16 +1087,6 @@ people:
   title: Man plays trumpet
   description: 'Original caption: "Don Lentz. John Berigan. Dean Bushnell." A man
     plays trumpet as Lentz watches while seated at a piano.'
-  date: undated
-  year: Unknown
-  box: B1 F31
-  collection: Don and Velma Lentz, Papers
-  rg: ACC2029
-- id: 2029-00175
-  title: Jack Snider and Darwin Fredrickson
-  description: 'Original caption: "Jack Snider and Darwin Fredrickson planning shows."
-    Jack and Darwin sit and stand next to a table set up with a graph of a football
-    frield. They are planning a clover marching band formation.'
   date: undated
   year: Unknown
   box: B1 F31
@@ -1073,17 +1111,19 @@ people:
   box: 
   collection: University Photo Collection
   rg: RG 42-12-03
+- id: 2029-00175
+  title: Jack Snider and Darwin Fredrickson
+  description: 'Original caption: "Jack Snider and Darwin Fredrickson planning shows."
+    Jack and Darwin sit and stand next to a table set up with a graph of a football
+    frield. They are planning a clover marching band formation.'
+  date: undated
+  year: Unknown
+  box: B1 F31
+  collection: Don and Velma Lentz, Papers
+  rg: ACC2029
 - id: 421202-pp6173
   title: Trumpet player
   description: '"Band Member Playing Trumpet"'
-  date: 
-  year: Unknown
-  box: 
-  collection: University Photos, University Communications Records
-  rg: RG 42-12-02
-- id: 421202-pp6138
-  title: Trombones
-  description: '"Band Members on Football Field"'
   date: 
   year: Unknown
   box: 
@@ -1152,19 +1192,19 @@ people:
   box: B16
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
-- id: 421203-02431
+- id: 421203-02430
   title: Nebraska vs. Notre Dame band performance
   description: Band photo from 1924 Nebraska vs. Notre Dame football game. Marching
-    band with goalpost and stadium in the background.
+    band with stadium in the background.
   date: 1924, November 15
   year: '1924'
   box: 
   collection: University Photo Collection
   rg: RG 42-12-03
-- id: 421203-02430
+- id: 421203-02431
   title: Nebraska vs. Notre Dame band performance
   description: Band photo from 1924 Nebraska vs. Notre Dame football game. Marching
-    band with stadium in the background.
+    band with goalpost and stadium in the background.
   date: 1924, November 15
   year: '1924'
   box: 
@@ -1200,15 +1240,6 @@ people:
   box: B1
   collection: Publications and Photography, Athletic Series
   rg: RG 42-12-01
-- id: 421202-00410
-  title: Phil Kleppinger
-  description: 'Original caption: "Kleppinger, Phil, Band Uniform" Portrait of Phil
-    Kleppinger in band uniform;  One double negative in envelope.'
-  date: 1935, January 9
-  year: '1935'
-  box: 
-  collection: University Photos, University Communications Records
-  rg: RG 42-12-02
 - id: 421202-00411
   title: R. Middlehauf
   description: 'Original caption: "Middlehauf, R., Band Uniform." Studio portrait
@@ -1218,37 +1249,54 @@ people:
   box: 
   collection: University Photos, University Communications Records
   rg: RG 42-12-02
+- id: 421202-00410
+  title: Phil Kleppinger
+  description: 'Original caption: "Kleppinger, Phil, Band Uniform" Portrait of Phil
+    Kleppinger in band uniform;  One double negative in envelope.'
+  date: 1935, January 9
+  year: '1935'
+  box: 
+  collection: University Photos, University Communications Records
+  rg: RG 42-12-02
+- id: 130815-07228
+  title: Marching band director Donald Lentz
+  description: Marching Band Director Donald Lentz studio portrait; Lentz wears dark
+    suit and tie and has small moustache.
+  date: 1937-1973
+  year: '1937'
+  box: B16
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+- id: 421203-03416
+  title: Football Game
+  description: In the front of the football audience, band members hold their instruments
+    in front of them.
+  date: '1937'
+  year: '1937'
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+- id: 421203-03412
+  title: Football Game
+  description: The marching band plays on the football field in rows.
+  date: '1937'
+  year: '1937'
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+- id: 421203-03399
+  title: Football Game
+  description: Photographed from behind, marching band members play in formation on
+    the field.
+  date: '1937'
+  year: '1937'
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
 - id: 421203-03356
   title: Minnesota Game
   description: Positioned in front of the football audience, the marching band members
     hold their instruments at the ready.
-  date: 1937, October
-  year: '1937'
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-- id: 421203-03333
-  title: Minnesota Game
-  description: Members of the marching band stand together, photographed close up
-    with the stadium in the background. A tuba player is in the center of the image.
-  date: 1937, October
-  year: '1937'
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-- id: 421203-03340
-  title: Minnesota Game
-  description: A man in a Nebraska jacket stands down on the field in front of the
-    band section.
-  date: 1937, October
-  year: '1937'
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-- id: 421203-03347
-  title: Minnesota Game
-  description: Marching band members walk and position themselves with their instruments
-    by the stadium stands.
   date: 1937, October
   year: '1937'
   box: 
@@ -1263,41 +1311,33 @@ people:
   box: 
   collection: University Photo Collection
   rg: RG 42-12-03
-- id: 421203-03399
-  title: Football Game
-  description: Photographed from behind, marching band members play in formation on
-    the field.
-  date: '1937'
+- id: 421203-03347
+  title: Minnesota Game
+  description: Marching band members walk and position themselves with their instruments
+    by the stadium stands.
+  date: 1937, October
   year: '1937'
   box: 
   collection: University Photo Collection
   rg: RG 42-12-03
-- id: 421203-03412
-  title: Football Game
-  description: The marching band plays on the football field in rows.
-  date: '1937'
+- id: 421203-03340
+  title: Minnesota Game
+  description: A man in a Nebraska jacket stands down on the field in front of the
+    band section.
+  date: 1937, October
   year: '1937'
   box: 
   collection: University Photo Collection
   rg: RG 42-12-03
-- id: 421203-03416
-  title: Football Game
-  description: In the front of the football audience, band members hold their instruments
-    in front of them.
-  date: '1937'
+- id: 421203-03333
+  title: Minnesota Game
+  description: Members of the marching band stand together, photographed close up
+    with the stadium in the background. A tuba player is in the center of the image.
+  date: 1937, October
   year: '1937'
   box: 
   collection: University Photo Collection
   rg: RG 42-12-03
-- id: 130815-07228
-  title: Marching band director Donald Lentz
-  description: Marching Band Director Donald Lentz studio portrait; Lentz wears dark
-    suit and tie and has small moustache.
-  date: 1937-1973
-  year: '1937'
-  box: B16
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
 - id: 2029-00181
   title: Don Lentz and Emanuel Wishnow
   description: 'Original caption: "Emanuel Wishnow and Don Lentz." Emanuel sits on
@@ -1335,11 +1375,11 @@ people:
   box: B1 F34
   collection: Don and Velma Lentz, Papers
   rg: ACC2029
-- id: 421201-06203
-  title: Band performance
+- id: 421201-06201
+  title: Lentz teaches drill
   description: '"Athletics. (Donovan). Takes of band and card section at Nebr. - Minn.
-    Game." The negative shows the marching band performing to a full stadium during
-    the Nebraska-Minnesota game.'
+    Game." The negative shows members of the marching band studying formations on
+    a blackboard.'
   date: 1949, Oct. 01
   year: '1949'
   box: B5
@@ -1354,11 +1394,11 @@ people:
   box: B5
   collection: Publications and Photography, Athletic Series
   rg: RG 42-12-01
-- id: 421201-06201
-  title: Lentz teaches drill
+- id: 421201-06203
+  title: Band performance
   description: '"Athletics. (Donovan). Takes of band and card section at Nebr. - Minn.
-    Game." The negative shows members of the marching band studying formations on
-    a blackboard.'
+    Game." The negative shows the marching band performing to a full stadium during
+    the Nebraska-Minnesota game.'
   date: 1949, Oct. 01
   year: '1949'
   box: B5
@@ -1374,21 +1414,10 @@ people:
   box: B6
   collection: Publications and Photography, Athletic Series
   rg: RG 42-12-01
-- id: 421201-06281
-  title: Kneeling during performance
+- id: 421201-06286
+  title: Drum major
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows several band members kneeling while playing their instruments
-    at the Nebraska-Indiana game.'
-  date: 1950, Sept. 30
-  year: '1950'
-  box: B6
-  collection: Publications and Photography, Athletic Series
-  rg: RG 42-12-01
-- id: 421201-06284
-  title: Band on the sidelines
-  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows members of the marching band watching the 1950 Nebraska-Indiana
-    game from the sideline.'
+    game." The negative shows a drum major leading the band.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
@@ -1404,10 +1433,21 @@ people:
   box: B6
   collection: Publications and Photography, Athletic Series
   rg: RG 42-12-01
-- id: 421201-06286
-  title: Drum major
+- id: 421201-06284
+  title: Band on the sidelines
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows a drum major leading the band.'
+    game." The negative shows members of the marching band watching the 1950 Nebraska-Indiana
+    game from the sideline.'
+  date: 1950, Sept. 30
+  year: '1950'
+  box: B6
+  collection: Publications and Photography, Athletic Series
+  rg: RG 42-12-01
+- id: 421201-06281
+  title: Kneeling during performance
+  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
+    game." The negative shows several band members kneeling while playing their instruments
+    at the Nebraska-Indiana game.'
   date: 1950, Sept. 30
   year: '1950'
   box: B6
@@ -1451,6 +1491,15 @@ people:
   box: 
   collection: University Photos, University Communications Records
   rg: RG 42-12-02
+- id: 421202-01855
+  title: Jack Snider
+  description: Original Caption "Public Relations. Snider, Jack/wish. Band Uniform
+    and hat. Hirsch
+  date: 1962, October 29
+  year: '1962'
+  box: 
+  collection: University Photos, University Communications Records
+  rg: RG 42-12-02
 - id: 421202-01774
   title: Snider speaks with band members
   description: 'Original Item #631321; "Photo Services" recorded by Thom421202-00on,
@@ -1470,15 +1519,25 @@ people:
   box: Athletics, Publications & Photography (University Communications)
   collection: For copyright information, please contact the repository.
   rg: University Communications, Photo Services Department
-- id: 421202-01855
-  title: Jack Snider
-  description: Original Caption "Public Relations. Snider, Jack/wish. Band Uniform
-    and hat. Hirsch
-  date: 1962, October 29
-  year: '1962'
+- id: 130815-00039
+  title: Big Bertha
+  description: Two marching band members pull the Big Bertha drum across the  Memorial
+    Stadium field during a football game
+  date: '1963'
+  year: '1963'
+  box: B16 F8
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+- id: 421201-00174
+  title: University Marching Band
+  description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
+    onto football field. Crowd in stadium. Band formations, Big 8, Vote, & football.
+    Football action," shows trumpeters from the marching band on the field.'
+  date: 10/17/64
+  year: '1964'
   box: 
-  collection: University Photos, University Communications Records
-  rg: RG 42-12-02
+  collection: Athletics Photos, University Communications Records
+  rg: RG 42-12-01
 - id: 421201-00112
   title: Drum major and marching band
   description: 'Original caption: "Photo Prod. Thomson. Nebr. vs Missouri. McCloughan
@@ -1486,16 +1545,6 @@ people:
     Campus bus.  Drum major & band. Kettle drums.  Score board," shows the marching
     band on a football field with their conductor, the stadium is visible in the background.'
   date: 10/31/64
-  year: '1964'
-  box: 
-  collection: Athletics Photos, University Communications Records
-  rg: RG 42-12-01
-- id: 421201-00174
-  title: University Marching Band
-  description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
-    onto football field. Crowd in stadium. Band formations, Big 8, Vote, & football.
-    Football action," shows trumpeters from the marching band on the field.'
-  date: 10/17/64
   year: '1964'
   box: 
   collection: Athletics Photos, University Communications Records
@@ -1508,6 +1557,14 @@ people:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
+- id: 421202-01859
+  title: Jack Snider
+  description: Original Caption "C.71. Fine Arts. Jack Snider. Inf. at desk. Dern."
+  date: 1966, September 27
+  year: '1966'
+  box: 
+  collection: University Photos, University Communications Records
+  rg: RG 42-12-02
 - id: 421201-00414
   title: Marching band
   description: Looking down row at band members on football field. Overall of ABC
@@ -1517,14 +1574,6 @@ people:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
-- id: 421202-01859
-  title: Jack Snider
-  description: Original Caption "C.71. Fine Arts. Jack Snider. Inf. at desk. Dern."
-  date: 1966, September 27
-  year: '1966'
-  box: 
-  collection: University Photos, University Communications Records
-  rg: RG 42-12-02
 - id: 421201-00355
   title: Jack Snider, Don Lentz, and "Big Bertha"
   description: Athletics, Drum Majors Jack Snider, Don Lentz and Big Bertha (drum)
@@ -1544,21 +1593,21 @@ people:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
+- id: 130815-00042
+  title: Jeff Klintberg, Lynn Moeller, Bob Slie, Susie Kune
+  description: 'Original caption: "1967. Jeff Klintberg, Lynn Moeller, Bob Slie, Susie
+    Kune (?)." Band members pose on the bleachers of Memorial Stadium.'
+  date: '1967'
+  year: '1967'
+  box: B16 F8
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
 - id: 421201-00545
   title: Jack Snyder, Jeff Klintberg, Susi Kunc
   description: Band Director Jack Snyder, Drum Major Jeff Klintberg and Susi Kunc
     posing in front of the pillars.
   date: 5/11/68
   year: '1968'
-  box: 
-  collection: Athletics Photos, University Communications Records
-  rg: RG 42-12-01
-- id: 421201-00556
-  title: Band performing at football game
-  description: Susy Kunc and band on field, close-up of the band performing on the
-    football field.
-  date: 2/22/69
-  year: '1969'
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
@@ -1571,6 +1620,28 @@ people:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
+- id: 421201-00556
+  title: Band performing at football game
+  description: Susy Kunc and band on field, close-up of the band performing on the
+    football field.
+  date: 2/22/69
+  year: '1969'
+  box: 
+  collection: Athletics Photos, University Communications Records
+  rg: RG 42-12-01
+- id: 130815-00043
+  title: Ostwald uniforms advertisement
+  description: 'Original caption: "inset, top: Jack R. Snider, Director, Cornhusker
+    Marching Band. University of Nebraska Band. Where there''s a great football tradtion,
+    there''s a great marching band. The University of Nebraska Band takes the field
+    wearing a silver front / scarlet back overlay of Ostwald "Stardust" ... for contrast
+    or color-match, depending upon your point of view. The busby carries a scarlet
+    inset to repeat the color theme. High visibility on the television screen!"'
+  date: '1970'
+  year: '1970'
+  box: B16 F9
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
 - id: 421201-00021
   title: Johnny Carson and Durwood Varner
   description: 'Original caption: "Athletics. Football-KU vs. NE action. Homecoming.  Johnny
@@ -1581,11 +1652,45 @@ people:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG42-12-01
-- id: 130833-00010
+- id: 130815-00045
+  title: 1971 album cover
+  description: 'Original caption: "1971 album cover. L-R. Bill Shuster, Eric Hornbacher,
+    Darrel Stehlik, Steve Forbes, Front: Doug Phelps."'
+  date: '1971'
+  year: '1971'
+  box: B16 F11
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+- id: 130815-00052
+  title: Diane Tungeman
+  description: Baton twirler Diane Tungeman raises her hands on Memorial Stadium field.
+  date: '1973'
+  year: '1973'
+  box: B17 F2
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+- id: 130815-00050
+  title: Band playing in pool
+  description: 'Original caption: "Orange Bowl 1973. Would you believe Handel''s water
+    music." Several members of the marching band wear swim suits and play in the pool. '
+  date: '1973'
+  year: '1973'
+  box: B17 F1
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+- id: 130815-00051
+  title: Bob Devaney
+  description: 'Original caption: "Honorary bandsman Bob Devaney."'
+  date: '1973'
+  year: '1973'
+  box: B17 F2
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+- id: 130833-00012
   year: '1974'
   date: '1974'
-  title: Trumpet player
-  description: Slide of a trumpet player performing in Europe
+  title: Unpacking a bus in Europe
+  description: Slide of band members and equipment outside of a bus in Europe
   collection: Unknown collection
 - id: 130833-00015
   year: '1974'
@@ -1598,6 +1703,20 @@ people:
   date: '1974'
   title: Europe tour
   description: Slide of the band in Europe, sousaphones featured
+  collection: Unknown collection
+- id: 421201-00569
+  title: Dianne Tangemann, twirler
+  description: Tangemann flanked by two members of the band.
+  date: 5/2/74
+  year: '1974'
+  box: 
+  collection: Athletics Photos, University Communications Records
+  rg: RG 42-12-01
+- id: 130833-00010
+  year: '1974'
+  date: '1974'
+  title: Trumpet player
+  description: Slide of a trumpet player performing in Europe
   collection: Unknown collection
 - id: 130833-00009
   year: '1974'
@@ -1624,20 +1743,14 @@ people:
   title: Sousaphones in Europe
   description: Slide of band members including sousaphone players in Europe
   collection: Unknown collection
-- id: 130833-00012
-  year: '1974'
-  date: '1974'
-  title: Unpacking a bus in Europe
-  description: Slide of band members and equipment outside of a bus in Europe
-  collection: Unknown collection
-- id: 421201-00569
-  title: Dianne Tangemann, twirler
-  description: Tangemann flanked by two members of the band.
-  date: 5/2/74
-  year: '1974'
+- id: mb011
+  title: Diane Miller Frost, first female drum major
+  description: First female drum major Diane Miller Frost
+  date: '1976'
+  year: '1976'
   box: 
-  collection: Athletics Photos, University Communications Records
-  rg: RG 42-12-01
+  collection: UNL Band Office Photographs
+  rg: n/a
 - id: 421202-02026
   title: Band
   description: '"Jack Snider, Marching Band"'
@@ -1654,46 +1767,55 @@ people:
   box: 
   collection: Athletics Photos, University Communications Records
   rg: RG 42-12-01
-- id: 130815-00050
-  year: TODO
-  date: TODO
-  title: TODO
-  description: TODO
-  collection: Unknown collection
-- id: 130815-00045
-  year: TODO
-  date: TODO
-  title: Unlabeled
-  description: No Description
-  collection: Unknown collection
-- id: 130815-00042
-  year: TODO
-  date: TODO
-  title: Unlabeled
-  description: No Description
-  collection: Unknown collection
-- id: 130815-00051
-  year: TODO
-  date: TODO
-  title: TODO
-  description: TODO
-  collection: Unknown collection
-- id: 130815-00043
-  year: TODO
-  date: TODO
-  title: Unlabeled
-  description: No Description
-  collection: Unknown collection
-- id: 130815-00039
-  year: Undated
-  date: Undated
-  title: Unlabeled
-  description: No Description
-  collection: Unknown collection
-- id: 130815-00052
-  year: Undated
-  date: Undated
-  title: Unlabeled
-  description: No Description
-  collection: Unknown collection
+- id: mb015
+  title: Drum Majors Becky McGuire and David Puckett
+  description: Drum Majors Becky McGuire and David Puckett
+  date: '1996'
+  year: '1996'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+- id: mb012
+  title: Lord and lady of the cast
+  description: Band attended a medieval banquet in Knappogue Castle on March 19. Mike
+    Veak & Rose Johnson were the Lord and Lady of the castle
+  date: '1996'
+  year: '1996'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+- id: mb017
+  title: First front ensemble rehearsing
+  description: The first UNL front ensemble rehearsing
+  date: '1999'
+  year: '1999'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+- id: mb016
+  title: First front ensemble
+  description: The first UNL front ensemble
+  date: '1999'
+  year: '1999'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+- id: mb002
+  title: Bill Tomek in front of trailer
+  description: Dr. John Richmond, Bill Tomek (donor), Dr. Carolyn Barber, and Dr.
+    Lucy Buntain Comine stand in front of the trailer
+  date: '2010'
+  year: '2010'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+- id: mb006
+  title: Unloading truck for rehearsal
+  description: Unloading truck in St. Louis for rehearsal during trip to Nebraska
+    vs Illinois football game
+  date: '2015'
+  year: '2015'
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
 other: []

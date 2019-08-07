@@ -74,7 +74,8 @@ h1 .navbar-brand {
 }
 
 h1, h2, h3, h4, h4, h5 {
-  font-family: 'Cutive', serif; 
+  font-family: 'Cutive', serif;
+  padding-top: 10px;
 }
 
 a {
@@ -106,6 +107,32 @@ footer {
 }
 
 /* ****************** */
+/*        Home        */
+/* ****************** */
+
+.home_callout {
+  height: 40vh;
+  margin: 2em 0;
+  width: 100%;
+}
+
+.home_callout_1 {
+  background: url('../images/content/template/street.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.callout_inner {
+  background-color: rgba(0,0,0,.6);
+  color: $white;
+  font-size: 1.3em;
+  padding: 1.5em 1em 1em 1em;
+  width: 40%;
+}
+
+/* ****************** */
 /* Section Navigation */
 /* ****************** */
 
@@ -128,7 +155,7 @@ $dark-overlay: rgba(0,0,0,0.7);
 .section-nav {
   background-color: $secondary; // Fallback
   background-position: bottom !important;
-  background-size: cover !important; // not sure why important is needed here
+  background-size: cover;
   color: $white;
   flex-basis: 1;
   margin: 10px;
@@ -228,29 +255,14 @@ $dark-overlay: rgba(0,0,0,0.7);
 .section-nav.section-nav-stories-march {}
 .section-nav.section-nav-stories-military {}
 .section-nav.section-nav-stories-lentz {
+  background-color: #1d1d1d !important;
   background: url('../images/content/template/nav_backgrounds/lentz.jpg');
+  background-repeat: no-repeat;
+  background-size: contain !important;
 }
-
-//Home
-
-.home_callout {
-  height: 40vh;
-  margin: 2em 0;
-  width: 100%;
-}
-
-.home_callout_1 {
-  background: url('../images/content/template/street.jpg') no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.callout_inner {
-  background-color: rgba(0,0,0,.6);
-  color: $white;
-  font-size: 1.3em;
-  padding: 1.5em 1em 1em 1em;
-  width: 40%;
+.section-nav.section-nav-stories-johnson {
+  background: url('../images/content/template/nav_backgrounds/johnson.jpg');
+  background-color: #251f1d !important;
+  background-repeat: no-repeat;
+  background-size: contain !important; /* also not sure why important here? */
 }

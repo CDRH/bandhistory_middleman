@@ -1,0 +1,15 @@
+@import "_site_variables.css.scss";
+
+/* *************** */
+/* Image Galleries */
+/* *************** */
+
+.slbCaption {
+  background-color: $white;
+  color: $black;
+  font-size: 1em;
+  overflow: visible;
+  /* not sure how to get this to accommodate
+     smaller windows where there is a lot of text
+  */
+}

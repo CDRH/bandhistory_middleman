@@ -1,30 +1,57 @@
-<div class="content-<%= direction %>-container">
-  <div class="content-<%= direction %>">
-    <h3><%= title %></h3>
+<div class="content-container content-<%= direction %>-container">
+  <div class="event content-<%= direction %>">
+    <a data-toggle="collapse"
+       href="#<%= id %>"
+       role="button"
+       aria-expanded="false"
+       aria-controls="<%= id %>">
+      <h3>
+        <%= title %>
+      </h3>
+
+      <% if image %>
+        <%= image_tag "images/content/small/#{image}", class: "preview" %>
+      <% end %>
+    </a>
 
     <!-- more info -->
-    <p><a data-toggle="collapse" href="#<%= id %>" role="button"
-       aria-expanded="false" aria-controls="<%= id %>">
-        <%= image_tag "images/content/small/#{image}", class: "preview" %>
-        Learn More
-    </a></p>
+    <button data-toggle="collapse"
+        href="#<%= id %>"
+        role="button"
+        aria-expanded="false"
+        aria-controls="<%= id %>">
+      Learn More
+    </button>
 
     <!-- image -->
     <% if image %>
-      <a class="gallery"
+      <button class="gallery"
          href="<%= url_for "images/content/large/#{image}" %>"
          title="<%= image_caption %><br/><%= image_attr %>">
          View larger image
-      </a>
+      </button>
     <% end %>
 
     <!-- contents -->
     <div class="collapse" id="<%= id %>">
       <div class="card card-body">
+
+        <button data-toggle="collapse"
+          href="#<%= id %>"
+          role="button"
+          aria-expanded="false"
+          aria-controls="<%= id %>">
+          X
+        </button>
+
         <%= yield %>
-        <div class="image_attribution">
-          Image: <%= image_attr %>
-        </div>
+
+        <% if image %>
+          <div class="image_attribution">
+            Image: <%= image_attr %>
+          </div>
+        <% end %>
+
       </div>
     </div>
   </div>

@@ -3,13 +3,24 @@
 /* Timeline concept adapted from code by Ratko Solaja */
 /* https://codepen.io/Ratko_Solaja/pen/ztxkw */
 
-.resources {
-  font-size: 14px;
+.card-body {
+  margin: 1em 0;
 }
 
-.slbCaption {
-  font-size: 1em;
-  overflow: visible;
+.timeline-article > .content-container > .event {
+  &:hover {
+    background-color: $gray-300;
+  }
+  /* Karin I can't figure out why this doesn't work */
+  & a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.image_attribution,
+.resources {
+  font-size: 14px;
 }
 
 /*===== Vertical Timeline =====*/

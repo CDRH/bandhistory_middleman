@@ -55,6 +55,15 @@ title: Conversation with Rosemary Johnson | Band History
   </div>
 </div>
 
+<div class="interview-video">
+  <video controls preload="none">
+    <% video_link = url_for "../videos/johnson_interview_2019_small.mp4" %>
+    <source src="<%= video_link %>" type="video/mp4">
+    <p>Your browser doesn't support HTML5 video. Here is
+       a <%= link_to "link to the video", video_link %> instead.</p>
+  </video>
+</div>
+
 <% partial "interview_row",
   locals: { label: "Dussault" } do %>
   Today is Thursday, July 25th, 2019. This is the start of an interview with Rose Johnson in Lincoln, Nebraska. My name is Jessica Dussault, I will be asking some questions assisted by Tony Falcone, the Director of the Cornhusker Marching Band.  We'll be talking about Rose's career with the marching band and her family's connection to the ensemble, and this is being done as part of a website being launched on the band's history. So, thanks for talking with us!

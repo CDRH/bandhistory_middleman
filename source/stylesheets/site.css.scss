@@ -225,7 +225,10 @@ $dark-overlay: rgba(0,0,0,0.7);
   background: url('../images/content/template/nav_backgrounds/images.jpg');
 }
 .section-nav.section-nav-multimedia-documents {
-  background: url('../images/content/template/nav_backgrounds/default02.jpg');
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url('../images/content/template/nav_backgrounds/default02.jpg');
 }
 
 // Sights & Sounds > Audio

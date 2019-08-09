@@ -13,7 +13,7 @@
       <h3><%= image["title"] %> (<%= image["year"] %>)</h3>
 
       <%# middleman doesn't like link_to inside of <a> tag %>
-      <% link = url_for "/multimedia/images/#{image["id"]}" %>
+      <% link = url_for "/multimedia/images/#{image["id"]}/index.html" %>
       <% label = "#{image["title"]}<br/><a href='#{link}' target='blank' rel='nofollow noopener'>View More Information</a>" %>
 
       <a class="gallery"
@@ -34,6 +34,7 @@
         <% end %>
       </ul>
       <%= link_to "View More Information", link, target: "_blank", rel: "nofollow noopener" %>
+      <%= link_to "View More Information", "/multimedia/images/#{image["id"]}/index.html", target: "_blank", rel: "nofollow noopener" %>
     </div>
 
   <% end %>

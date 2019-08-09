@@ -26,9 +26,10 @@ page '/*.txt', layout: false
 
 data.images.each do |category, category_contents|
   category_contents.each do |image|
-    proxy "/multimedia/images/#{image["id"]}",
+    proxy "/multimedia/images/#{image["id"]}/index.html",
     "/multimedia/images/image_template.html",
-    locals: { image: image, category: category }
+    locals: { image: image, category: category },
+    ignore: true
   end
 end
 

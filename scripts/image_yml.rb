@@ -88,6 +88,7 @@ categorized.each do |image|
       "date" => image["patch_date"] || "Undated",
       "title" => image["patch_title"] || "Unlabeled",
       "description" => image["patch_description"] || "No Description",
+      "creator" => "Unknown",
       "collection" => collection || "Unknown collection"
     })
   else
@@ -96,12 +97,15 @@ categorized.each do |image|
     add_to_category(image["category"], {
       "id" => image["filename"],
       "title" => image["patch_title"] || metadata["title"],
-      "description" => metadata["description"],
       "date" => image["page_date"] || metadata["date"],
       "year" => year,
+      "description" => image["patch_description"] || metadata["description"],
+      "creator" => metadata["creator/photographer"],
       "box" => metadata["tablecontents/boxes/folders"],
       "collection" => metadata["isPartOf/Collection"],
-      "rg" => metadata["source/RG#/MS#"]
+      "rg" => metadata["source/RG#/MS#"],
+      "rights" => metadata["rights"],
+      "publisher" => metadata["publisher/repository"]
     })
   end
 end

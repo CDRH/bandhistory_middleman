@@ -1,5 +1,6 @@
 <%= stylesheet_link_tag "simpleLightbox.min" %>
 <%= javascript_include_tag "simpleLightbox.min" %>
+<%= stylesheet_link_tag "image_galleries" %>
 
 <div class="images-container flex-container">
   <% data.images[category].each do |image| %>
@@ -10,17 +11,29 @@
     <!-- TODO should the link description make it clear that this will open a larger image with more metadata for screenreaders? -->
     <div class="image flex-item">
       <h3><%= image["title"] %> (<%= image["year"] %>)</h3>
+
+      <%# middleman doesn't like link_to inside of <a> tag %>
+      <% link = url_for "/multimedia/images/#{image["id"]}" %>
+      <% label = "#{image["title"]}<br/><a href='#{link}' target='blank' rel='nofollow noopener'>View More Information</a>" %>
+
       <a class="gallery"
         href="<%= url_for "images/content/large/#{image["id"]}.jpg" %>"
-        title="<%= image["title"] %>">
+        title="<%= label %>">
         <%= image_tag "images/content/small/#{image["id"]}.jpg", class: "thumbnail", alt: image["title"] %>
       </a>
+
       <ul>
         <li>ID: <%= image["id"] %></li>
-        <li>Date: <%= image["date"] %></li>
+        <% if image["date"] %>
+          <li>Date: <%= image["date"] %></li>
+        <% end %>
         <li>Desc: <%= image["description"] %></li>
         <li>Collection: <%= image["collection"] %></li>
+        <% if image["creator"] %>
+          <li>Creator: <%= image["creator"] %></li>
+        <% end %>
       </ul>
+      <%= link_to "View More Information", link, target: "_blank", rel: "nofollow noopener" %>
     </div>
 
   <% end %>

@@ -1,0 +1,43 @@
+---
+title: Image | Band History
+layout: layout
+---
+
+<%# NOTE that in order to get the proxy pages to work
+    with the directory URLs I had to drop the html from
+    the proxy and links to it, and then add the layout here.
+    Not sure if this is going to cause problems with the relative link helper or not %>
+
+<%# TODO can I make that title dynamic? %>
+
+<h2><%= image["title"] %> (<%= image["year"] %>)</h2>
+
+<%= link_to "Browse #{category} images", "/multimedia/images/#{category}.html" %>
+
+<div class="row">
+  <div class="col-md-9">
+    <%= image_tag "images/content/large/#{image["id"]}.jpg",
+      class: "thumbnail",
+      alt: image["title"]
+    %>
+  </div>
+  <div class="col-md-3">
+    <div class="image_metadata">
+      <ul>
+        <% image.each do |key, value| %>
+          <% next if !value || key == "year" %>
+          <li>
+            <% if key == "id" %>
+              <strong>Image Identifier:</strong>
+            <% elsif key == "rg" %>
+              <strong>Archives Record Group:</strong>
+            <% else %>
+              <strong><%= key.capitalize %>:</strong>
+            <% end %>
+            <%= value %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -7,7 +7,7 @@ require "yaml"
 
 @categories = {
   "aerial" => [],
-  "documents" => [],
+  "field" => [],
   "group" => [],
   "parade" => [],
   "people" => [],

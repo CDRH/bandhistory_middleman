@@ -2,11 +2,10 @@
 <%= javascript_include_tag "simpleLightbox.min" %>
 <%= stylesheet_link_tag "image_galleries" %>
 
+<%= data.images[category].length %>
+
 <div class="images-container flex-container">
   <% data.images[category].each do |image| %>
-    <%# TODO keep if this ends up a modal or something %>
-    <%# html_id = image["id"].gsub(".", "") %>
-
 
     <!-- TODO should the link description make it clear that this will open a larger image with more metadata for screenreaders? -->
     <div class="image flex-item">
@@ -34,7 +33,6 @@
         <% end %>
       </ul>
       <%= link_to "View More Information", link, target: "_blank", rel: "nofollow noopener" %>
-      <%= link_to "View More Information", "/multimedia/images/#{image["id"]}/index.html", target: "_blank", rel: "nofollow noopener" %>
     </div>
 
   <% end %>

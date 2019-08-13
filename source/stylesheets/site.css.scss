@@ -47,6 +47,7 @@ h1 .navbar-brand {
 .navbar-nav {
   flex-direction:row;
   justify-content: center;
+  flex-wrap: wrap;
   a {
     text-decoration: none;
     color: #ffffff;
@@ -205,7 +206,7 @@ $dark-overlay: rgba(0,0,0,0.7);
   background: url('../images/content/template/nav_backgrounds/default02.jpg');
 }
 
-.section-nav:nth-child(3n){
+.section-nav:nth-child(3n) {
   background: url('../images/content/template/nav_backgrounds/default04.jpg');
 }
 
@@ -268,4 +269,35 @@ $dark-overlay: rgba(0,0,0,0.7);
   background-color: #251f1d !important;
   background-repeat: no-repeat;
   background-size: contain !important; /* also not sure why important here? */
+}
+
+// Header sizes for smaller screens
+
+@media only screen and (max-width: 830px) {
+  h1 .navbar-brand {
+    font-size: 1em; 
+  }
+  .index h1 .navbar-brand {
+    font-size: 1.2em; 
+  }   
+}
+
+@media only screen and (max-width: 400px) {
+  h1 .navbar-brand {
+    font-size: .8em; 
+  }
+  .index h1 .navbar-brand {
+    font-size: .8em; 
+  } 
+}
+
+// Grid items link color
+
+.flex-item a p {
+  color: $primary;
+}
+
+.flex-item a img {
+  border: solid 2px $primary;
+  display: block;
 }

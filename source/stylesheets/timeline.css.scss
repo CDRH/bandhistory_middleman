@@ -3,48 +3,41 @@
 /* Timeline concept adapted from code by Ratko Solaja */
 /* https://codepen.io/Ratko_Solaja/pen/ztxkw */
 
-.card-body {
-  margin: 1em 0;
-}
+$graybackground: #7E7E7C;
+$darkgraytitle: #3F3F3E;
 
 .timeline-article > .content-container > .event {
-  &:hover {
-    background-color: $gray-300;
-  }
-  /* Karin I can't figure out why this doesn't work */
-  & a {
+  a {
     color: $black;
     text-decoration: none;
   }
 }
 
-.image_attribution,
-.resources {
-  font-size: 14px;
-}
-
 /*===== Vertical Timeline =====*/
 #band-timeline {
   position: relative;
-  /*TODO removing for now, see if important */
-  /*max-width: 920px;*/
+  // I set a bigger max width for really wide screens
+  // TODO: evaluate
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
 }
 #band-timeline .timeline-start,
 #band-timeline .timeline-end {
+  background: $primary;
+  color: #fff;
   display: table;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 1.2em;
   font-weight: 900;
-  text-transform: uppercase;
-  background: $primary;
-  padding: 15px 23px;
-  color: #fff;
-  max-width: 5%;
-  width: 100%;
-  text-align: center;
   margin: 0 auto;
+  max-width: 5%;
+  padding: 15px 23px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 2;
 }
 
 #band-timeline .timeline-end {
@@ -58,7 +51,7 @@
   left: 50%;
   margin-left: -2px;
   background: $primary;
-  z-index: -1;
+  z-index: 0;
 }
 #band-timeline .band-timeline-content {
   padding-top: 67px;
@@ -81,33 +74,32 @@
   position: relative;
   width: auto;
   border: 1px solid #ddd;
-  background-color: $secondary;
+  background-color: $graybackground;
   box-shadow: 0 1px 3px rgba(0,0,0,.03);
-  padding: 27px 25px;
+  padding: 0;
 }
 
 .timeline-article h3 {
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
 .timeline-article p {
   /* TODO put back in if article-number is being used */
   /*margin: 0 0 0 60px;*/
-  padding: 0;
-  font-weight: 400;
-  color: $text-color;
-  font-size: 14px;
-  line-height: 24px;
+  // padding: 0;
+  // font-weight: 400;
+  // color: $text-color;
+  // font-size: 14px;
+  // line-height: 24px;
   position: relative;
 }
 /* TODO consider removing article-number if not used */
 .timeline-article p span.article-number {
-  position: absolute;
-  font-weight: 300;
+  color: $graybackground;
   font-size: 44px;
-  top: 10px;
   left: -60px;
-  color: $secondary;
+  position: absolute;
+  top: 10px;
 }
 .timeline-article .content-left-container {
   float: left;
@@ -117,41 +109,100 @@
 }
 .timeline-article .content-left:before,
 .timeline-article .content-right:before{
+  color: #fff;
+  font-family: "FontAwesome";
+  font-size: 23px; //absolute measurement for arrows
   position: absolute;
   top: 20px;
-  font-size: 23px;
-  font-family: "FontAwesome";
-  color: #fff;
 }
 .timeline-article .content-left:before {
+  color: $darkgraytitle;
   content: "\f0da";
   right: -8px;
-  color: $secondary;
 }
 .timeline-article .content-right:before {
+  color: $darkgraytitle;
   content: "\f0d9";
   left: -8px;
-  color: $secondary;
 }
 .timeline-article .meta-date {
+  background: $primary;
+  border-radius: 100%;
+  color: #fff;
+  height: 62px;
+  left: 50%;
+  margin-left: -31px;
   position: absolute;
   top: 0;
-  left: 50%;
   width: 62px;
-  height: 62px;
-  margin-left: -31px;
-  color: #fff;
-  border-radius: 100%;
-  background: $primary;
 }
 .timeline-article .meta-date .date {
   display: block;
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 900;
   line-height: 40px;
   padding-top: 10px;
   text-align: center;
 }
+
+/* TEMP STUFF */
+.todo-cite {
+  background-color: slategrey !important;
+}
+
+/* Additional Timeline Styling */
+
+.timeline-image {
+  width: 60%;
+  margin: auto;
+  &:hover .timeline-imagecaption {
+    background: $primary;
+  }
+  img {
+    border: solid 2px $darkgraytitle;
+  }
+  &:hover img {
+    border: $primary 2px solid;
+  }
+}
+
+.timeline-imagecaption {
+  background: $darkgraytitle;
+  color: #fff;
+  display: block;
+  position: relative; 
+  text-align: center;
+  width: 100%;
+}
+
+.content-container {
+  h3 {
+    background-color: $darkgraytitle;
+    color: #fff;
+    padding: 18px 25px 14px 25px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.gallery {
+  width: 100%;
+}
+
+.timeline-collapse {
+  background: $darkgraytitle;
+  border: 0;
+  color: #fff;
+  font-size: 1.3em;
+  margin-top: 1em;
+  width: 100%;
+  &:hover {
+    background: $primary;
+  }
+}
+
 
 /*===== // Vertical Timeline =====*/
 
@@ -182,7 +233,7 @@
   }
   .timeline-article .content-left,
   .timeline-article .content-right {
-    padding: 10px 25px;
+    padding: 0;
     min-height: 65px;
   }
   .timeline-article .content-left:before {
@@ -195,6 +246,9 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .timeline-image {
+    width: 100%;
+  }
   .timeline-article p {
     margin: 0;
   }
@@ -202,12 +256,5 @@
   .timeline-article p span.article-number {
     display: none;
   }
-  
 }
 /*===== // Resonsive Vertical Timeline =====*/
-
-
-/* TEMP STUFF */
-.todo-cite {
-  background-color: slategrey !important;
-}

@@ -3,7 +3,7 @@
     <span class="date">1999</span>
   </div>
   <% partial "timeline/element", locals: {
-    direction: direction,
+    direction: "left",
     title: "Front Ensemble Added",
     id: "pit",
     image: "mb016.jpg",
@@ -19,9 +19,25 @@
     <div class="resources">
       Source
       <ul>
-        <li>TODO Daily Nebraskan article mentioning the new pit on work computer</li>
-        <li>Chen, Jeremy. <a target="_blank" rel="nofollow noopener" href="http://www.halftimemag.com/direct-from/nebraska-cornhusker-marching-band.html
-">"Nebraska Cornhusker Marching Band,"</a> <em>Halftime Magazine</em> September 20, 2011.</li>
+        <li>Carstens, Marissa Jo. "Marching Band 'Pride of State,'" <em>The Daily Nebraskan</em>, November 15, 1999.</li>
+        <li>Chen, Jeremy. <a href="http://www.halftimemag.com/direct-from/nebraska-cornhusker-marching-band.html">"Nebraska Cornhusker Marching Band,"</a> <em>Halftime Magazine</em> September 20, 2011.</li>
+      </ul>
+    </div>
+  <% end %>
+
+  <% partial "timeline/element", locals: {
+    direction: "right",
+    title: "March of the Cornhuskers Documentary",
+    id: "documentary",
+    image: "",
+    image_caption: "",
+    image_attr: "" } do %>
+    <p>In 1999, the Nebraska Educational Telecommunications station released a documentary on the marching band which gave viewers a window into the audition process, rigorous rehearsals, and "rare audio and video highlights of band performances."</p>
+
+    <div class="resources">
+      Source
+      <ul>
+        <li><a target="_blank" rel="nofollow noopener" href="http://netnebraska.org/basic-page/television/march-cornhuskers">"March of the Cornhuskers,"</a> <em>Nebraska Educational Telecommunications</em>, December 1999.</li>
       </ul>
     </div>
   <% end %>

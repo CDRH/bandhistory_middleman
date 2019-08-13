@@ -636,12 +636,12 @@ field:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 421203-02430
+- id: 421203-02431
   title: Nebraska vs. Notre Dame band performance
   date: 1924, November 15
   year: '1924'
   description: Band photo from 1924 Nebraska vs. Notre Dame football game. Marching
-    band with stadium in the background.
+    band with goalpost and stadium in the background.
   creator: 
   box: 
   collection: University Photo Collection
@@ -650,12 +650,12 @@ field:
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-02431
+- id: 421203-02430
   title: Nebraska vs. Notre Dame band performance
   date: 1924, November 15
   year: '1924'
   description: Band photo from 1924 Nebraska vs. Notre Dame football game. Marching
-    band with goalpost and stadium in the background.
+    band with stadium in the background.
   creator: 
   box: 
   collection: University Photo Collection
@@ -678,20 +678,6 @@ field:
     please contact Archives & Special Collections, University of Nebraska-Lincoln
     Libraries.
   publisher: 
-- id: 421203-03356
-  title: Minnesota Game
-  date: 1937, October
-  year: '1937'
-  description: Positioned in front of the football audience, the marching band members
-    hold their instruments at the ready.
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421203-03348
   title: Minnesota Game
   date: 1937, October
@@ -712,6 +698,61 @@ field:
   year: '1937'
   description: Marching band members walk and position themselves with their instruments
     by the stadium stands.
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-03416
+  title: Football Game
+  date: '1937'
+  year: '1937'
+  description: In the front of the football audience, band members hold their instruments
+    in front of them.
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-03412
+  title: Football Game
+  date: '1937'
+  year: '1937'
+  description: The marching band plays on the football field in rows.
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-03399
+  title: Football Game
+  date: '1937'
+  year: '1937'
+  description: Photographed from behind, marching band members play in formation on
+    the field.
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-03356
+  title: Minnesota Game
+  date: 1937, October
+  year: '1937'
+  description: Positioned in front of the football audience, the marching band members
+    hold their instruments at the ready.
   creator: 
   box: 
   collection: University Photo Collection
@@ -748,59 +789,6 @@ field:
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-03416
-  title: Football Game
-  date: '1937'
-  year: '1937'
-  description: In the front of the football audience, band members hold their instruments
-    in front of them.
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-03399
-  title: Football Game
-  date: '1937'
-  year: '1937'
-  description: Photographed from behind, marching band members play in formation on
-    the field.
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-03412
-  title: Football Game
-  date: '1937'
-  year: '1937'
-  description: The marching band plays on the football field in rows.
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130815-00028
-  title: Holdrege band
-  date: 1940-1950
-  year: '1940'
-  description: 'Photo collage of an unidentified band possibly from Holdrege, Nebraska
-    on Band Day. A band member eats a candy apple. '
-  creator: 
-  box: B16 F6
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
-  rights: For copyright information, please contact the repository.
-  publisher: 
 - id: 130815-07427
   title: Band members march in Memorial Stadium
   date: '1940'
@@ -810,6 +798,18 @@ field:
     plumed hats.
   creator: 
   box: 
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+  rights: For copyright information, please contact the repository.
+  publisher: 
+- id: 130815-00028
+  title: Holdrege band
+  date: 1940-1950
+  year: '1940'
+  description: 'Photo collage of an unidentified band possibly from Holdrege, Nebraska
+    on Band Day. A band member eats a candy apple. '
+  creator: 
+  box: B16 F6
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
@@ -843,21 +843,6 @@ field:
     please contact Archives & Special Collections, University of Nebraska-Lincoln
     Libraries.
   publisher: 
-- id: 421201-06281
-  title: Kneeling during performance
-  date: 1950, Sept. 30
-  year: '1950'
-  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows several band members kneeling while playing their instruments
-    at the Nebraska-Indiana game.'
-  creator: University Communications, Photo Services Department
-  box: B6
-  collection: Publications and Photography, Athletic Series
-  rg: RG 42-12-01
-  rights: Copyright University of Nebraska Board of Regents. To inquire about usage,
-    please contact Archives & Special Collections, University of Nebraska-Lincoln
-    Libraries.
-  publisher: 
 - id: 421201-06285
   title: Big Bertha on the field
   date: 1950, Sept. 30
@@ -873,13 +858,13 @@ field:
     please contact Archives & Special Collections, University of Nebraska-Lincoln
     Libraries.
   publisher: 
-- id: 421201-06291
+- id: 421201-06281
   title: Kneeling during performance
   date: 1950, Sept. 30
   year: '1950'
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
-    game." The negative shows the marching band performing on the field, kneeling,
-    during the 1950 Nebraska-Indiana game.'
+    game." The negative shows several band members kneeling while playing their instruments
+    at the Nebraska-Indiana game.'
   creator: University Communications, Photo Services Department
   box: B6
   collection: Publications and Photography, Athletic Series
@@ -895,6 +880,21 @@ field:
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
     game." The negative shows members of the marching band watching the 1950 Nebraska-Indiana
     game from the sideline.'
+  creator: University Communications, Photo Services Department
+  box: B6
+  collection: Publications and Photography, Athletic Series
+  rg: RG 42-12-01
+  rights: Copyright University of Nebraska Board of Regents. To inquire about usage,
+    please contact Archives & Special Collections, University of Nebraska-Lincoln
+    Libraries.
+  publisher: 
+- id: 421201-06291
+  title: Kneeling during performance
+  date: 1950, Sept. 30
+  year: '1950'
+  description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
+    game." The negative shows the marching band performing on the field, kneeling,
+    during the 1950 Nebraska-Indiana game.'
   creator: University Communications, Photo Services Department
   box: B6
   collection: Publications and Photography, Athletic Series
@@ -929,20 +929,6 @@ field:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 421201-00174
-  title: University Marching Band
-  date: 10/17/64
-  year: '1964'
-  description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
-    onto football field. Crowd in stadium. Band formations, Big 8, Vote, & football.
-    Football action," shows trumpeters from the marching band on the field.'
-  creator: University Communications, Photo Services Department
-  box: 
-  collection: Athletics Photos, University Communications Records
-  rg: RG 42-12-01
-  rights: These images are for educational use only. To inquire about usage or publication,
-    please contact Archives & Special Collections
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421201-00112
   title: Drum major and marching band
   date: 10/31/64
@@ -951,6 +937,20 @@ field:
     catching pass. Mo-Nebr, Victory Ball exchange.  Coaches & players - sidelines. 
     Campus bus.  Drum major & band. Kettle drums.  Score board," shows the marching
     band on a football field with their conductor, the stadium is visible in the background.'
+  creator: University Communications, Photo Services Department
+  box: 
+  collection: Athletics Photos, University Communications Records
+  rg: RG 42-12-01
+  rights: These images are for educational use only. To inquire about usage or publication,
+    please contact Archives & Special Collections
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421201-00174
+  title: University Marching Band
+  date: 10/17/64
+  year: '1964'
+  description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
+    onto football field. Crowd in stadium. Band formations, Big 8, Vote, & football.
+    Football action," shows trumpeters from the marching band on the field.'
   creator: University Communications, Photo Services Department
   box: 
   collection: Athletics Photos, University Communications Records
@@ -1017,18 +1017,6 @@ field:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 130815-00053
-  title: The Entertainer
-  date: '1974'
-  year: '1974'
-  description: 'Original caption: "The Entertainer." A close up of a person playing
-    a the song "The Entertainer" on a trumpet on the field at Memorial Stadium.'
-  creator: David W. Huffman
-  box: B17 F3
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
-  rights: For copyright information, please contact the repository.
-  publisher: 
 - id: 130815-00054
   title: Post game
   date: '1974'
@@ -1036,6 +1024,18 @@ field:
   description: 'Original caption: "1974 post game."  A line of horns on the field
     of a football stadium.'
   creator: 
+  box: B17 F3
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+  rights: For copyright information, please contact the repository.
+  publisher: 
+- id: 130815-00053
+  title: The Entertainer
+  date: '1974'
+  year: '1974'
+  description: 'Original caption: "The Entertainer." A close up of a person playing
+    a the song "The Entertainer" on a trumpet on the field at Memorial Stadium.'
+  creator: David W. Huffman
   box: B17 F3
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
@@ -1081,19 +1081,6 @@ field:
   date: 
   year: Unknown
   description: '"Band Members on Football Field"'
-  creator: University Communications, Photo Services Department
-  box: 
-  collection: University Photos, University Communications Records
-  rg: RG 42-12-02
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421202-pp6173
-  title: Trumpet player
-  date: 
-  year: Unknown
-  description: '"Band Member Playing Trumpet"'
   creator: University Communications, Photo Services Department
   box: 
   collection: University Photos, University Communications Records
@@ -1258,6 +1245,23 @@ group:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-00095
+  title: Military Ball
+  date: 1933, December 8
+  year: '1933'
+  description: 'Original caption: "Military Ball. 444-447 go together." Men in military
+    uniforms and women in evening gowns stand in rows filling the floor of a large
+    gymnasium, facing a seated band and conductor. The men and women appear to be
+    paired off in male-female couples. Attendees fill balcony seating surrounding
+    the floor.'
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130815-07236
   title: 'Big Bertha bass drum '
   date: '1934'
@@ -1323,19 +1327,6 @@ group:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 130833-00005
-  title: Europe tour
-  date: 
-  year: '1974'
-  description: Slide of the band performing in Europe
-  creator: 
-  box: 
-  collection: Jack Snider Band Papers
-  rg: RG130820
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130833-00004
   title: Europe tour
   date: 
@@ -1345,6 +1336,19 @@ group:
   box: 
   collection: Jack Snider Band Papers
   rg: RG130819
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130833-00005
+  title: Europe tour
+  date: 
+  year: '1974'
+  description: Slide of the band performing in Europe
+  creator: 
+  box: 
+  collection: Jack Snider Band Papers
+  rg: RG130820
   rights: To inquire about usage, please contact Archives and Special Collections,
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
@@ -1939,11 +1943,10 @@ people:
   rights: For copyright information, please contact the repository.
   publisher: 
 - id: 421203-03574
-  title: Military Department
+  title: Pershing Day
   date: 1926, May 28
   year: '1926'
-  description: A man in a suit hands a trophy to a man in military uniform, others
-    in uniform standing in lines on other side of the two.
+  description: " General Pershing and a man in military uniform hold a trophy"
   creator: 
   box: 
   collection: University Photo Collection
@@ -1951,37 +1954,6 @@ people:
   rights: 'To inquire about usage, please contact Archives & Special Collections,
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-00095
-  title: Military Ball
-  date: 1933, December 8
-  year: '1933'
-  description: 'Original caption: "Military Ball. 444-447 go together." Men in military
-    uniforms and women in evening gowns stand in rows filling the floor of a large
-    gymnasium, facing a seated band and conductor. The men and women appear to be
-    paired off in male-female couples. Attendees fill balcony seating surrounding
-    the floor.'
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421202-00410
-  title: Phil Kleppinger
-  date: 1935, January 9
-  year: '1935'
-  description: 'Original caption: "Kleppinger, Phil, Band Uniform" Portrait of Phil
-    Kleppinger in band uniform;  One double negative in envelope.'
-  creator: University Communications, Photo Services Department
-  box: 
-  collection: University Photos, University Communications Records
-  rg: RG 42-12-02
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421202-00411
   title: R. Middlehauf
@@ -1997,12 +1969,25 @@ people:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421202-00410
+  title: Phil Kleppinger
+  date: 1935, January 9
+  year: '1935'
+  description: 'Original caption: "Kleppinger, Phil, Band Uniform" Portrait of Phil
+    Kleppinger in band uniform;  One double negative in envelope.'
+  creator: University Communications, Photo Services Department
+  box: 
+  collection: University Photos, University Communications Records
+  rg: RG 42-12-02
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130815-07228
   title: Marching band director Donald Lentz
   date: 1937-1973
   year: '1937'
-  description: Marching Band Director Donald Lentz studio portrait; Lentz wears dark
-    suit and tie and has small moustache.
+  description: Marching Band Director Donald Lentz studio portrait
   creator: 
   box: B16
   collection: Cornhusker Marching Band, Records
@@ -2179,7 +2164,7 @@ people:
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421201-00355
-  title: Jack Snider, Don Lentz, and "Big Bertha"
+  title: Jack Snider, Don Lentz, and 'Big Bertha'
   date: 9/16/66
   year: '1966'
   description: Athletics, Drum Majors Jack Snider, Don Lentz and Big Bertha (drum)
@@ -2245,18 +2230,6 @@ people:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 130815-00045
-  title: Album Cover
-  date: '1971'
-  year: '1971'
-  description: 'Original caption: "1971 album cover. L-R. Bill Shuster, Eric Hornbacher,
-    Darrel Stehlik, Steve Forbes, Front: Doug Phelps."'
-  creator: 
-  box: B16 F11
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
-  rights: For copyright information, please contact the repository.
-  publisher: 
 - id: 421201-00021
   title: Johnny Carson and Durwood Varner
   date: 10/16/71
@@ -2270,6 +2243,18 @@ people:
   rg: RG42-12-01
   rights: For copyright information, please contact the repository.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130815-00045
+  title: Album Cover
+  date: '1971'
+  year: '1971'
+  description: 'Original caption: "1971 album cover. L-R. Bill Shuster, Eric Hornbacher,
+    Darrel Stehlik, Steve Forbes, Front: Doug Phelps."'
+  creator: 
+  box: B16 F11
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+  rights: For copyright information, please contact the repository.
+  publisher: 
 - id: 130815-00050
   title: Band playing in pool
   date: '1973'
@@ -2293,6 +2278,18 @@ people:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
+- id: 130815-00056
+  title: Dave Deyloff
+  date: '1974'
+  year: '1974'
+  description: 'Original caption: "1974 one guy who could REALLY get into it. Dave
+    Deyloff. Outdoor pratice."'
+  creator: David W. Huffman
+  box: B17 F3
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+  rights: For copyright information, please contact the repository.
+  publisher: 
 - id: 421201-00569
   title: Dianne Tangemann, twirler
   date: 5/2/74
@@ -2304,6 +2301,71 @@ people:
   rg: RG 42-12-01
   rights: These images are for educational use only. To inquire about usage or publication,
     please contact Archives & Special Collections
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130815-00055
+  title: Dr. Fought conducts rehearsal
+  date: 1974, Oct.
+  year: '1974'
+  description: 'Original caption: "God speaks. Rehearsal. Bob Fought" The marching
+    band rehearses while seated in an auditorium.'
+  creator: David W. Huffman
+  box: B17 F3
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+  rights: For copyright information, please contact the repository.
+  publisher: 
+- id: 130833-00003
+  title: Europe tour
+  date: 
+  year: '1974'
+  description: Slide of the band in Europe, sousaphones featured
+  creator: 
+  box: 
+  collection: Jack Snider Band Papers
+  rg: RG130818
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130833-00007
+  title: Making new friends in Europe
+  date: 
+  year: '1974'
+  description: Slide of a band member posing with Europeans wearing traditional clothing
+  creator: 
+  box: 
+  collection: Jack Snider Band Papers
+  rg: RG130822
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130833-00008
+  title: Rehearsing on the Europe tour
+  date: 
+  year: '1974'
+  description: Slide of band members rehearsing in Europe
+  creator: 
+  box: 
+  collection: Jack Snider Band Papers
+  rg: RG130823
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130833-00009
+  title: Director Snider rehearsing in Europe
+  date: 
+  year: '1974'
+  description: Slide of Director Jack Snider speaking through a megaphone during a
+    band rehearsal in Europe
+  creator: 
+  box: 
+  collection: Jack Snider Band Papers
+  rg: RG130824
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130833-00015
   title: Snider conducts in Europe
@@ -2353,83 +2415,6 @@ people:
   box: 
   collection: Jack Snider Band Papers
   rg: RG130825
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130815-00055
-  title: Bob Fought rehersal
-  date: 1974, Oct.
-  year: '1974'
-  description: 'Original caption: "God speaks. Rehersal. Bob Fought" The marching
-    band rehearses while seated in an autitorium.'
-  creator: David W. Huffman
-  box: B17 F3
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
-  rights: For copyright information, please contact the repository.
-  publisher: 
-- id: 130815-00056
-  title: Dave Deyloff
-  date: '1974'
-  year: '1974'
-  description: 'Original caption: "1974 one guy who could REALLY get into it. Dave
-    Deyloff. Outdoor pratice."'
-  creator: David W. Huffman
-  box: B17 F3
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
-  rights: For copyright information, please contact the repository.
-  publisher: 
-- id: 130833-00009
-  title: Director Snider rehearsing in Europe
-  date: 
-  year: '1974'
-  description: Slide of Director Jack Snider speaking through a megaphone during a
-    band rehearsal in Europe
-  creator: 
-  box: 
-  collection: Jack Snider Band Papers
-  rg: RG130824
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00008
-  title: Rehearsing on the Europe tour
-  date: 
-  year: '1974'
-  description: Slide of band members rehearsing in Europe
-  creator: 
-  box: 
-  collection: Jack Snider Band Papers
-  rg: RG130823
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00007
-  title: Making new friends in Europe
-  date: 
-  year: '1974'
-  description: Slide of a band member posing with Europeans wearing traditional clothing
-  creator: 
-  box: 
-  collection: Jack Snider Band Papers
-  rg: RG130822
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00003
-  title: Europe tour
-  date: 
-  year: '1974'
-  description: Slide of the band in Europe, sousaphones featured
-  creator: 
-  box: 
-  collection: Jack Snider Band Papers
-  rg: RG130818
   rights: To inquire about usage, please contact Archives and Special Collections,
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
@@ -2503,34 +2488,17 @@ people:
   rg: n/a
   rights: For copyright information, please contact the UNL Band Office
   publisher: 
-- id: 2029-00175
-  title: Jack Snider and Darwin Fredrickson
-  date: undated
+- id: 421201-00441
+  title: Drum Major and Homecoming Queen
+  date: 
   year: Unknown
-  description: 'Original caption: "Jack Snider and Darwin Fredrickson planning shows."
-    Jack and Darwin sit and stand next to a table set up with a graph of a football
-    frield. They are planning a clover marching band formation.'
-  creator: 
-  box: B1 F31
-  collection: Don and Velma Lentz, Papers
-  rg: ACC2029
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 2029-00173
-  title: Man plays trumpet
-  date: undated
-  year: Unknown
-  description: 'Original caption: "Don Lentz. John Berigan. Dean Bushnell." A man
-    plays trumpet as Lentz watches while seated at a piano.'
-  creator: 
-  box: B1 F31
-  collection: Don and Velma Lentz, Papers
-  rg: ACC2029
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
+  description: Drum major and Homecoming Queen with a crowd behind them in Memorial
+    Stadium.
+  creator: University Communications, Photo Services Department
+  box: 
+  collection: Athletics Photos, University Communications Records
+  rg: RG 42-12-01
+  rights: For copyright information, please contact the repository.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421203-00101
   title: Pershing Day
@@ -2545,6 +2513,21 @@ people:
   rights: 'To inquire about usage, please contact Archives & Special Collections,
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 2029-00175
+  title: Jack Snider and Darwin Fredrickson
+  date: undated
+  year: Unknown
+  description: 'Original caption: "Jack Snider and Darwin Fredrickson planning shows."
+    Jack and Darwin sit and stand next to a table set up with a graph of a football
+    frield. They are planning a clover marching band formation.'
+  creator: 
+  box: B1 F31
+  collection: Don and Velma Lentz, Papers
+  rg: ACC2029
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421203-00099
   title: Pershing Day
@@ -2561,17 +2544,32 @@ people:
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421201-00441
-  title: Drum Major and Homecoming Queen
+- id: 2029-00173
+  title: Man plays trumpet
+  date: undated
+  year: Unknown
+  description: 'Original caption: "Don Lentz. John Berigan. Dean Bushnell." A man
+    plays trumpet as Lentz watches while seated at a piano.'
+  creator: 
+  box: B1 F31
+  collection: Don and Velma Lentz, Papers
+  rg: ACC2029
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421202-pp6173
+  title: Trumpet player
   date: 
   year: Unknown
-  description: Drum major and Homecoming Queen with a crowd behind them in Memorial
-    Stadium.
+  description: '"Band Member Playing Trumpet"'
   creator: University Communications, Photo Services Department
   box: 
-  collection: Athletics Photos, University Communications Records
-  rg: RG 42-12-01
-  rights: For copyright information, please contact the repository.
+  collection: University Photos, University Communications Records
+  rg: RG 42-12-02
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 other:
 - id: 130833-00026

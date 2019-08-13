@@ -8,8 +8,8 @@
   <% data.images[category].each do |image| %>
 
     <!-- TODO should the link description make it clear that this will open a larger image with more metadata for screenreaders? -->
-<div class="image flex-item">
-    <% link = url_for "/multimedia/images/#{image["id"]}/index.html" %>
+    <div class="image flex-item">
+      <% link = url_for "/multimedia/images/#{image["id"]}/index.html" %>
       <% label = "#{image["title"]}<br/><a href='#{link}' target='blank' rel='nofollow noopener'>View More Information</a>" %>
 
       <h3><%= image["title"] %> (<%= image["year"] %>)</h3>
@@ -34,11 +34,8 @@
           <li>Creator: <%= image["creator"] %></li>
         <% end %>
       </ul>
-
-      <%# link_to "View More Information", link, target: "_blank", rel: "nofollow noopener" %>
-      <%# link_to "View More Information", "/multimedia/images/#{image["id"]}/index.html", target: "_blank", rel: "nofollow noopener" %>
     
-     <%= link_to "View More Information", "/multimedia/images/#{image["id"]}/index.html", target: "_blank", rel: "nofollow noopener", class: "btn btn-sm btn-secondary btn-block btn-moreinformation" %>
+     <%= link_to "View More Information", "/multimedia/images/#{image["id"]}/index.html", class: "btn btn-sm btn-secondary btn-block btn-moreinformation" %>
   </div>
   <% end %>
 </div>

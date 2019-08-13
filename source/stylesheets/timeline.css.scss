@@ -6,12 +6,12 @@
 $graybackground: #7E7E7C;
 $darkgraytitle: #3F3F3E;
 
-.timeline-article > .content-container > .event {
-  a {
-    color: $black;
-    text-decoration: none;
-  }
-}
+// .timeline-article > .content-container > .event {
+//   a {
+//     color: $black;
+//     text-decoration: none;
+//   }
+// }
 
 /*===== Vertical Timeline =====*/
 #band-timeline {
@@ -187,8 +187,9 @@ $darkgraytitle: #3F3F3E;
   }
 }
 
-.gallery {
+.gallery, .gallery:hover {
   width: 100%;
+  text-decoration: none;
 }
 
 .timeline-collapse {

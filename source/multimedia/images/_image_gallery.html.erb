@@ -9,16 +9,18 @@
 
     <!-- TODO should the link description make it clear that this will open a larger image with more metadata for screenreaders? -->
     <div class="image flex-item">
+      <% link = url_for "/multimedia/images/#{image["id"]}/index.html" %>
+      <% label = "#{image["title"]}<br/><a href='#{link}' target='blank' rel='nofollow noopener'>View More Information</a>" %>
+
       <h3><%= image["title"] %> (<%= image["year"] %>)</h3>
 
       <%# middleman doesn't like link_to inside of <a> tag %>
-      <% link = url_for "/multimedia/images/#{image["id"]}/index.html" %>
-      <% label = "#{image["title"]}<br/><a href='#{link}' target='blank' rel='nofollow noopener'>View More Information</a>" %>
 
       <a class="gallery"
         href="<%= url_for "images/content/large/#{image["id"]}.jpg" %>"
         title="<%= label %>">
         <%= image_tag "images/content/small/#{image["id"]}.jpg", class: "thumbnail", alt: image["title"] %>
+        <span class="imagecaption">View larger image</span>
       </a>
 
       <ul>
@@ -32,9 +34,9 @@
           <li>Creator: <%= image["creator"] %></li>
         <% end %>
       </ul>
-      <%= link_to "View More Information", link, target: "_blank", rel: "nofollow noopener" %>
-    </div>
-
+    
+     <%= link_to "View More Information", "/multimedia/images/#{image["id"]}/index.html", class: "btn btn-sm btn-secondary btn-block btn-moreinformation" %>
+  </div>
   <% end %>
 </div>
 

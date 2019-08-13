@@ -25,6 +25,9 @@
     line-height: 1.1em;
     margin-bottom: .4em;
   }
+  &:hover {
+    background-color: $gray-100;
+  }
 }
 
 .filters-topic button, .filters-decade button {
@@ -55,29 +58,6 @@ video {
   background-color: $primary;
 }
 
-.video {
-  h3 {
-    font-size: 1.6em;
-  }
-  a:link {
-    color: $text-color;
-    text-decoration: none;
-  }
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  a:active {
-    text-decoration: underline;
-  }
-
-  &:hover {
-    background-color: $gray-200;
-  };
-}
-
 .video-hidden {
   display: none;
 }
@@ -87,27 +67,36 @@ video {
 /* ****** */
 
 .image {
-  padding: 1em;
-  flex-basis: 260px;
-  flex-grow: 1;
+  .gallery {
+    text-decoration: none;
+    img {
+      border: solid 2px $gray-800;
+    }
+    &:hover img {
+      border: $primary 2px solid;
+    }
+    .imagecaption {
+      background: $gray-800;
+      color: #fff;
+      display: block;
+      position: relative; 
+      text-align: center;
+      width: 100%;
+      text-decoration: none;
+    }
+    &:hover .imagecaption {
+      background: $primary;
+    }
+  }
+}
 
-  a:link {
-    color: $text-color;
-    text-decoration: none;
-  }
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  a:active {
-    text-decoration: underline;
-  }
+.btn-moreinformation {
+  background: $gray-800;
+  color: #fff;
+}
 
-  &:hover {
-    background-color: $gray-200;
-  };
+a.btn {
+  text-decoration: none;
 }
 
 .image-navbar .navbar-nav {

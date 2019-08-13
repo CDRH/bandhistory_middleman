@@ -291,13 +291,26 @@ $dark-overlay: rgba(0,0,0,0.7);
   } 
 }
 
-// Grid items link color
+// Grid items
 
-.flex-item a p {
-  color: $primary;
-}
-
-.flex-item a img {
-  border: solid 2px $primary;
-  display: block;
+a.flex-item {
+  text-decoration: none;
+  h3 {
+    color: #000;
+  }
+  p  {
+    margin: 0 0 .5em 0;
+    padding: 0;
+  }
+  &:hover p {
+    text-decoration: underline;
+  }
+  img {
+    border: solid 2px #000000;
+    display: block; 
+    margin-bottom: .5em;
+  }
+  &:hover img {
+    border-color: $primary;
+  }
 }

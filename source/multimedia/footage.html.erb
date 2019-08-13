@@ -39,14 +39,14 @@ title: Footage | Band History
 <div class="videos-container flex-container">
   <% data.clips.each do |id, info| %>
     <% html_id = id.gsub(".", "") %>
-    <div class="video flex-item <%= info["keywords"] %> <%= info["decade"] %>">
+    <a href="#<%= html_id %>" onclick="$('#<%= html_id %>').modal('show')" class="video flex-item <%= info["keywords"] %> <%= info["decade"] %>">
       <h3><%= info["year_estimate"] %></h3>
-      <a href="#<%= html_id %>" onclick="$('#<%= html_id %>').modal('show')">
-        <%= image_tag "images/video_thumbs/#{id}.jpg", class: "thumbnail" %>
-        <p><%= info["desc"] %></p>
-        <p>Reel: <%= info["archives_id"] %></p>
-      </a>
-    </div>
+     
+      <%= image_tag "images/video_thumbs/#{id}.jpg", class: "thumbnail" %>
+      <p><%= info["desc"] %></p>
+      <p>Reel: <%= info["archives_id"] %></p>
+    </a>
+
     <!-- Video modal -->
     <div class="modal fade" id="<%= html_id %>" tabindex="-1" role="dialog"
       aria-labelledby="<%= html_id %>" aria-hidden="true">

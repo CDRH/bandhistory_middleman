@@ -112,7 +112,7 @@ end
 
 @categories.each do |key, values|
   @categories[key] = values.sort_by do |item|
-    item["year"] == "Unknown" ? "0" : item["year"]
+    item["year"] == "Unknown" ? "9999" : item["year"]
   end
 end
 

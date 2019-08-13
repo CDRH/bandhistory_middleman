@@ -5,7 +5,7 @@
       <%= title %>
     </h3>
 
-    <% if image %>
+    <% if image.present? %>
       <div class="timeline-image">
         <a class="gallery"
           href="<%= url_for "images/content/large/#{image}" %>"
@@ -41,7 +41,7 @@
 
         <%= yield %>
 
-        <% if image %>
+        <% if image.present? %>
           <div class="image_attribution">
             Image: <%= image_attr %>
           </div>

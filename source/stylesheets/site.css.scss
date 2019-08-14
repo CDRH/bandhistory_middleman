@@ -10,8 +10,15 @@ html {
 
 header {
   margin-bottom: 1em;
-  background-color: mix($primary,$black,70%);
   text-align:center;
+  background: linear-gradient(0deg, 
+    rgba(mix($primary,$black,0%),0.5) 0%,  
+    rgba(mix($primary,$black,100%),0.5) 100%), 
+    url('../images/content/template/header.jpg') 
+    no-repeat;
+    background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
 }
 
 img {
@@ -21,7 +28,10 @@ img {
 h1 .navbar-brand {
   font-size: 1em;
   letter-spacing: 0.1em;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, .8), 3px 3px 10px rgba(167, 17, 7, .8);
+  text-shadow: 
+    3px 3px 5px rgba(0, 0, 0, .8), 
+    3px 3px 10px rgba(167, 17, 7, .8),
+    -1px 0px 7px rgba(0, 0, 0, 1);
   font-family: 'Cinzel', serif;
   white-space: normal;
 }
@@ -41,7 +51,7 @@ h1 .navbar-brand {
 }
 
 .navbar {
-  display: block; 
+  display: block;
 }
 
 .navbar-nav {
@@ -56,10 +66,10 @@ h1 .navbar-brand {
 
 .navbar-dark .navbar-nav .nav-item {
   &.active {
-    background-color: mix($primary,$black,30%);
+    background-color: rgba(mix($primary,$black,100%),.8);
   }
   &:hover {
-    background-color: mix($primary,$black,90%);
+    background-color: rgba(mix($primary,$black,20%),.8);
   }
   .nav-link {
     color: #ffffff;
@@ -67,7 +77,7 @@ h1 .navbar-brand {
 }
 
 .nav-item {
-  background-color: mix($primary,$black,70%);
+  background-color: rgba(mix($primary,$black,50%),.8);
   font-family: 'Cutive', serif;
   font-size: 1.2em;
   margin: .1em .4em;
@@ -88,8 +98,19 @@ nav a {
 }
 
 footer {
-  background-color: mix($primary,$black,70%);
+  background-color: mix($primary,$black,50%);
   margin-top: 3em;
+  font-size: 1.4em;
+  text-align: center;
+  img {
+    margin-bottom: 1em;
+  }
+  .bg-footer {
+    background-color: transparent;
+  }
+  .card {
+    border: none;
+  }
 }
 
 .footer {
@@ -313,4 +334,33 @@ a.flex-item {
   &:hover img {
     border-color: $primary;
   }
+}
+
+// "On Parade"
+.album_gallery {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.5em;
+}
+
+.album_gallery a {
+  margin-bottom: 1em;
+}
+
+.audio_tracks audio {
+  width: 100%;
+}
+
+.tracks_listing {
+  margin-top: .2em;
+}
+
+.interview-video video {
+  background-color: $gray-300;
+  display: block;
+  height: 540px;
+  margin: 1em auto;
+  max-size: 100%;
+  width: 960px;
 }

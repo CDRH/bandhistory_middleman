@@ -21,24 +21,28 @@ title: On Parade | Band History
   { title: "Dear Old Nebraska U", filename: "08-dear-old-nebraska-u.mp3" },
 ] %>
 
-<% tracks.each_with_index do |track, index| %>
-  <div class="row tracks_listing">
-    <div class="col-md-1">
-      <%= index+1 %>
-    </div>
-    <div class="col-md-4">
-      <%= track[:title] %>
-    </div>
-    <div class="col-md-7">
-      <audio controls preload="none">
-        <% path = "../../audio/multimedia/on_parade/#{track[:filename]}" %>
+<div class="card">
+  <div class="card-body">
+    <% tracks.each_with_index do |track, index| %>
+      <div class="row tracks_listing">
+        <div class="col-md-1">
+          <%= index+1 %>
+        </div>
+        <div class="col-md-4">
+          <%= track[:title] %>
+        </div>
+        <div class="col-md-7 audio_tracks">
+          <audio controls preload="none">
+            <% path = "../../audio/multimedia/on_parade/#{track[:filename]}" %>
 
-        <source type="audio/mpeg" src="<%= url_for path %>">
-        <p>Your browser doesn't support HTML5 audio. Here is a <a href="<%= url_for path %>">link to the audio</a>
-      </audio>
-    </div>
+            <source type="audio/mpeg" src="<%= url_for path %>">
+            <p>Your browser doesn't support HTML5 audio. Here is a <a href="<%= url_for path %>">link to the audio</a></p>
+          </audio>
+        </div>
+      </div>
+    <% end %>
   </div>
-<% end %>
+</div>
 
 <% images = [
   { id: "130815-00031.jpg", label: "Front Cover" },

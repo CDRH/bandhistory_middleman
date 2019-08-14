@@ -30,7 +30,7 @@
     <header role="banner">
       <div class="container">
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <h1><%= link_to "Cornhusker Marching Band History", "/index.html", class: "navbar-brand" %></h1>
           <ul class="navbar-nav mr-auto">
             <% path = current_page.url %>
@@ -57,11 +57,17 @@
 
     <footer>
       <div class="container">
-      <div class="card text-white bg-primary">
+      <div class="card text-white bg-footer">
         <div class="card-body footer">
           <p class="logo_container card-text">
-            <%= image_tag "images/UNL_logo.png" %>
-            Support provided by <a href="https://cdrh.unl.edu/">Center for Digital Research in the Humanities</a> and the <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a><br/>
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://unl.edu" alt="University of Nebraska-Lincoln"><%= image_tag "/images/content/template/NUNL.png", alt: "UNL Logo" %></a>
+              </div>
+              <div class="col-md-8">
+                Support provided by <a href="https://cdrh.unl.edu/">Center for Digital Research in the Humanities</a> and the <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a>
+              </div>
+            </div>
           </p>
         </div>
       </div>

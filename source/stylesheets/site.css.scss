@@ -5,7 +5,7 @@
 /* ****************** */
 
 html {
-  background-color: mix($primary,$black,70%);
+  background-color: mix($primary,$black,50%);
 }
 
 header {
@@ -165,32 +165,28 @@ $dark-overlay: rgba(0,0,0,0.7);
   flex-wrap: wrap;
   text-align: center;
 
-  a {
-    border-style: solid;
+  .section-nav {
+    background-color: $secondary; // Fallback
+    background-position: bottom !important;
+    background-size: cover;
     border-bottom-width: 20px; // Must come after border-width
+    border-style: solid;
     color: $dark-overlay; // Without this the border is white (???)
+    //color: $white;
+    display: flex;
+    flex-basis: 1;
+    flex-direction: column;
+    height: 270px;
+    margin: 10px;
+    min-width: 45%;
     text-decoration: none;
-  }
-}
+    width: 45%;
 
-
-.section-nav {
-  background-color: $secondary; // Fallback
-  background-position: bottom !important;
-  background-size: cover;
-  color: $white;
-  flex-basis: 1;
-  margin: 10px;
-  min-width: 45%;
-  width: 45%;
-
-  &:hover {
-    border-color: $primary;
-    & .section-nav-title, & .section-nav-subtitle {
-      background-color: rgba($primary,.9);
-    }
-    & .section-nav-subtitle {
-      opacity: 0;
+    &:hover {
+      border-color: $primary;
+      & .section-nav-title, & .section-nav-subtitle {
+        background-color: rgba($primary,.9);
+      }
     }
   }
 }
@@ -199,9 +195,8 @@ $dark-overlay: rgba(0,0,0,0.7);
   background-color: $dark-overlay;
   color: $white;
   display:block;
-  font-size: 1.2em;
-  margin: 0 20px 20px 20px;
-  padding: 10px;
+  font-size: 1.1em;
+  padding: 5px;
 }
 
 .section-nav-title {
@@ -210,8 +205,10 @@ $dark-overlay: rgba(0,0,0,0.7);
   margin-bottom: 0;
 }
 
-.section-nav-subtitle {
-  margin-bottom: 40px;
+.section-nav-image {
+  height: 100%;
+  background-size: cover;
+  background-position: center
 }
 
 // Background photo setting: move these into 
@@ -219,34 +216,34 @@ $dark-overlay: rgba(0,0,0,0.7);
 
 // Default images, alternating by nth child
 
-.section-nav:nth-child(1n)  {
+.section-nav:nth-child(1n) .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/default01.jpg');
 }
 
-.section-nav:nth-child(2n) {
+.section-nav:nth-child(2n) .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/default02.jpg');
 }
 
-.section-nav:nth-child(3n) {
+.section-nav:nth-child(3n) .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/default04.jpg');
 }
 
-.section-nav:nth-child(4n) {
+.section-nav:nth-child(4n) .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/default03.jpg');
 }
 
 // Sights & Sounds
 
-.section-nav.section-nav-multimedia-footage {
+.section-nav.section-nav-multimedia-footage .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/footage.jpg');
 }
-.section-nav.section-nav-multimedia-audio {
+.section-nav.section-nav-multimedia-audio .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/audio.jpg');
 }
-.section-nav.section-nav-multimedia-images {
+.section-nav.section-nav-multimedia-images .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/images.jpg');
 }
-.section-nav.section-nav-multimedia-documents {
+.section-nav.section-nav-multimedia-documents .section-nav-image {
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
@@ -255,37 +252,38 @@ $dark-overlay: rgba(0,0,0,0.7);
 
 // Sights & Sounds > Audio
 
-.section-nav.section-nav-multimedia-on-parade {
+.section-nav.section-nav-multimedia-on-parade .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/onparade.jpg');
 }
-.section-nav.section-nav-multimedia-marches {}
+.section-nav.section-nav-multimedia-marches .section-nav-image {}
 
 // Sights & Sounds > Images
 
-.section-nav.section-nav-multimedia-group {
+.section-nav.section-nav-multimedia-group .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/group.jpg');
 }
-.section-nav.section-nav-multimedia-people {
+.section-nav.section-nav-multimedia-people .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/people.jpg');
 }
-.section-nav.section-nav-multimedia-sky {
+.section-nav.section-nav-multimedia-sky .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/aerial.jpg');
 }
-.section-nav.section-nav-multimedia-parade {
+
+.section-nav.section-nav-multimedia-parade .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/parade.jpg');
 }
 
 // Stories
 
-.section-nav.section-nav-stories-march {}
-.section-nav.section-nav-stories-military {}
-.section-nav.section-nav-stories-lentz {
+.section-nav.section-nav-stories-march .section-nav-image {}
+.section-nav.section-nav-stories-military .section-nav-image {}
+.section-nav.section-nav-stories-lentz .section-nav-image {
   background-color: #1d1d1d !important;
   background: url('../images/content/template/nav_backgrounds/lentz.jpg');
   background-repeat: no-repeat;
   background-size: contain !important;
 }
-.section-nav.section-nav-stories-johnson {
+.section-nav.section-nav-stories-johnson .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/johnson.jpg');
   background-color: #251f1d !important;
   background-repeat: no-repeat;

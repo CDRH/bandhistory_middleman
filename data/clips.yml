@@ -13,6 +13,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-01
+  sponsor: Gary Steffens
 2.01.02:
   reel: '2.01'
   reel_time: 0:27-2:20
@@ -27,6 +28,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-01
+  sponsor: Gary Steffens
 2.01.03:
   reel: '2.01'
   reel_time: 2:20-3:58
@@ -41,6 +43,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-01
+  sponsor: Gary Steffens
 2.02.01:
   reel: '2.02'
   reel_time: 0:00-1:10
@@ -58,6 +61,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-02
+  sponsor: Gary Steffens
 2.02.02:
   reel: '2.02'
   reel_time: 1:10-2:37
@@ -75,6 +79,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-02
+  sponsor: Gary Steffens
 2.02.03:
   reel: '2.02'
   reel_time: 2:38-3:05
@@ -92,6 +97,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-02
+  sponsor: Gary Steffens
 2.07.01:
   reel: '2.07'
   reel_time: 0:00-7:24
@@ -107,6 +113,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-07
+  sponsor: Gary Steffens
 2.08.04:
   reel: '2.08'
   reel_time: 5:13-8:42
@@ -126,6 +133,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-08
+  sponsor: Gary Steffens
 2.08.05:
   reel: '2.08'
   reel_time: 8:42-10:41
@@ -145,6 +153,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-08
+  sponsor: Gary Steffens
 2.08.03:
   reel: '2.08'
   reel_time: 3:06-5:13
@@ -164,6 +173,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-08
+  sponsor: Gary Steffens
 2.08.06:
   reel: '2.08'
   reel_time: 10:41-12:23
@@ -183,6 +193,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-08
+  sponsor: Gary Steffens
 2.08.01:
   reel: '2.08'
   reel_time: 0:00-1:31
@@ -202,6 +213,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-08
+  sponsor: Gary Steffens
 2.08.02:
   reel: '2.08'
   reel_time: 1:31-3:06
@@ -221,6 +233,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-08
+  sponsor: Gary Steffens
 2.14.03:
   reel: '2.14'
   reel_time: 2:24-2:39
@@ -236,21 +249,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-14
-2.14.02:
-  reel: '2.14'
-  reel_time: 0:32-2:24
-  year_estimate: '1943'
-  decade: decade-1940
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19
-  thumbnail: 2.14.jpeg
-  desc: 'Halftime show: Halloween'
-  keywords: halftime drill
-  archives_desc: 'Accompanying notes: "1943: Ladies in Band; Hallowe''en (no crowd);
-    Pumpkin; Ghost; Bat; Cat"'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-14
+  sponsor: Gary Steffens
 2.14.01:
   reel: '2.14'
   reel_time: 0:00-0:32
@@ -266,6 +265,23 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-14
+  sponsor: Gary Steffens
+2.14.02:
+  reel: '2.14'
+  reel_time: 0:32-2:24
+  year_estimate: '1943'
+  decade: decade-1940
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1669~1464475:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=2&trs=19
+  thumbnail: 2.14.jpeg
+  desc: 'Halftime show: Halloween'
+  keywords: halftime drill
+  archives_desc: 'Accompanying notes: "1943: Ladies in Band; Hallowe''en (no crowd);
+    Pumpkin; Ghost; Bat; Cat"'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-14
+  sponsor: Gary Steffens
 4.01.01:
   reel: '4.01'
   reel_time: 0:00-10:13
@@ -283,6 +299,109 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-reel00004
+  sponsor: Center for Digital Research in the Humanities
+3.01.05:
+  reel: '3.01'
+  reel_time: 5:32-7:18
+  year_estimate: '1949'
+  decade: decade-1940
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
+  thumbnail: 3.01.jpeg
+  desc: 'Halftime show: Faculty salute including hypodermic needle, dollar sign, T-square
+    & triangle, lamp of learning, scale of justice, pharmacy'
+  keywords: halftime drill
+  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in the 1949-1950 academic year. The video content includes the following
+    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
+    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
+    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
+    \n"
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00003
+  sponsor: Center for Digital Research in the Humanities
+3.01.01:
+  reel: '3.01'
+  reel_time: 0:00-1:43
+  year_estimate: '1949'
+  decade: decade-1940
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
+  thumbnail: 3.01.jpeg
+  desc: Band Day
+  keywords: band-day card-section
+  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in the 1949-1950 academic year. The video content includes the following
+    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
+    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
+    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
+    \n"
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00003
+  sponsor: Center for Digital Research in the Humanities
+3.01.02:
+  reel: '3.01'
+  reel_time: 1:43-1:55
+  year_estimate: '1949'
+  decade: decade-1940
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
+  thumbnail: 3.01.jpeg
+  desc: Missouri Band "M"
+  keywords: other-band card-section
+  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in the 1949-1950 academic year. The video content includes the following
+    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
+    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
+    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
+    \n"
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00003
+  sponsor: Center for Digital Research in the Humanities
+3.01.03:
+  reel: '3.01'
+  reel_time: 1:55-5:00
+  year_estimate: '1949'
+  decade: decade-1940
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
+  thumbnail: 3.01.jpeg
+  desc: 'Halftime show:  "Evolution of the Dance" including Minuet, "Indian Dance",
+    Square Dance, Charlestone, Jitterbug'
+  keywords: halftime drill card-section
+  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in the 1949-1950 academic year. The video content includes the following
+    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
+    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
+    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
+    \n"
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00003
+  sponsor: Center for Digital Research in the Humanities
+3.01.04:
+  reel: '3.01'
+  reel_time: 5:00-5:32
+  year_estimate: '1949'
+  decade: decade-1940
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
+  thumbnail: 3.01.jpeg
+  desc: Halftime show
+  keywords: halftime drill
+  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in the 1949-1950 academic year. The video content includes the following
+    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
+    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
+    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
+    \n"
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00003
+  sponsor: Center for Digital Research in the Humanities
 3.01.06:
   reel: '3.01'
   reel_time: 7:18-9:12
@@ -303,166 +422,22 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-reel00003
-3.01.05:
-  reel: '3.01'
-  reel_time: 5:32-7:18
-  year_estimate: '1950'
+  sponsor: Center for Digital Research in the Humanities
+2.13.01:
+  reel: '2.13'
+  reel_time: 0:00-2:41
+  year_estimate: '1952'
   decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
-  thumbnail: 3.01.jpeg
-  desc: 'Halftime show: Faculty salute including hypodermic needle, dollar sign, T-square
-    & triangle, lamp of learning, scale of justice, pharmacy'
-  keywords: halftime drill
-  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in the 1949-1950 academic year. The video content includes the following
-    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
-    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
-    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
-    \n"
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00003
-3.01.01:
-  reel: '3.01'
-  reel_time: 0:00-1:43
-  year_estimate: '1950'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
-  thumbnail: 3.01.jpeg
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
+  thumbnail: 2.13.jpeg
   desc: Band Day
-  keywords: band-day card-section
-  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in the 1949-1950 academic year. The video content includes the following
-    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
-    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
-    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
-    \n"
+  keywords: halftime band-day
+  archives_desc: 'Notations on reel canister: "#10."'
   archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
-  archives_id: 130815-reel00003
-3.01.02:
-  reel: '3.01'
-  reel_time: 1:43-1:55
-  year_estimate: '1950'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
-  thumbnail: 3.01.jpeg
-  desc: Missouri Band "M"
-  keywords: other-band card-section
-  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in the 1949-1950 academic year. The video content includes the following
-    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
-    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
-    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
-    \n"
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00003
-3.01.03:
-  reel: '3.01'
-  reel_time: 1:55-5:00
-  year_estimate: '1950'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
-  thumbnail: 3.01.jpeg
-  desc: 'Halftime show:  "Evolution of the Dance" including Minuet, "Indian Dance",
-    Square Dance, Charlestone, Jitterbug'
-  keywords: halftime drill card-section
-  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in the 1949-1950 academic year. The video content includes the following
-    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
-    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
-    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
-    \n"
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00003
-3.01.04:
-  reel: '3.01'
-  reel_time: 5:00-5:32
-  year_estimate: 1950?
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1686~1464477:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=15&trs=19
-  thumbnail: 3.01.jpeg
-  desc: 'Halftime show:  "SI" Big 7 and arrow?  TODO not sure how to describe this
-    except possibly by being more general "Undescribed halftime show" or something"'
-  keywords: halftime drill
-  archives_desc: "Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in the 1949-1950 academic year. The video content includes the following
-    topics: University of Missouri Band; Nebraska Band, Evolution of the Dance; Minuet,
-    Indian Dance, Square dance, Charleston, jitterbug; Faculty salute; Hypo needle,
-    dollar sign, T-square & triangle, lamp of learning; Scale of Justice, RX (pharmacy).
-    \n"
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00003
-2.04.01:
-  reel: '2.04'
-  reel_time: 0:00-0:52
-  year_estimate: '1952'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19
-  thumbnail: 2.04.jpeg
-  desc: Band entering field and marching along sidelines
-  keywords: closeup drill
-  archives_desc: 'Notations on reel canister: "Football inserts BG Color Orig. Crowd,
-    Band, etc. Band 1952 sideline & sitting."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-04
-2.04.02:
-  reel: '2.04'
-  reel_time: 0:52-8:29
-  year_estimate: '1952'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19
-  thumbnail: 2.04.jpeg
-  desc: Cheerleaders and pep band lead crowd in cheers
-  keywords: closeup cheer
-  archives_desc: 'Notations on reel canister: "Football inserts BG Color Orig. Crowd,
-    Band, etc. Band 1952 sideline & sitting."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-04
-2.05.01:
-  reel: '2.05'
-  reel_time: 0:00-3:36
-  year_estimate: '1952'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1674~1464457:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=14&trs=19
-  thumbnail: 2.05.jpeg
-  desc: Minnesota game homecoming floats
-  keywords: campus homecoming
-  archives_desc: 'Notations on reel canister: "Football Background W.P. Color Moto
-    Productions, Motion Picture Unit, Univ. of Nebraska, West Stadium, Lincoln, NE."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-05
-2.03.01:
-  reel: '2.03'
-  reel_time: 0:00-2:14
-  year_estimate: '1952'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19
-  thumbnail: 2.03.jpeg
-  desc: Band entering field, homecoming halftime show
-  keywords: drill card-section halftime homecoming closeup
-  archives_desc: 'Notations on reel canister: "Band 1952 & misc. LIST: Game shots;
-    spectators entering; Cheerleaders; Crowd shots; Band lining up, marching off,
-    playing; Step off from sidelines (reversed); Homecoming halftime show (reversed);
-    Homecoming halftime show (reversed)"'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-03
+  archives_id: 130815-2-13
+  sponsor: Gary Steffens
 2.03.02:
   reel: '2.03'
   reel_time: 2:14-5:37
@@ -472,7 +447,7 @@
   thumbnail: 2.03.jpeg
   desc: Campus, fans arriving at stadium, football team entrance, Tassels and Corncob
     cheerleading
-  keywords: campus cheer closeup tunnel-walk
+  keywords: cheer closeup tunnel-walk
   archives_desc: 'Notations on reel canister: "Band 1952 & misc. LIST: Game shots;
     spectators entering; Cheerleaders; Crowd shots; Band lining up, marching off,
     playing; Step off from sidelines (reversed); Homecoming halftime show (reversed);
@@ -481,6 +456,23 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-03
+  sponsor: Gary Steffens
+2.05.01:
+  reel: '2.05'
+  reel_time: 0:00-3:36
+  year_estimate: '1952'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1674~1464457:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=14&trs=19
+  thumbnail: 2.05.jpeg
+  desc: Minnesota game homecoming floats
+  keywords: homecoming
+  archives_desc: 'Notations on reel canister: "Football Background W.P. Color Moto
+    Productions, Motion Picture Unit, Univ. of Nebraska, West Stadium, Lincoln, NE."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-05
+  sponsor: Gary Steffens
 2.03.03:
   reel: '2.03'
   reel_time: 5:37-8:18
@@ -499,20 +491,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-03
-2.13.01:
-  reel: '2.13'
-  reel_time: 0:00-2:41
-  year_estimate: '1952'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
-  thumbnail: 2.13.jpeg
-  desc: Band Day
-  keywords: halftime band-day
-  archives_desc: 'Notations on reel canister: "#10."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-13
+  sponsor: Gary Steffens
 2.05.02:
   reel: '2.05'
   reel_time: 3:36-5:23
@@ -528,6 +507,25 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-05
+  sponsor: Gary Steffens
+2.03.01:
+  reel: '2.03'
+  reel_time: 0:00-2:14
+  year_estimate: '1952'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1672~1464453:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=8&trs=19
+  thumbnail: 2.03.jpeg
+  desc: Band entering field, homecoming halftime show
+  keywords: drill card-section halftime homecoming closeup
+  archives_desc: 'Notations on reel canister: "Band 1952 & misc. LIST: Game shots;
+    spectators entering; Cheerleaders; Crowd shots; Band lining up, marching off,
+    playing; Step off from sidelines (reversed); Homecoming halftime show (reversed);
+    Homecoming halftime show (reversed)"'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-03
+  sponsor: Gary Steffens
 2.12.06:
   reel: '2.12'
   reel_time: 13:23-15:56
@@ -543,6 +541,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-12
+  sponsor: Gary Steffens
 2.12.07:
   reel: '2.12'
   reel_time: 15:56-18:47
@@ -558,6 +557,54 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-12
+  sponsor: Gary Steffens
+2.04.01:
+  reel: '2.04'
+  reel_time: 0:00-0:52
+  year_estimate: '1952'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19
+  thumbnail: 2.04.jpeg
+  desc: Band entering field and marching along sidelines
+  keywords: closeup drill
+  archives_desc: 'Notations on reel canister: "Football inserts BG Color Orig. Crowd,
+    Band, etc. Band 1952 sideline & sitting."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-04
+  sponsor: Gary Steffens
+2.04.02:
+  reel: '2.04'
+  reel_time: 0:52-8:29
+  year_estimate: '1952'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1673~1464455:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=1&trs=19
+  thumbnail: 2.04.jpeg
+  desc: Cheerleaders and pep band lead crowd in cheers
+  keywords: closeup cheer
+  archives_desc: 'Notations on reel canister: "Football inserts BG Color Orig. Crowd,
+    Band, etc. Band 1952 sideline & sitting."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-04
+  sponsor: Gary Steffens
+2.13.02:
+  reel: '2.13'
+  reel_time: 2:41-5:02
+  year_estimate: '1953'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
+  thumbnail: 2.13.jpeg
+  desc: Band Day
+  keywords: halftime band-day
+  archives_desc: 'Notations on reel canister: "#10."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-13
+  sponsor: Gary Steffens
 2.12.05:
   reel: '2.12'
   reel_time: 11:22-13:23
@@ -573,20 +620,93 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-12
-2.13.02:
-  reel: '2.13'
-  reel_time: 2:41-5:02
-  year_estimate: '1953'
+  sponsor: Gary Steffens
+5.01.01:
+  reel: '5.01'
+  reel_time: 0:00-1:37
+  year_estimate: '1954'
   decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1675~1464473:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=17&trs=19
-  thumbnail: 2.13.jpeg
-  desc: Band Day
-  keywords: halftime band-day
-  archives_desc: 'Notations on reel canister: "#10."'
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
+  thumbnail: 5.01.jpeg
+  desc: Band Day "100"
+  keywords: band-day
+  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in 1954. The video content includes the following drills: Band Day
+    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
+    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
+    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
+    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
+    Christmas tree).  '
   archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
-  archives_id: 130815-2-13
+  archives_id: 130815-reel00005
+  sponsor: Center for Digital Research in the Humanities
+4.01.02:
+  reel: '4.01'
+  reel_time: 10:13-15:23
+  year_estimate: '1954'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1685~1464479:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=9&trs=20
+  thumbnail: 4.01.jpeg
+  desc: Orange Bowl show
+  keywords: bowl card-section drill
+  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in 1954. The video content includes the following drills: Band Day
+    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
+    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
+    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
+    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
+    Christmas tree).  '
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00005
+  sponsor: Center for Digital Research in the Humanities
+5.01.04:
+  reel: '5.01'
+  reel_time: 7:52-14:02
+  year_estimate: '1954'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
+  thumbnail: 5.01.jpeg
+  desc: 'Halftime show: U of Pittsburgh, homecoming, 12 months of the year: bell,
+    heart, shamrock, umbrella, flower, bridal, firecracker, fish, R.R.R., pumpkin,
+    turkey, Christmas tree'
+  keywords: halftime drill card-section
+  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in 1954. The video content includes the following drills: Band Day
+    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
+    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
+    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
+    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
+    Christmas tree).  '
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00005
+  sponsor: Center for Digital Research in the Humanities
+5.01.03:
+  reel: '5.01'
+  reel_time: 4:39-7:52
+  year_estimate: '1954'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
+  thumbnail: 5.01.jpeg
+  desc: 'Halftime show: U of Colorado, bison, precision drills'
+  keywords: halftime drill
+  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
+    Marching Band in 1954. The video content includes the following drills: Band Day
+    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
+    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
+    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
+    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
+    Christmas tree).  '
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-reel00005
+  sponsor: Center for Digital Research in the Humanities
 5.01.02:
   reel: '5.01'
   reel_time: 1:37-4:39
@@ -608,105 +728,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-reel00005
-5.01.01:
-  reel: '5.01'
-  reel_time: 0:00-1:37
-  year_estimate: '1954'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
-  thumbnail: 5.01.jpeg
-  desc: Band Day "100"
-  keywords: band-day
-  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in 1954. The video content includes the following drills: Band Day
-    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
-    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
-    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
-    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
-    Christmas tree).  '
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00005
-4.01.02:
-  reel: '4.01'
-  reel_time: 10:13-15:23
-  year_estimate: '1954'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1685~1464479:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=9&trs=20
-  thumbnail: 4.01.jpeg
-  desc: Orange Bowl show
-  keywords: bowl card-section drill
-  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in 1954. The video content includes the following drills: Band Day
-    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
-    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
-    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
-    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
-    Christmas tree).  '
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00005
-5.01.04:
-  reel: '5.01'
-  reel_time: 7:52-14:02
-  year_estimate: '1954'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
-  thumbnail: 5.01.jpeg
-  desc: 'Halftime show: U of Pittsburgh, homecoming, 12 months of the year (bell,
-    heart, shamrock, umbrella, flower, bridal, firecracker, fish, R.R.R., pumpkin,
-    turkey, Christmas tree)'
-  keywords: halftime drill card-section
-  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in 1954. The video content includes the following drills: Band Day
-    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
-    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
-    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
-    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
-    Christmas tree).  '
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00005
-5.01.03:
-  reel: '5.01'
-  reel_time: 4:39-7:52
-  year_estimate: '1954'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1687~1464481:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=16&trs=19
-  thumbnail: 5.01.jpeg
-  desc: 'Halftime show: U of Colorado, bison, precision drills'
-  keywords: halftime drill
-  archives_desc: 'Digitized video (without audio) of the University of Nebraska-Lincoln
-    Marching Band in 1954. The video content includes the following drills: Band Day
-    "100"; Halloween drills (pumpkin, ghost, cat, and bat); University of Colorado
-    Buffalo and Precision drills (pin-wheels, hexagon, files, and diamonds); drills
-    for 12 months at the University of Pittsburgh Homecoming game (bell, heart, shamrock,
-    umbrella, flower, bridal, firecracker, fish, R-R-R school, pumpkin, turkey, and
-    Christmas tree).  '
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-reel00005
-2.09.01:
-  reel: '2.09'
-  reel_time: 0:00-3:53
-  year_estimate: '1955'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19
-  thumbnail: 2.09.jpeg
-  desc: Orange Bowl, Nebraska, Duke, Miami U, and high school band entries
-  keywords: bowl drill other-band
-  archives_desc: 'Accompanying notes: "Orange Bowl, 1955 (whole reel): Nebr. Band
-    entry, Duke Band entry, Miami U. Band entry, High school band entries, Football
-    highlights, Massed high school bands in East stands., Precision Drill by Nebr.
-    U Band, Some frames of Duke Band (in blue), Pageant."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-09
+  sponsor: Center for Digital Research in the Humanities
 2.09.03:
   reel: '2.09'
   reel_time: 5:35-11:12
@@ -725,6 +747,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-09
+  sponsor: Gary Steffens
 2.12.01:
   reel: '2.12'
   reel_time: 0:00-2:49
@@ -740,6 +763,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-12
+  sponsor: Gary Steffens
 2.12.03:
   reel: '2.12'
   reel_time: 2:51-8:33
@@ -755,6 +779,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-12
+  sponsor: Gary Steffens
 2.12.04:
   reel: '2.12'
   reel_time: 8:33-11:22
@@ -770,6 +795,25 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-12
+  sponsor: Gary Steffens
+2.09.01:
+  reel: '2.09'
+  reel_time: 0:00-3:53
+  year_estimate: '1955'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1678~1464465:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=7&trs=19
+  thumbnail: 2.09.jpeg
+  desc: Orange Bowl, Nebraska, Duke, Miami U, and high school band entries
+  keywords: bowl drill other-band
+  archives_desc: 'Accompanying notes: "Orange Bowl, 1955 (whole reel): Nebr. Band
+    entry, Duke Band entry, Miami U. Band entry, High school band entries, Football
+    highlights, Massed high school bands in East stands., Precision Drill by Nebr.
+    U Band, Some frames of Duke Band (in blue), Pageant."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-09
+  sponsor: Gary Steffens
 2.09.02:
   reel: '2.09'
   reel_time: 3:53-5:35
@@ -788,6 +832,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-09
+  sponsor: Gary Steffens
 2.12.02:
   reel: '2.12'
   reel_time: 2:49-5:39
@@ -795,7 +840,7 @@
   decade: decade-1950
   commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1679~1464471:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=0&trs=19
   thumbnail: 2.12.jpeg
-  desc: Western show
+  desc: Halftime show
   keywords: halftime drill card-section
   archives_desc: 'Notations on reel canister: "1955 Band Day - No. 1 - Kansas & Nebr.
     - No. 2 - Band Day - No. 3 - Nebr. & Colo. - No. 4 - Nebr. & Okla."'
@@ -803,6 +848,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-12
+  sponsor: Gary Steffens
 2.13.03:
   reel: '2.13'
   reel_time: 5:02-9:58
@@ -817,62 +863,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-13
-2.10.01:
-  reel: '2.10'
-  reel_time: 0:00-2:50
-  year_estimate: '1959'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
-  thumbnail: 2.10.jpeg
-  desc: Texas game drill, longhorn, Texas, NU
-  keywords: halftime drill card-section
-  archives_desc: 'Notations on reel canister: "#6."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-10
-2.10.05:
-  reel: '2.10'
-  reel_time: 13:49-16:06
-  year_estimate: '1959'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
-  thumbnail: 2.10.jpeg
-  desc: Oklahoma game halftime show, homecoming
-  keywords: halftime homecoming drill card-section
-  archives_desc: 'Notations on reel canister: "#6."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-10
-2.10.04:
-  reel: '2.10'
-  reel_time: 9:52-13:49
-  year_estimate: '1959'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
-  thumbnail: 2.10.jpeg
-  desc: Band Day, N, Peace
-  keywords: band-day card-section
-  archives_desc: 'Notations on reel canister: "#6."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-10
-2.10.03:
-  reel: '2.10'
-  reel_time: 5:32-9:52
-  year_estimate: '1959'
-  decade: decade-1950
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
-  thumbnail: 2.10.jpeg
-  desc: Hawaii game halftime show
-  keywords: halftime drill card-section
-  archives_desc: 'Notations on reel canister: "#6."'
-  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
-  format: 'Film: 16mm Safety Film'
-  record_group: RG13-08-15
-  archives_id: 130815-2-10
+  sponsor: Gary Steffens
 2.10.02:
   reel: '2.10'
   reel_time: 2:50-5:32
@@ -887,20 +878,67 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-10
-2.11.01:
-  reel: '2.11'
-  reel_time: 0:00-2:40
-  year_estimate: '1960'
-  decade: decade-1960
-  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19
-  thumbnail: 2.11.jpeg
-  desc: Big 8
-  keywords: halftime drill card-section
-  archives_desc: 'Notations on reel canister: "#7."'
+  sponsor: Gary Steffens
+2.10.05:
+  reel: '2.10'
+  reel_time: 13:49-16:06
+  year_estimate: '1959'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
+  thumbnail: 2.10.jpeg
+  desc: Oklahoma game halftime show, homecoming
+  keywords: halftime homecoming drill card-section
+  archives_desc: 'Notations on reel canister: "#6."'
   archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
-  archives_id: 130815-2-11
+  archives_id: 130815-2-10
+  sponsor: Gary Steffens
+2.10.04:
+  reel: '2.10'
+  reel_time: 9:52-13:49
+  year_estimate: '1959'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
+  thumbnail: 2.10.jpeg
+  desc: Band Day, N, Peace
+  keywords: band-day card-section
+  archives_desc: 'Notations on reel canister: "#6."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-10
+  sponsor: Gary Steffens
+2.10.03:
+  reel: '2.10'
+  reel_time: 5:32-9:52
+  year_estimate: '1959'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
+  thumbnail: 2.10.jpeg
+  desc: Hawaii game halftime show
+  keywords: halftime drill card-section
+  archives_desc: 'Notations on reel canister: "#6."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-10
+  sponsor: Gary Steffens
+2.10.01:
+  reel: '2.10'
+  reel_time: 0:00-2:50
+  year_estimate: '1959'
+  decade: decade-1950
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1680~1464467:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=10&trs=19
+  thumbnail: 2.10.jpeg
+  desc: Texas game drill, longhorn, Texas, NU
+  keywords: halftime drill card-section
+  archives_desc: 'Notations on reel canister: "#6."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-10
+  sponsor: Gary Steffens
 2.11.04:
   reel: '2.11'
   reel_time: 10:40-16:21
@@ -915,6 +953,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-11
+  sponsor: Gary Steffens
 2.11.03:
   reel: '2.11'
   reel_time: 5:29-10:40
@@ -929,6 +968,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-11
+  sponsor: Gary Steffens
 2.11.02:
   reel: '2.11'
   reel_time: 2:40-5:29
@@ -943,6 +983,22 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-11
+  sponsor: Gary Steffens
+2.11.01:
+  reel: '2.11'
+  reel_time: 0:00-2:40
+  year_estimate: '1960'
+  decade: decade-1960
+  commons_link: https://mediacommons.unl.edu/luna/servlet/detail/UNL~35~35~1681~1464469:Donald-A--Lentz-and-Gary-Steffens,-?qvq=q:marching%20band%20steffens&mi=11&trs=19
+  thumbnail: 2.11.jpeg
+  desc: Big 8
+  keywords: halftime drill card-section
+  archives_desc: 'Notations on reel canister: "#7."'
+  archives_subj: 'Military, Band, R.O.T.C. Cadet; Marching Band (Musical group); '
+  format: 'Film: 16mm Safety Film'
+  record_group: RG13-08-15
+  archives_id: 130815-2-11
+  sponsor: Gary Steffens
 2.13.04:
   reel: '2.13'
   reel_time: 9:58-11:30
@@ -957,6 +1013,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-13
+  sponsor: Gary Steffens
 2.13.05:
   reel: '2.13'
   reel_time: 11:30-16:35
@@ -971,6 +1028,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-13
+  sponsor: Gary Steffens
 2.13.06:
   reel: '2.13'
   reel_time: 16:35-18.22
@@ -985,6 +1043,7 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-13
+  sponsor: Gary Steffens
 2.06.01:
   reel: '2.06'
   reel_time: 0:00-6:37
@@ -1000,3 +1059,4 @@
   format: 'Film: 16mm Safety Film'
   record_group: RG13-08-15
   archives_id: 130815-2-06
+  sponsor: Gary Steffens

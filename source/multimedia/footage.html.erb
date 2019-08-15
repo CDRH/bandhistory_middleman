@@ -26,7 +26,10 @@ title: Footage | Band History
 
     <% tally_filter(data.clips, "decade").each do |decade_id, num| %>
       <button class="btn btn-filter btn-secondary" onclick="filter(this);"
-        id="<%= decade_id %>"><%= decade_id.titleize %> <span class="badge"><%= num %></span>
+        id="<%= decade_id %>">
+        <% label = decade_id == "Unknown" ? "Unknown" :
+            "#{decade_id.titleize.gsub("Decade ", "")}s" %>
+        <%= label %> <span class="badge"><%= num %></span>
       </button>
     <% end %>
     <button class="btn btn-filter btn-warning" onclick="filterClear();">
@@ -79,6 +82,7 @@ title: Footage | Band History
               <li><strong>Record Group:</strong> <%= info["record_group"] %>, University of Nebraska Archives and Special Collections</li>
               <li><strong>Reel Description:</strong> <%= info["archives_desc"] %></li>
               <li><a href="<%= info["commons_link"] %>">Mediacommons Link (external)</a></li>
+              <li><strong>Digitization Sponsor:</strong> <%= info["sponsor"] %></li>
             </ul>
           </div>
           <div class="modal-footer">

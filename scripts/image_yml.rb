@@ -93,10 +93,12 @@ categorized.each do |image|
     })
   else
     year = guess_year(image["patch_date"] || metadata["date"])
+    title = image["patch_title"] || metadata["title"]
+    title = title.gsub(/("|“|”)/, "'") if title
 
     add_to_category(image["category"], {
       "id" => image["filename"],
-      "title" => image["patch_title"] || metadata["title"],
+      "title" => title,
       "date" => image["page_date"] || metadata["date"],
       "year" => year,
       "description" => image["patch_description"] || metadata["description"],

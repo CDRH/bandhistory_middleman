@@ -8,7 +8,7 @@ filename,category,patch_date,patch_title,patch_description,concerns
 130815-07236,group,,,,
 130815-07427,field,,,,
 130815-07428,people,,,,
-130815-07429,aerial,,,,
+130815-07429,aerial,,Band Day program,,
 130833-00001,parade,1974,Europe tour,Slide of the band in parade formation,
 130833-00002,parade,1974,Europe tour,"Slide of the band marching in parade formation, led by twirler Diane Tangeman",
 130833-00003,people,1974,Europe tour,"Slide of the band in Europe, sousaphones featured",
@@ -53,7 +53,7 @@ filename,category,patch_date,patch_title,patch_description,concerns
 2029-00176,parade,1955,,,
 2029-00177,parade,,,,
 2029-00178,field,,,,
-2029-00181,people,,,,
+2029-00181,people,,,"Original caption: 'Emanuel Wishnow and Don Lentz.' Wishnow sits on the hood of a car with a cigar in his mouth while Don Lentz stands and playfully punches his hand.",
 2029-00182,people,,,,
 2029-00183,people,,,,
 320101-03785,parade,,,,
@@ -82,9 +82,9 @@ filename,category,patch_date,patch_title,patch_description,concerns
 421201-00441,people,,,,
 421201-00470,field,,,,
 421201-00508,aerial,,,,
-421201-00545,people,,,,TODO pretty sure this isn't her name
-421201-00556,field,,,,TODO check name
-421201-00564,people,,,,
+421201-00545,people,,"Jack Snider, Jeff Klintberg, Susie Kunc","Band Director Jack Snider, Drum Major Jeff Klintberg and Susie Kunc posing in front of the pillars",
+421201-00556,field,,,Susie Kunc and sousaphones performing on the field,
+421201-00564,people,,Jack Snider and Diane Tangeman,Jack Snider and Diane Tangeman posing outside. The Mueller Bell Tower is seen behind them,
 421201-00569,people,,,,
 421201-00581,aerial,,Halftime,,this one says “color guard” in the descripton when in fact there is not a color guard yet in 1970
 421201-00608,aerial,,,,
@@ -130,7 +130,7 @@ filename,category,patch_date,patch_title,patch_description,concerns
 421202-01181,group,,Band photograph on the Nebraska Capitol steps,,
 421202-01188,group,,Band photograph on the Nebraska Capitol steps,,
 421202-01401,people,,,,
-421202-01774,people,,Snider speaks with band members,,
+421202-01774,people,,Snider speaks with band members,Band Leader with Band Members.,
 421202-01809,people,,,,
 421202-01855,people,,,,
 421202-01859,people,,,,
@@ -182,15 +182,15 @@ filename,category,patch_date,patch_title,patch_description,concerns
 130815-00029,parade,,,"Original caption: ""Homecoming Parade-O st. Glassford's Days 195."" The Marching Band marches down O street in downtown Lincoln. JC Penney department store can be seen in the background.",fixes typo
 130815-00030,parade,,,"Original caption: ""Homecoming Parade-O st."" The Marching Band marches down O street in downtown Lincoln. JC Penney department store can be seen in the background.",fixestypo
 130815-00039,field,,,,
-130815-00040,aerial,,Preparing for Joyce to jump out of Big Bertha,,TODO check on her last name
-130815-00042,people,,,,
+130815-00040,aerial,,Waiting for the first twirler to appear,Waiting for Joyce Burns to leap from the inside of Big Bertha,
+130815-00042,people,,"Jeff Klintberg, Lynn Moeller, Bob Slie, Susie Kunc","Original caption: '1967. Jeff Klintberg, Lynn Moeller, Bob Slie, Susie Kunc.' Band members pose on the bleachers of Memorial Stadium.",
 130815-00043,people,,,,
 130815-00045,people,,Album Cover,,
 130815-00046,aerial,,,,
 130815-00047,group,,,,
 130815-00050,people,,,,
 130815-00051,field,,,,Is this in honor of Bob Devaney?
-130815-00052,people,,,,
+130815-00052,people,,Diane Tangeman,Baton twirler Diane Tangeman raises her hands on Memorial Stadium field,
 130815-00053,field,,,,
 130815-00054,field,,,,
 130815-00055,people,,Dr. Fought conducts rehearsal,"Original caption: ""God speaks. Rehearsal. Bob Fought"" The marching band rehearses while seated in an auditorium.",

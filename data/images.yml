@@ -44,7 +44,7 @@ aerial:
     only. Not all images are available for publication. '
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421201-05103
-  title: "“N” Formation"
+  title: "'N' Formation"
   date: 1937, Sept. 15
   year: '1937'
   description: 'Original Item #:11036;"Football - Nebr-Kansas. 8x10 - 5x7. ''37-''38."
@@ -129,7 +129,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-05505
-  title: "“X” and rows"
+  title: "'X' and rows"
   date: 1940, Nov. 30
   year: '1940'
   description: '"Music. b/w takes. Band formations. UNL vs. Kansas State Football."
@@ -144,7 +144,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-05504
-  title: "“USA” and “N”"
+  title: "'USA' and 'N'"
   date: 1940, Nov. 30
   year: '1940'
   description: '"Music. b/w takes. Band formations. UNL vs. Kansas State Football."
@@ -175,7 +175,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-05392
-  title: "“N” Formation"
+  title: "'N' Formation"
   date: 1940, Oct. 26
   year: '1940'
   description: '"Music. Band and football negatives. Missouri game." The negative
@@ -221,7 +221,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-06202
-  title: "“Hi Dad”"
+  title: "'Hi Dad'"
   date: 1949, Oct. 01
   year: '1949'
   description: '"Athletics. (Donovan). Takes of band and card section at Nebr. - Minn.
@@ -251,7 +251,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-06207
-  title: Band Day “N”
+  title: Band Day 'N'
   date: 1949, Oct. 25
   year: '1949'
   description: '"Athletics. Band Day. Oklahoma football game, ''49." The negative
@@ -266,7 +266,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-06264
-  title: "“Hi Dad” card section"
+  title: "'Hi Dad' card section"
   date: 1950, Sept. 30
   year: '1950'
   description: '"Athletics - Donovan. 15 takes 4x5. Band and Card section at Indiana
@@ -371,7 +371,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-06487
-  title: Band Day “N”
+  title: Band Day 'N'
   date: 1954, Oct. 20
   year: '1954'
   description: '"Public Rel. Mass Formations. Band Day." The negative shows band members
@@ -385,7 +385,7 @@ aerial:
     Libraries.
   publisher: 
 - id: 421201-06488
-  title: Band Day “100”
+  title: Band Day '100'
   date: 1954, Oct. 20
   year: '1954'
   description: '"Public Rel. Mass Formations. Band Day." The negative shows band members
@@ -399,10 +399,10 @@ aerial:
     Libraries.
   publisher: 
 - id: 130815-00040
-  title: Preparing for Joyce to jump out of Big Bertha
+  title: Waiting for the first twirler to appear
   date: '1961'
   year: '1961'
-  description: 'Original caption: "No Oak (?) st. waiting for Joyce to appear."'
+  description: Waiting for Joyce Burns to leap from the inside of Big Bertha
   creator: 
   box: B16 F8
   collection: Cornhusker Marching Band, Records
@@ -410,7 +410,7 @@ aerial:
   rights: For copyright information, please contact the repository.
   publisher: 
 - id: 421201-00170
-  title: "“Big 6” formation"
+  title: "'Big 6' formation"
   date: 10/17/64
   year: '1964'
   description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
@@ -425,7 +425,7 @@ aerial:
     please contact Archives & Special Collections
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130815-07429
-  title: Band Day 1964 program
+  title: Band Day program
   date: '1964'
   year: '1964'
   description: Official program of Band Day 1964, South Carolina vs. Nebraska October
@@ -466,7 +466,7 @@ aerial:
     please contact Archives & Special Collections
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421201-00173
-  title: "“Vote” and USA formation"
+  title: "'Vote' and USA formation"
   date: 10/17/64
   year: '1964'
   description: 'Original caption: "CH- Fine Arts. University Marching Band- marching
@@ -997,8 +997,7 @@ field:
   title: Band performing at football game
   date: 2/22/69
   year: '1969'
-  description: Susy Kunc and band on field, close-up of the band performing on the
-    football field.
+  description: Susie Kunc and sousaphones performing on the field
   creator: University Communications, Photo Services Department
   box: 
   collection: Athletics Photos, University Communications Records
@@ -1998,9 +1997,9 @@ people:
   title: Don Lentz and Emanuel Wishnow
   date: 1938-1939
   year: '1938'
-  description: 'Original caption: "Emanuel Wishnow and Don Lentz." Emanuel sits on
-    the hood of a car with a cigar in his mouth while Don Lentz stands and playfully
-    punches his hand. '
+  description: 'Original caption: ''Emanuel Wishnow and Don Lentz.'' Wishnow sits
+    on the hood of a car with a cigar in his mouth while Don Lentz stands and playfully
+    punches his hand.'
   creator: 
   box: B1 F34
   collection: Don and Velma Lentz, Papers
@@ -2126,8 +2125,7 @@ people:
   title: Snider speaks with band members
   date: 1962, November 30
   year: '1962'
-  description: 'Original Item #631321; "Photo Services" recorded by Thom421202-00on,
-    Band Leader with Band Members. Miscellaneous." '
+  description: Band Leader with Band Members.
   creator: University Communications, Photo Services Department
   box: 
   collection: University Photos, University Communications Records
@@ -2177,11 +2175,11 @@ people:
   rights: For copyright information, please contact the repository.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130815-00042
-  title: Jeff Klintberg, Lynn Moeller, Bob Slie, Susie Kune
+  title: Jeff Klintberg, Lynn Moeller, Bob Slie, Susie Kunc
   date: '1967'
   year: '1967'
-  description: 'Original caption: "1967. Jeff Klintberg, Lynn Moeller, Bob Slie, Susie
-    Kune (?)." Band members pose on the bleachers of Memorial Stadium.'
+  description: 'Original caption: ''1967. Jeff Klintberg, Lynn Moeller, Bob Slie,
+    Susie Kunc.'' Band members pose on the bleachers of Memorial Stadium.'
   creator: 
   box: B16 F8
   collection: Cornhusker Marching Band, Records
@@ -2189,11 +2187,11 @@ people:
   rights: For copyright information, please contact the repository.
   publisher: 
 - id: 421201-00545
-  title: Jack Snyder, Jeff Klintberg, Susi Kunc
+  title: Jack Snider, Jeff Klintberg, Susie Kunc
   date: 5/11/68
   year: '1968'
-  description: Band Director Jack Snyder, Drum Major Jeff Klintberg and Susi Kunc
-    posing in front of the pillars.
+  description: Band Director Jack Snider, Drum Major Jeff Klintberg and Susie Kunc
+    posing in front of the pillars
   creator: University Communications, Photo Services Department
   box: 
   collection: Athletics Photos, University Communications Records
@@ -2202,11 +2200,11 @@ people:
     please contact Archives & Special Collections
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421201-00564
-  title: Jack Snyder and Diane Tangemann
+  title: Jack Snider and Diane Tangeman
   date: 6/11/69
   year: '1969'
-  description: 'Jack Snyder and Diane Tangemann posing outside. The Mueller bell tower
-    is seen behind them. '
+  description: Jack Snider and Diane Tangeman posing outside. The Mueller Bell Tower
+    is seen behind them
   creator: University Communications, Photo Services Department
   box: 
   collection: Athletics Photos, University Communications Records
@@ -2268,10 +2266,10 @@ people:
   rights: For copyright information, please contact the repository.
   publisher: 
 - id: 130815-00052
-  title: Diane Tungeman
+  title: Diane Tangeman
   date: '1973'
   year: '1973'
-  description: Baton twirler Diane Tungeman raises her hands on Memorial Stadium field.
+  description: Baton twirler Diane Tangeman raises her hands on Memorial Stadium field
   creator: Daily Nebraska
   box: B17 F2
   collection: Cornhusker Marching Band, Records

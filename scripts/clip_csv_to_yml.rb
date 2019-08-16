@@ -64,7 +64,8 @@ clips.each do |clip|
     "archives_subj" => reel["subject"],
     "format" => reel["medium/format/type"],
     "record_group" => reel["source/RG#/MS#"],
-    "archives_id" => archives_reel_id
+    "archives_id" => archives_reel_id,
+    "sponsor" => clip["Sponsor"]
   }
 end
 

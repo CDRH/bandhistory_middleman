@@ -211,8 +211,9 @@ $dark-overlay: rgba(0,0,0,0.7);
 
 .section-nav-image {
   height: 100%;
-  background-size: cover;
-  background-position: center
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
 }
 
 // Background photo setting: move these into 
@@ -284,14 +285,10 @@ $dark-overlay: rgba(0,0,0,0.7);
 .section-nav.section-nav-stories-lentz .section-nav-image {
   background-color: #1d1d1d !important;
   background: url('../images/content/template/nav_backgrounds/lentz.jpg');
-  background-repeat: no-repeat;
-  background-size: contain !important;
 }
 .section-nav.section-nav-stories-johnson .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/johnson.jpg');
   background-color: #251f1d !important;
-  background-repeat: no-repeat;
-  background-size: contain !important; /* also not sure why important here? */
 }
 
 // Header sizes for smaller screens

@@ -212,7 +212,7 @@ $dark-overlay: rgba(0,0,0,0.7);
 .section-nav-image {
   height: 100%;
   background-position: center !important;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
@@ -249,10 +249,7 @@ $dark-overlay: rgba(0,0,0,0.7);
   background: url('../images/content/template/nav_backgrounds/images.jpg');
 }
 .section-nav.section-nav-multimedia-documents .section-nav-image {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)),
-    url('../images/content/template/nav_backgrounds/default02.jpg');
+  background: url('../images/content/template/nav_backgrounds/default02.jpg');
 }
 
 // Sights & Sounds > Audio
@@ -264,24 +261,27 @@ $dark-overlay: rgba(0,0,0,0.7);
 
 // Sights & Sounds > Images
 
+.section-nav.section-nav-multimedia-sky .section-nav-image {
+  background: url('../images/content/template/nav_backgrounds/aerial.jpg');
+}
+.section-nav.section-nav-multimedia-field .section-nav-image {
+  background: url('../images/content/template/nav_backgrounds/field.jpg');
+}
 .section-nav.section-nav-multimedia-group .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/group.jpg');
+}
+.section-nav.section-nav-multimedia-parade .section-nav-image {
+  background: url('../images/content/template/nav_backgrounds/parade.jpg');
 }
 .section-nav.section-nav-multimedia-people .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/people.jpg');
 }
-.section-nav.section-nav-multimedia-sky .section-nav-image {
-  background: url('../images/content/template/nav_backgrounds/aerial.jpg');
-}
-
-.section-nav.section-nav-multimedia-parade .section-nav-image {
-  background: url('../images/content/template/nav_backgrounds/parade.jpg');
-}
 
 // Stories
 
-.section-nav.section-nav-stories-march .section-nav-image {}
-.section-nav.section-nav-stories-military .section-nav-image {}
+.section-nav.section-nav-stories-march .section-nav-image {
+  background: url('../images/content/template/nav_backgrounds/marches.jpg');
+}
 .section-nav.section-nav-stories-lentz .section-nav-image {
   background-color: #1d1d1d !important;
   background: url('../images/content/template/nav_backgrounds/lentz.jpg');
@@ -289,6 +289,7 @@ $dark-overlay: rgba(0,0,0,0.7);
 .section-nav.section-nav-stories-johnson .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/johnson.jpg');
   background-color: #251f1d !important;
+  background-size: contain !important;
 }
 
 // Header sizes for smaller screens

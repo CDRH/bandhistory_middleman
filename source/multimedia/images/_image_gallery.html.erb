@@ -2,7 +2,8 @@
 <%= javascript_include_tag "simpleLightbox.min" %>
 <%= stylesheet_link_tag "image_galleries" %>
 
-<%= data.images[category].length %>
+<%# debug line to view how many images per category %>
+<%# data.images[category].length %>
 
 <div class="images-container flex-container">
   <% data.images[category].each do |image| %>

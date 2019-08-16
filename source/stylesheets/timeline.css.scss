@@ -197,6 +197,19 @@ $darkgraytitle: #3F3F3E;
   }
 }
 
+.timeline-card {
+  padding: 1em;
+  background: #fff;
+  .btn {
+    float: right;
+    margin: 0 0 15px 15px;
+  }
+}
+
+.timeline-article h3 {
+  margin-top: 0;
+}
+
 
 /*===== // Vertical Timeline =====*/
 

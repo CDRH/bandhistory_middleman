@@ -7,9 +7,12 @@
 
     <% if image.present? %>
       <div class="timeline-image">
+        <% title = image_caption %>
+        <% title += "<br/>#{image_attr}" if image_attr %>
+        <% title += "<br/><a href='#{url_for "/multimedia/images/#{image_link}/index.html"}'>View Photo Information</a>" if image_link %>
         <a class="gallery"
           href="<%= url_for "images/content/large/#{image}" %>"
-          title="<%= image_caption %><br/><%= image_attr %>">
+          title="<%= title %>">
           <%= image_tag "images/content/small/#{image}", class: "preview" %>
           <span class="timeline-imagecaption">View larger image</span>
         </a>
@@ -43,7 +46,13 @@
 
         <% if image.present? %>
           <div class="image_attribution">
-            Image: <%= image_attr %>
+            <% if image_attr %>
+              <%= image_attr %>
+            <% end %>
+            <br/>
+            <% if image_link.present? %>
+              <%= link_to "View Photo Information", "/multimedia/images/#{image_link}/index.html" %>
+            <% end %>
           </div>
         <% end %>
 

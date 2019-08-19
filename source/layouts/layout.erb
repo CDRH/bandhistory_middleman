@@ -23,6 +23,12 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
+
+    <!-- favicon includes -->
+    <%= favicon_tag 'favicons/apple-touch-icon.png', rel: "apple-touch-icon", sizes: "180x180" %>
+    <%= favicon_tag 'favicons/favicon-32x32.png', rel: "icon", sizes: "32x32", type: "image/png" %>
+    <%= favicon_tag 'favicons/favicon-16x16.png', rel: "icon", sizes: "16x16", type: "image/png" %>
+    <%= favicon_tag 'favicons/favicon.ico', rel: "icon" %>
     
     <!-- bootstrap 4 css -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"

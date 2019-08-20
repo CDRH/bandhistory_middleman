@@ -195,6 +195,16 @@ $dark-overlay: rgba(0,0,0,0.7);
   }
 }
 
+@media only screen and (max-width: 830px) {
+  .section-nav-container {
+    .section-nav {
+      width: 100%;
+      font-size: .9em;
+    }
+  }
+}
+
+
 .section-nav-title, .section-nav-subtitle {
   background-color: $dark-overlay;
   color: $white;

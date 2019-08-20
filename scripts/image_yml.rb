@@ -27,6 +27,7 @@ collection_csvs = {
   "lentz" => CSV.read(File.join(csv_dir, "2029-lentz.csv"), headers: true),
   "johnson" => CSV.read(File.join(csv_dir, "johnson.csv"), headers: true),
   "snider" => CSV.read(File.join(csv_dir, "rg130833.csv"), headers: true),
+  "spale" => CSV.read(File.join(csv_dir, "spale.csv"), headers: true),
   "ucomm" => CSV.read(File.join(csv_dir, "ucomm-band-digitized.csv"), headers: true),
   # this csv is cobbled together for the baseball, football, etc where I
   # have one image but no spreadsheet from archives

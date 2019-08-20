@@ -11,3 +11,4 @@ videos/
 video_thumbs/
 
 deploy.sh
+deploy-production.sh

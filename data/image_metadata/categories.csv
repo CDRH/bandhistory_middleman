@@ -152,7 +152,7 @@ filename,category,patch_date,patch_title,patch_description,concerns
 421203-02430,field,,,,
 421203-02431,field,,,,
 421203-02719,aerial,,,,or group?
-421203-02762,parade,,,,
+421203-02762,parade,,,"Original caption: ""Commencement exercises, parade on 12th Street."" Birds-eye view of graduates and faculty wearing academic robes and mortar boards parading down the center of the street. Rather than single-file, they are walking in rectangular formation like a marching band or military unit. They may be grouped by college. A few scattered spectators stand along the route. Campus buildings and cars are also part of the view.",
 421203-02829,parade,,,,
 421203-02873,parade,,,,
 421203-03216,parade,,,,
@@ -201,8 +201,10 @@ filename,category,patch_date,patch_title,patch_description,concerns
 130815-07228,people,,,Marching Band Director Donald Lentz studio portrait,
 130815-07229,people,,,,
 mb002,people,,,,
+mb004,,,,,I want this item to show up linked from the timeline but not in any galleries
 mb006,people,,,,
 mb009,group,,,,
+mb010,group,,,,I want this item to show up linked from the timeline but not in any galleries
 mb011,people,,,,
 mb012,people,,,,
 mb014,parade,,,,

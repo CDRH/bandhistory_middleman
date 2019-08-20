@@ -6,7 +6,9 @@ title: Image | Band History
 
 <h2><%= image["title"] %> (<%= image["year"] %>)</h2>
 
-<%= link_to "Browse #{category} images", "/multimedia/images/#{category}.html" %>
+<% if category.present? && category != "other" %>
+  <%= link_to "Browse #{category} images", "/multimedia/images/#{category}.html" %>
+<% end %>
 
 <div class="row">
   <div class="col-md-9">

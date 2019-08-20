@@ -1367,6 +1367,17 @@ group:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: mb010
+  title: Sudler trophy
+  date: '1996'
+  year: '1996'
+  description: Sudler trophy in the stadium during the presentation
+  creator: David Puckett
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+  rights: For copyright information, please contact the UNL Band Office
+  publisher: 
 - id: mb009
   title: Big Red Express at 2017 NCAA Volleyball Championship
   date: '2017'
@@ -1542,7 +1553,7 @@ parade:
   year: '1925'
   description: 'Original caption: "Commencement exercises, parade on 12th Street."
     Birds-eye view of graduates and faculty wearing academic robes and mortar boards
-    parding down the center of the street. Rather than single-file, they are walking
+    parading down the center of the street. Rather than single-file, they are walking
     in rectangular formation like a marching band or military unit. They may be grouped
     by college. A few scattered spectators stand along the route. Campus buildings
     and cars are also part of the view.'
@@ -2570,6 +2581,34 @@ people:
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 other:
+- id: 130833-00033
+  title: Colorado Show 1954
+  date: 10/23/54
+  year: '1954'
+  description: Description of University of Nebraska Band Colorado Halftime show,
+    1954
+  creator: 
+  box: B2 F Colorado Show
+  collection: Jack Snider Band Papers
+  rg: RG130833
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130833-00025
+  title: 1954 Pittsburg V Nebraska Press and Radio Release
+  date: 11/13/54
+  year: '1954'
+  description: Press and radio script for University of Nebraska Band halftime show
+    1/2
+  creator: 
+  box: B2 F Pittsburg-Nebraska Nov 13, 1954
+  collection: Jack Snider Band Papers
+  rg: RG130833
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130833-00026
   title: 1954 Pittsburg V Nebraska Press and Radio Release
   date: 11/13/54
@@ -2578,6 +2617,20 @@ other:
     2/2
   creator: 
   box: B2 F Pittsburg-Nebraska Nov 13, 1954
+  collection: Jack Snider Band Papers
+  rg: RG130833
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130833-00038
+  title: 1954 Colorado V Nebraska Drill Chart
+  date: 10/23/54
+  year: '1954'
+  description: Drill Chart for University of Nebraska Band Colorado halftime show,
+    1954 4/4. Lyre
+  creator: 
+  box: B2 F Colorado Show
   collection: Jack Snider Band Papers
   rg: RG130833
   rights: To inquire about usage, please contact Archives and Special Collections,
@@ -2634,62 +2687,6 @@ other:
     1954
   creator: 
   box: B2 F Colorado Show
-  collection: Jack Snider Band Papers
-  rg: RG130833
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00033
-  title: Colorado Show 1954
-  date: 10/23/54
-  year: '1954'
-  description: Description of University of Nebraska Band Colorado Halftime show,
-    1954
-  creator: 
-  box: B2 F Colorado Show
-  collection: Jack Snider Band Papers
-  rg: RG130833
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00025
-  title: 1954 Pittsburg V Nebraska Press and Radio Release
-  date: 11/13/54
-  year: '1954'
-  description: Press and radio script for University of Nebraska Band halftime show
-    1/2
-  creator: 
-  box: B2 F Pittsburg-Nebraska Nov 13, 1954
-  collection: Jack Snider Band Papers
-  rg: RG130833
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00038
-  title: 1954 Colorado V Nebraska Drill Chart
-  date: 10/23/54
-  year: '1954'
-  description: Drill Chart for University of Nebraska Band Colorado halftime show,
-    1954 4/4. Lyre
-  creator: 
-  box: B2 F Colorado Show
-  collection: Jack Snider Band Papers
-  rg: RG130833
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00018
-  title: 1959 Texas V Nebraska Press and Radio
-  date: 9/19/59
-  year: '1959'
-  description: Press and radio script for University of Nebraska Band halftime show
-    page 1/4
-  creator: 
-  box: B2 F Texas-Nebraska
   collection: Jack Snider Band Papers
   rg: RG130833
   rights: To inquire about usage, please contact Archives and Special Collections,
@@ -2766,6 +2763,20 @@ other:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 130833-00018
+  title: 1959 Texas V Nebraska Press and Radio
+  date: 9/19/59
+  year: '1959'
+  description: Press and radio script for University of Nebraska Band halftime show
+    page 1/4
+  creator: 
+  box: B2 F Texas-Nebraska
+  collection: Jack Snider Band Papers
+  rg: RG130833
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 130833-00032
   title: Letter from Joyce Burns Thimgan to Jack Snider
   date: 3/31/92
@@ -2780,6 +2791,17 @@ other:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: mb004
+  title: First version of trailer wrap
+  date: '2010'
+  year: '2010'
+  description: First version of trailer wrap
+  creator: Rose Johnson
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+  rights: For copyright information, please contact the UNL Band Office
+  publisher: 
 - id: 130833-00031
   title: Cody Halftime Show Description
   date: Undated

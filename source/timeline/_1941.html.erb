@@ -1,0 +1,36 @@
+<div class="timeline-article">
+  <div class="meta-date">
+    <span class="date">1941</span>
+  </div>
+  <% attr = "<a href='#{url_for "/multimedia/footage.html#20801"}'>View footage from which image was taken</a>" %>
+  <% partial "timeline/element", locals: {
+    direction: direction,
+    title: "The Rose Bowl (in progress)",
+    id: "rosebowl",
+    image: "footage-2.08.01.jpg",
+    image_attr: attr,
+    image_caption: "Still image from footage of the Rose Parade, 1941",
+    image_link: nil } do %>
+
+    <p>Information about this event coming soon!</p>
+    <%# Red flag outside office to indicate they are going, mentioned in 1940-12-15 issue %>
+
+    <div class="resources">
+      Sources and Further Reading
+      <ul>
+        <li><%= link_to "Footage of the Band in the Rose Bowl Parade", "/multimedia/footage.html#20801" %></li>
+        <li><%= link_to "Footage of the Band in the Rose Bowl Game", "/multimedia/footage.html#20802" %></li>
+        <li><%= link_to "1974 interview with Lentz with memories of the Rose Bowl trip and ASCAP strike", "/stories/lentz-interview.html#roseBowl" %></li>
+
+        <li>Evinger, Jim. <a href="https://nebnewspapers.unl.edu/lccn/sn96080312/1940-12-06/ed-1/seq-3/#words=band+Rose" target="_blank" rel="nofollow noreferrer">"Cheerleaders and Band to Rose Bowl?"</a>, <em>The Daily Nebraskan</em>, December 6, 1940.</li>
+
+        <li><a href="https://nebnewspapers.unl.edu/lccn/sn96080312/1940-12-15/ed-1/seq-1/#words=Band+band+band%27s+bands+Rose+Roses" target="_blank" rel="nofollow">"Band to Make Rose Bowl Trek"</a>, <em>The Daily Nebraskan</em>, December 15, 1940.</li>
+
+        <li><a href="https://nebnewspapers.unl.edu/lccn/sn96080312/1940-12-20/ed-1/seq-1/#words=band+band%27s+Rose" target="_blank" rel="nofollow noopener">"Dean Issues Band Itinerary for Bowl Trip"</a>, <em>The Daily Nebraskan</em>, December 20, 1940.</li>
+
+        <li>Evinger, Jim. <a href="https://nebnewspapers.unl.edu/lccn/sn96080312/1941-01-07/ed-1/seq-3/#words=band+BAND+bands+Rose+Roses" target="_blank" rel="nofollow noreferrer">"Band Shines"</a>, <em>The Daily Nebraskan</em>, January 7, 1941.</li>
+
+      </ul>
+    </div>
+  <% end %>
+</div>

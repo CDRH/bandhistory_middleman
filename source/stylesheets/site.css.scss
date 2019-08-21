@@ -301,6 +301,26 @@ $dark-overlay: rgba(0,0,0,0.7);
   background-color: #251f1d !important;
   background-size: contain !important;
 }
+.section-nav.section-nav-stories-steffens .section-nav-image {
+  background: url('../images/content/template/nav_backgrounds/default01.jpg');
+}
+.section-nav.section-nav-stories-fiasco .section-nav-image {
+  background: url('../images/content/template/nav_backgrounds/default01.jpg');
+}
+.section-nav.section-nav-stories-uniforms .section-nav-image {
+  background: url('../images/content/template/nav_backgrounds/default01.jpg');
+}
+
+.section-nav-container-pending {
+  .section-nav {
+    &:hover {
+      border-color: $dark-overlay;
+      & .section-nav-title, & .section-nav-subtitle {
+        background-color: $dark-overlay
+      }
+    }
+  }
+}
 
 // Header sizes for smaller screens
 

@@ -8,7 +8,6 @@
 <div class="images-container flex-container">
   <% data.images[category].each do |image| %>
 
-    <!-- TODO should the link description make it clear that this will open a larger image with more metadata for screenreaders? -->
     <div class="image flex-item">
       <% link = url_for "/multimedia/images/#{image["id"]}/index.html" %>
       <% label = "#{image["title"]}<br/><a href='#{link}' target='blank' rel='nofollow noopener'>View More Information</a>" %>

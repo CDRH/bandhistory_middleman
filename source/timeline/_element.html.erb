@@ -13,7 +13,7 @@
         <a class="gallery"
           href="<%= url_for "images/content/large/#{image}" %>"
           title="<%= title %>">
-          <%= image_tag "images/content/small/#{image}", class: "preview" %>
+          <%= image_tag "images/content/small/#{image}", class: "preview", alt: "#{image_caption} #{image_attr}" %>
           <span class="timeline-imagecaption">View larger image</span>
         </a>
       </div>

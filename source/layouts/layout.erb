@@ -46,25 +46,27 @@
   <body id="page-top" class="<%= page_classes %>">
     <header role="banner">
       <div class="container">
-
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <h1><%= link_to "Cornhusker Marching Band History", "/index.html", class: "navbar-brand" %></h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <h1>
+            <%= link_to "Cornhusker Marching Band History", "/index.html", class: "navbar-brand" %>
+          </h1>
           <ul class="navbar-nav mr-auto">
-            <% path = current_page.url %>
-            <li class="nav-item <%= 'active' if path.include?('/multimedia/') %>">
-              <%= link_to "Sights & Sounds", "/multimedia.html", class: "nav-link" %>
-            </li>
-            <li class="nav-item <%= 'active' if path == '/timeline/' %>">
-              <%= link_to "Timeline", "/timeline.html", class: "nav-link" %>
-            </li>
-            <li class="nav-item <%= 'active' if path.include?('/stories/') %>">
-              <%= link_to "Stories", "/stories.html", class: "nav-link" %>
-            </li>
-            <li class="nav-item <%= 'active' if path == '/about/' %>">
-              <%= link_to "About", "/about.html", class: "nav-link" %>
-            </li>
+
+            <%= partial "layouts/nav-item", locals: {
+              label: "Sights & Sounds", path: "multimedia" } %>
+
+            <%= partial "layouts/nav-item", locals: {
+              label: "Timeline", path: "timeline" } %>
+
+            <%= partial "layouts/nav-item", locals: {
+              label: "Stories", path: "stories" } %>
+
+            <%= partial "layouts/nav-item", locals: {
+              label: "About", path: "about" } %>
+
           </ul>
-      </nav></div>
+        </nav>
+      </div>
     </header>
     <div class="container">
 

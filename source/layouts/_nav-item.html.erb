@@ -1,0 +1,12 @@
+<% if current_page.url.include?("/#{path}/") %>
+  <%# nav item is selected %>
+  <li class="nav-item active">
+    <% link_to "/#{path}.html", class: "nav-link" do %>
+      <%= label %> <span class="sr-only">(current)</span>
+    <% end %>
+  </li>
+<% else %>
+  <li class="nav-item">
+    <%= link_to label, "/#{path}.html", class: "nav-link" %>
+  </li>
+<% end %>

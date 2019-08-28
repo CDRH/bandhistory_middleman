@@ -68,42 +68,41 @@
         </nav>
       </div>
     </header>
+
     <div class="container">
-
-    <%= yield %>
-
+      <%= yield %>
     </div>
 
     <footer>
       <div class="container">
-      <div class="card text-white bg-footer">
-        <div class="card-body footer">
-          <p class="logo_container card-text">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="https://unl.edu" alt="University of Nebraska-Lincoln"><%= image_tag "/images/content/template/NUNL.png", alt: "UNL Logo" %></a>
+        <div class="card text-white bg-footer">
+          <div class="card-body footer">
+            <p class="logo_container card-text">
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="https://unl.edu" alt="University of Nebraska-Lincoln"><%= image_tag "/images/content/template/NUNL.png", alt: "UNL Logo" %></a>
+                </div>
+                <div class="col-md-8">
+                  Support provided by <a href="https://cdrh.unl.edu/">Center for Digital Research in the Humanities</a>, <a href="https://libraries.unl.edu/archives-special-collections">Archives & Special Collections</a>, the <a href="https://www.unl.edu/band/welcome">University Bands</a>, and the <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a>
+                </div>
               </div>
-              <div class="col-md-8">
-                Support provided by <a href="https://cdrh.unl.edu/">Center for Digital Research in the Humanities</a>, <a href="https://libraries.unl.edu/archives-special-collections">Archives & Special Collections</a>, the <a href="https://www.unl.edu/band/welcome">University Bands</a>, and the <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a>
-              </div>
-            </div>
-          </p>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- jQuery -->
-  <%= javascript_include_tag "jquery.min" %>
+    <!-- jQuery -->
+    <%= javascript_include_tag "jquery.min" %>
 
-  <!-- Bootstrap 4 Core JavaScript -->
-  <!-- TODO download what we need if we decide to use middleman permanently -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap 4 Core JavaScript -->
+    <!-- TODO download what we need if we decide to use middleman permanently -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <!-- Site specific JavaScript -->
-  <%= javascript_include_tag "site" %>
+    <!-- Site specific JavaScript -->
+    <%= javascript_include_tag "site" %>
 
-</body>
+  </body>
 </html>

@@ -41,11 +41,19 @@
     <%= stylesheet_link_tag "custom-bootstrap" %>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <%= stylesheet_link_tag "site" %>
+
+    <!-- [if lt IE 10]>
+      <style>
+        .banner-header, .bg-footer {
+          background-color: #000;
+        }
+      </style>
+    <![endif]-->
   </head>
 
   <body id="page-top" class="<%= page_classes %>">
     <header role="banner">
-      <div class="container">
+      <div class="container banner-header">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <h1>
             <%= link_to "Cornhusker Marching Band History", "/index.html", class: "navbar-brand" %>

@@ -31,7 +31,7 @@ title: Footage | Band History
     <% tally_filter(data.clips, "decade").each do |decade_id, num| %>
       <button class="btn btn-filter btn-secondary" onclick="filter(this);"
         id="<%= decade_id %>">
-        <% label = decade_id == "Unknown" ? "Unknown" :
+        <% label = decade_id == "decade-unknown" ? "Unknown" :
             "#{decade_id.titleize.gsub("Decade ", "")}s" %>
         <%= label %> <span class="badge"><%= num %></span>
       </button>

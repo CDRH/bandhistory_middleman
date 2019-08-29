@@ -99,6 +99,8 @@ $darkgraytitle: #3F3F3E;
 .timeline-article .content-right-container {
   float: right;
 }
+/* arrows pointing at date on timeline, require font-awesome */
+/*
 .timeline-article .content-left:before,
 .timeline-article .content-right:before{
   color: #fff;
@@ -117,6 +119,7 @@ $darkgraytitle: #3F3F3E;
   content: "\f0d9";
   left: -8px;
 }
+*/
 .timeline-article .meta-date {
   background: $primary;
   border-radius: 100%;

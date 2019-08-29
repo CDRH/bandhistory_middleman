@@ -24,15 +24,16 @@
       </a>
 
       <ul>
-        <li>ID: <%= image["id"] %></li>
         <% if image["date"] %>
-          <li>Date: <%= image["date"] %></li>
+          <li><strong>Date:</strong> <%= image["date"] %></li>
         <% end %>
-        <li>Desc: <%= image["description"] %></li>
-        <li>Collection: <%= image["collection"] %></li>
-        <% if image["creator"] %>
-          <li>Creator: <%= image["creator"] %></li>
+        <li><strong>Desc:</strong> <%= image["description"] %></li>
+        <li><strong>Collection:</strong> <%= image["collection"] %></li>
+        <%# UCOMM creators are implied in the collection name, so leaving out for brevity! %>
+        <% if image["creator"] && !image["creator"].include?("University Communications") %>
+          <li><strong>Creator:</strong> <%= image["creator"] %></li>
         <% end %>
+        <li><strong>ID:</strong> <%= image["id"] %></li>
       </ul>
     
      <%= link_to "View More Information", "/multimedia/images/#{image["id"]}/index.html", class: "btn btn-sm btn-secondary btn-block btn-moreinformation" %>

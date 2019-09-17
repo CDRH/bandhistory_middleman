@@ -576,12 +576,11 @@ field:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 421203-02431
+- id: 421203-02430
   title: Nebraska vs. Notre Dame band performance
   date: 1924, November 15
   year: '1924'
-  description: Nebraska-Notre Dame game, marching band with goalpost and stadium in
-    the background
+  description: Nebraska-Notre Dame game
   creator: 
   box: 
   collection: University Photo Collection
@@ -590,11 +589,12 @@ field:
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-02430
+- id: 421203-02431
   title: Nebraska vs. Notre Dame band performance
   date: 1924, November 15
   year: '1924'
-  description: Nebraska-Notre Dame game
+  description: Nebraska-Notre Dame game, marching band with goalpost and stadium in
+    the background
   creator: 
   box: 
   collection: University Photo Collection
@@ -616,26 +616,12 @@ field:
     please contact Archives & Special Collections, University of Nebraska-Lincoln
     Libraries.
   publisher: 
-- id: 421203-03348
+- id: 421203-03340
   title: Minnesota Game
   date: 1937, October
   year: '1937'
-  description: Members of the marching band are positioned in stadium seating, more
-    of the football audience behind them.
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-03347
-  title: Minnesota Game
-  date: 1937, October
-  year: '1937'
-  description: Marching band members walk and position themselves with their instruments
-    by the stadium stands.
+  description: A man in a Nebraska jacket stands down on the field in front of the
+    band section.
   creator: 
   box: 
   collection: University Photo Collection
@@ -700,12 +686,26 @@ field:
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-03340
+- id: 421203-03348
   title: Minnesota Game
   date: 1937, October
   year: '1937'
-  description: A man in a Nebraska jacket stands down on the field in front of the
-    band section.
+  description: Members of the marching band are positioned in stadium seating, more
+    of the football audience behind them.
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-03347
+  title: Minnesota Game
+  date: 1937, October
+  year: '1937'
+  description: Marching band members walk and position themselves with their instruments
+    by the stadium stands.
   creator: 
   box: 
   collection: University Photo Collection
@@ -728,17 +728,6 @@ field:
     University of Nebraska-Lincoln Libraries. These images are for educational use
     only. Not all images are available for publication. '
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130815-07427
-  title: Band members march in Memorial Stadium
-  date: '1940'
-  year: '1940'
-  description: Band members perform, carrying megaphones for singing effect
-  creator: 
-  box: 
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
-  rights: For copyright information, please contact the repository.
-  publisher: 
 - id: 130815-00028
   title: Holdrege band
   date: 1940-1950
@@ -750,6 +739,30 @@ field:
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
+  publisher: 
+- id: 130815-07427
+  title: Band members march in Memorial Stadium
+  date: '1940'
+  year: '1940'
+  description: Band members perform, carrying megaphones for singing effect
+  creator: 
+  box: 
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+  rights: For copyright information, please contact the repository.
+  publisher: 
+- id: 421201-06203
+  title: Band performance
+  date: 1949, Oct. 01
+  year: '1949'
+  description: Nebraska-Minnesota game
+  creator: University Communications, Photo Services Department
+  box: B5
+  collection: Publications and Photography, Athletic Series
+  rg: RG 42-12-01
+  rights: Copyright University of Nebraska Board of Regents. To inquire about usage,
+    please contact Archives & Special Collections, University of Nebraska-Lincoln
+    Libraries.
   publisher: 
 - id: 421201-06092
   title: Band Kneeling
@@ -764,13 +777,26 @@ field:
     please contact Archives & Special Collections, University of Nebraska-Lincoln
     Libraries.
   publisher: 
-- id: 421201-06203
-  title: Band performance
-  date: 1949, Oct. 01
-  year: '1949'
-  description: Nebraska-Minnesota game
+- id: 421201-06291
+  title: Kneeling during performance
+  date: 1950, Sept. 30
+  year: '1950'
+  description: 'Nebraska-Indiana game, band members kneel while '
   creator: University Communications, Photo Services Department
-  box: B5
+  box: B6
+  collection: Publications and Photography, Athletic Series
+  rg: RG 42-12-01
+  rights: Copyright University of Nebraska Board of Regents. To inquire about usage,
+    please contact Archives & Special Collections, University of Nebraska-Lincoln
+    Libraries.
+  publisher: 
+- id: 421201-06284
+  title: Band on the sidelines
+  date: 1950, Sept. 30
+  year: '1950'
+  description: Nebraska-Indiana game, band watches from the sideline
+  creator: University Communications, Photo Services Department
+  box: B6
   collection: Publications and Photography, Athletic Series
   rg: RG 42-12-01
   rights: Copyright University of Nebraska Board of Regents. To inquire about usage,
@@ -803,32 +829,6 @@ field:
     please contact Archives & Special Collections, University of Nebraska-Lincoln
     Libraries.
   publisher: 
-- id: 421201-06284
-  title: Band on the sidelines
-  date: 1950, Sept. 30
-  year: '1950'
-  description: Nebraska-Indiana game, band watches from the sideline
-  creator: University Communications, Photo Services Department
-  box: B6
-  collection: Publications and Photography, Athletic Series
-  rg: RG 42-12-01
-  rights: Copyright University of Nebraska Board of Regents. To inquire about usage,
-    please contact Archives & Special Collections, University of Nebraska-Lincoln
-    Libraries.
-  publisher: 
-- id: 421201-06291
-  title: Kneeling during performance
-  date: 1950, Sept. 30
-  year: '1950'
-  description: 'Nebraska-Indiana game, band members kneel while '
-  creator: University Communications, Photo Services Department
-  box: B6
-  collection: Publications and Photography, Athletic Series
-  rg: RG 42-12-01
-  rights: Copyright University of Nebraska Board of Regents. To inquire about usage,
-    please contact Archives & Special Collections, University of Nebraska-Lincoln
-    Libraries.
-  publisher: 
 - id: 2029-00178
   title: Orange Bowl halftime
   date: '1955'
@@ -843,6 +843,17 @@ field:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: ab001
+  title: Band Day
+  date: 1956 October 20
+  year: '1956'
+  description: South end zone, looking north at the Field House
+  creator: Eugene A. Jackson
+  box: 
+  collection: Private Collection of Ann Jackson Bodwin
+  rg: n/a
+  rights: For copyright information, please contact Ann Jackson Bodwin
+  publisher: Ann Jackson Bodwin
 - id: 130815-00039
   title: Big Bertha
   date: '1963'
@@ -854,13 +865,11 @@ field:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 421201-00112
-  title: Drum major and marching band
-  date: 10/31/64
+- id: 421201-00174
+  title: University Marching Band
+  date: 10/17/64
   year: '1964'
-  description: 'Original caption: "Photo Prod. Thomson. Nebr. vs Missouri. McCloughan
-    catching pass. Mo-Nebr, Victory Ball exchange. Coaches & players - sidelines.  Campus
-    bus. Drum major & band. Kettle drums. Score board"'
+  description: Band performs on football field
   creator: University Communications, Photo Services Department
   box: 
   collection: Athletics Photos, University Communications Records
@@ -868,11 +877,13 @@ field:
   rights: These images are for educational use only. To inquire about usage or publication,
     please contact Archives & Special Collections
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421201-00174
-  title: University Marching Band
-  date: 10/17/64
+- id: 421201-00112
+  title: Drum major and marching band
+  date: 10/31/64
   year: '1964'
-  description: Band performs on football field
+  description: 'Original caption: "Photo Prod. Thomson. Nebr. vs Missouri. McCloughan
+    catching pass. Mo-Nebr, Victory Ball exchange. Coaches & players - sidelines.  Campus
+    bus. Drum major & band. Kettle drums. Score board"'
   creator: University Communications, Photo Services Department
   box: 
   collection: Athletics Photos, University Communications Records
@@ -937,18 +948,6 @@ field:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 130815-00054
-  title: Post game
-  date: '1974'
-  year: '1974'
-  description: 'Original caption: "1974 post game."  A line of horns on the field
-    of a football stadium.'
-  creator: 
-  box: B17 F3
-  collection: Cornhusker Marching Band, Records
-  rg: RG 13-08-15
-  rights: For copyright information, please contact the repository.
-  publisher: 
 - id: 130815-00053
   title: The Entertainer
   date: '1974'
@@ -956,6 +955,18 @@ field:
   description: 'Original caption: "The Entertainer." A close up of a person playing
     a the song "The Entertainer" on a trumpet on the field at Memorial Stadium.'
   creator: David W. Huffman
+  box: B17 F3
+  collection: Cornhusker Marching Band, Records
+  rg: RG 13-08-15
+  rights: For copyright information, please contact the repository.
+  publisher: 
+- id: 130815-00054
+  title: Post game
+  date: '1974'
+  year: '1974'
+  description: 'Original caption: "1974 post game."  A line of horns on the field
+    of a football stadium.'
+  creator: 
   box: B17 F3
   collection: Cornhusker Marching Band, Records
   rg: RG 13-08-15
@@ -974,22 +985,22 @@ field:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: mb017
-  title: First front ensemble rehearsing
+- id: mb016
+  title: First front ensemble
   date: '1999'
   year: '1999'
-  description: The first UNL front ensemble rehearsing
+  description: The first UNL front ensemble
   creator: Tony Falcone
   box: 
   collection: UNL Band Office Photographs
   rg: n/a
   rights: For copyright information, please contact the UNL Band Office
   publisher: 
-- id: mb016
-  title: First front ensemble
+- id: mb017
+  title: First front ensemble rehearsing
   date: '1999'
   year: '1999'
-  description: The first UNL front ensemble
+  description: The first UNL front ensemble rehearsing
   creator: Tony Falcone
   box: 
   collection: UNL Band Office Photographs
@@ -1390,22 +1401,6 @@ parade:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 421203-00149
-  title: Commencement procession to St. Pauls
-  date: '1919'
-  year: '1919'
-  description: 'Original caption: "1919 Commencement procession to St. Pauls Methodist
-    Church for Major-General Wood''s baccelaureate address." Man in military uniform
-    on horseback in foreground, with military band in the center of image, and procession
-    in the background.'
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421203-00019
   title: Cadet regiment
   date: 1919, May
@@ -1426,6 +1421,22 @@ parade:
   year: '1919'
   description: 'Original caption: "1919 - Class entering St. Pauls Methodist church
     for baccalaureate address by Major General Wood"'
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-00149
+  title: Commencement procession to St. Pauls
+  date: '1919'
+  year: '1919'
+  description: 'Original caption: "1919 Commencement procession to St. Pauls Methodist
+    Church for Major-General Wood''s baccelaureate address." Man in military uniform
+    on horseback in foreground, with military band in the center of image, and procession
+    in the background.'
   creator: 
   box: 
   collection: University Photo Collection
@@ -1544,6 +1555,19 @@ parade:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
+- id: 421202-04601
+  title: ROTC Inspection
+  date: 1947, May 8
+  year: '1947'
+  description: Various groupings of ROTC members march in formation across a field.
+  creator: University Communications, Photo Services Department
+  box: 
+  collection: University Photos, University Communications Records
+  rg: RG 42-12-02
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421202-01965
   title: ROTC Inspection
   date: 1947, May 08
@@ -1562,19 +1586,6 @@ parade:
   date: 1947, May 08
   year: '1947'
   description: ROTC cadets and marching band
-  creator: University Communications, Photo Services Department
-  box: 
-  collection: University Photos, University Communications Records
-  rg: RG 42-12-02
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421202-04601
-  title: ROTC Inspection
-  date: 1947, May 8
-  year: '1947'
-  description: Various groupings of ROTC members march in formation across a field.
   creator: University Communications, Photo Services Department
   box: 
   collection: University Photos, University Communications Records
@@ -1623,19 +1634,6 @@ parade:
   rg: RG 13-08-15
   rights: For copyright information, please contact the repository.
   publisher: 
-- id: 2029-00176
-  title: Orange Bowl parade
-  date: undated
-  year: '1955'
-  description: The band performs in the Orange Bowl Parade
-  creator: 
-  box: B1 F33
-  collection: Don and Velma Lentz, Papers
-  rg: ACC2029
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 2029-00177
   title: Orange Bowl parade
   date: '1955'
@@ -1649,19 +1647,44 @@ parade:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00016
-  title: Drum Major
-  date: 
-  year: '1974'
-  description: Slide of  a drum major performing in Europe
+- id: 2029-00176
+  title: Orange Bowl parade
+  date: undated
+  year: '1955'
+  description: The band performs in the Orange Bowl Parade
   creator: 
-  box: 
-  collection: Jack Snider Band Papers
-  rg: RG130833
+  box: B1 F33
+  collection: Don and Velma Lentz, Papers
+  rg: ACC2029
   rights: To inquire about usage, please contact Archives and Special Collections,
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: ab002
+  title: Band Day
+  date: 1956 October 20
+  year: '1956'
+  description: Ralston band mascot Ann Jackson Bodwin (left) waving at her father,
+    Eugene A. Jackson, while Ralston High School marches into the stadium on the west
+    side. Drum Majorette Donna Bliven (right) and other Ralston High School majorettes
+    along with other bands' majorette corps
+  creator: Eugene A. Jackson
+  box: 
+  collection: Private Collection of Ann Jackson Bodwin
+  rg: n/a
+  rights: For copyright information, please contact Ann Jackson Bodwin
+  publisher: Ann Jackson Bodwin
+- id: ab003
+  title: Band Day parade
+  date: 1956 October 20
+  year: '1956'
+  description: Ralston High School Band marching to the stadium down 10th Street
+  creator: Eugene A. Jackson
+  box: 
+  collection: Private Collection of Ann Jackson Bodwin
+  rg: n/a
+  rights: For copyright information, please contact Ann Jackson Bodwin
+  publisher: Ann Jackson Bodwin
 - id: 130833-00002
   title: Europe tour
   date: 
@@ -1702,23 +1725,36 @@ parade:
     University of Nebraska-Lincoln Libraries. These images are provided for educational
     use only. Not all images are available for publication.
   publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: mb018
-  title: St. Patrick's Day Parade
-  date: '1996'
-  year: '1996'
-  description: St. Patrick's Day Parade in Ireland
-  creator: unknown
+- id: 130833-00016
+  title: Drum Major
+  date: 
+  year: '1974'
+  description: Slide of  a drum major performing in Europe
+  creator: 
   box: 
-  collection: UNL Band Office Photographs
-  rg: n/a
-  rights: For copyright information, please contact the UNL Band Office
-  publisher: 
+  collection: Jack Snider Band Papers
+  rg: RG130833
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: mb014
   title: St. Patrick's Day Parade
   date: '1996'
   year: '1996'
   description: Photo of band during the St. Patrick's Day Parade
   creator: Rose Johnson
+  box: 
+  collection: UNL Band Office Photographs
+  rg: n/a
+  rights: For copyright information, please contact the UNL Band Office
+  publisher: 
+- id: mb018
+  title: St. Patrick's Day Parade
+  date: '1996'
+  year: '1996'
+  description: St. Patrick's Day Parade in Ireland
+  creator: unknown
   box: 
   collection: UNL Band Office Photographs
   rg: n/a
@@ -1735,6 +1771,32 @@ parade:
   rg: n/a
   rights: For copyright information, please contact the UNL Band Office
   publisher: 
+- id: 130833-00024
+  title: Marching Band in Front of Union
+  date: Undated
+  year: Unknown
+  description: 'Original caption: "UNL Band in front of UNL Union"'
+  creator: 
+  box: B1 F Unlabeled
+  collection: Jack Snider Band Papers
+  rg: RG130833
+  rights: To inquire about usage, please contact Archives and Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are provided for educational
+    use only. Not all images are available for publication.
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
+- id: 421203-03628
+  title: Cadet review
+  date: 
+  year: Unknown
+  description: 'Original caption: "Cadets reviewed by Major General Wood"'
+  creator: 
+  box: 
+  collection: University Photo Collection
+  rg: RG 42-12-03
+  rights: 'To inquire about usage, please contact Archives & Special Collections,
+    University of Nebraska-Lincoln Libraries. These images are for educational use
+    only. Not all images are available for publication. '
+  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
 - id: 421203-03216
   title: Commencement Views
   date: undated
@@ -1755,32 +1817,6 @@ parade:
   year: Unknown
   description: 'Original caption: "Pershing day." Parading down a street with houses
     in the background, the University''s marching band plays for Pershing Day.'
-  creator: 
-  box: 
-  collection: University Photo Collection
-  rg: RG 42-12-03
-  rights: 'To inquire about usage, please contact Archives & Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are for educational use
-    only. Not all images are available for publication. '
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 130833-00024
-  title: Marching Band in Front of Union
-  date: Undated
-  year: Unknown
-  description: 'Original caption: "UNL Band in front of UNL Union"'
-  creator: 
-  box: B1 F Unlabeled
-  collection: Jack Snider Band Papers
-  rg: RG130833
-  rights: To inquire about usage, please contact Archives and Special Collections,
-    University of Nebraska-Lincoln Libraries. These images are provided for educational
-    use only. Not all images are available for publication.
-  publisher: Archives & Special Collections, University of Nebraska-Lincoln Libraries
-- id: 421203-03628
-  title: Cadet review
-  date: 
-  year: Unknown
-  description: 'Original caption: "Cadets reviewed by Major General Wood"'
   creator: 
   box: 
   collection: University Photo Collection

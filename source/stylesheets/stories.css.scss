@@ -6,6 +6,10 @@ h3 {
   font-size: 1.4em;
 }
 
+hr {
+  border-top: 5px dotted;
+}
+
 .interview-topic {
   padding: 10px 0;
 }
@@ -16,6 +20,10 @@ h3 {
 
 .interview-round, .interview-dussault {
   background-color: lighten( $secondary, 15% );
+}
+
+.interview-wirth-mike {
+  background-color: lighten( $gray-300, 15% );
 }
 
 .interview-row {

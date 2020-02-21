@@ -305,6 +305,10 @@ $dark-overlay: rgba(0,0,0,0.7);
   background-color: #251f1d !important;
   background-size: contain !important;
 }
+.section-nav.section-nav-stories-krejci .section-nav-image {
+  /* note grabbing from outside of nav_backgrounds section */
+  background: url('../images/content/large/footage-2.08.01.jpg');
+}
 .section-nav.section-nav-stories-steffens .section-nav-image {
   background: url('../images/content/template/nav_backgrounds/steffens.jpg');
 }
